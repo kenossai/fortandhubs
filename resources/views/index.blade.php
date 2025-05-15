@@ -1,9 +1,7 @@
-@extends('layouts.app')
+<x-app-layout title="Home Page">
+    <!-- ==================== Start Intro ==================== -->
 
-@section('content')
-     <!-- ==================== Start Intro ==================== -->
-
-     <section class="feat-intro section-padding">
+    <section class="feat-intro section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-6">
@@ -1146,4 +1144,8 @@
 
     <!-- ==================== End Numbers ==================== -->
 
-@endsection
+</x-app-layout>
+
+
+
+
