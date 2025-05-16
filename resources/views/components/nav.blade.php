@@ -21,22 +21,22 @@
                             class="rolling-text">Home</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="about" role="button"
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ route('about') }}" role="button"
                         aria-haspopup="true" aria-expanded="false"><span
-                            class="rolling-text">Pages</span></a>
+                            class="rolling-text">About</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="home-design-studio.html#" role="button"
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ route('service') }}"
                         aria-haspopup="true" aria-expanded="false"><span
                             class="rolling-text">Our Service</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="home-design-studio.html#" role="button"
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="home-design-studio.html#"
                         aria-haspopup="true" aria-expanded="false"><span
                             class="rolling-text">Projects</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="home-design-studio.html#" role="button"
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="home-design-studio.html#"
                         aria-haspopup="true" aria-expanded="false"><span
                             class="rolling-text">Blogs</span></a>
                 </li>
