@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-9">
                         <div class="cont">
-                            <h2>Lat’s start your Project <span class="bg-img"
+                            <h2>Let’s start your Project <span class="bg-img"
                                     data-background="assets/imgs/call-action/0.jpg"></span></h2>
                         </div>
                     </div>
