@@ -2,7 +2,7 @@
     <div class="container-xl o-hidden light-ver">
 
         <!-- Logo -->
-        <a class="logo icon-img-100" href="home-design-studio.html#">
+        <a class="logo icon-img-100" href="{{ route('home') }}">
             <img src="assets/imgs/logo-1.png" alt="logo">
         </a>
 
@@ -49,7 +49,7 @@
         </div>
 
         <div class="contact-button">
-            <a href="page-contact.html" class="butn butn-md bg-light">
+            <a href="{{ route('contact')}}" class="butn butn-md bg-light">
                 <span class="text">Let's contact</span>
             </a>
         </div>
