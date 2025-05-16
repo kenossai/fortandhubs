@@ -1,4 +1,3 @@
-@props(['title' => ''])
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -14,7 +13,7 @@
     <meta name="author" content="">
 
     <!-- Title  -->
-    <title>{{ $title }} | {{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/imgs/favicon.ico">
@@ -68,7 +67,7 @@
 
          <!-- ==================== End Topbar ==================== -->
 
-         <main class="position-re">
+        <main class="position-re">
 
             {{ $slot }}
 
@@ -76,7 +75,7 @@
 
         <!-- ==================== Start Footer ==================== -->
 
-        @include('components.footer')
+        <x-footer />
 
         <!-- ==================== End Footer ==================== -->
 
