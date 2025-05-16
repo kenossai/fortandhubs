@@ -1,6 +1,7 @@
-<x-app-layout title="Home Page">
+<x-app-layout>
     <!-- ==================== Start Intro ==================== -->
-
+@section('title', 'Home Page')
+<x-banner />
     <section class="feat-intro section-padding">
         <div class="container">
             <div class="row">
