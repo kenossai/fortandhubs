@@ -1,7 +1,7 @@
 <x-app-layout title="Contact Us">
     <!-- ==================== Start google-map ==================== -->
 
-                <div class="google-map position-re">
+                <div class="google-map position-re pt-5">
                     <iframe id="gmap_canvas"
                         src="https://maps.google.com/maps?q=hollwood&t=&z=11&ie=UTF8&iwloc=&output=embed">
                     </iframe>
