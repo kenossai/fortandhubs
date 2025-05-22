@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="caption">
-            <h1>Design <span>Studio</span></h1>
+            <h1>Re-think, <span> Re-Invent..</span></h1>
             <div class="v-img">
                 <img src="assets/imgs/header/vdesign.svg" alt="">
             </div>
@@ -26,8 +26,7 @@
         <div class="row mt-40">
             <div class="col-lg-3 offset-lg-3 col-md-5 offset-md-2 valign">
                 <div class="text">
-                    <p>Nunc id elit vitae augue mattis laoreet. Sed ac commodo velit, tristique
-                        pulvinar.</p>
+                    <p>We&#39;re a Cybersecurity and Digital Transformation service company</p>
                 </div>
             </div>
             <div class="col-lg-2 offset-lg-2 col-md-5">
@@ -47,7 +46,7 @@
             </svg>
         </span>
         <span class="text">
-            <a href="home-design-studio.html#0">info.goncy@gmail.com</a>
+            <a href="home-design-studio.html#0">info@fortandhubs.com</a>
         </span>
     </div>
 </header>
