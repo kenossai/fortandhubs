@@ -13,19 +13,19 @@
                         <div class="main-header">
                             <div class="nav-area">
                                 <ul class="">
-                                    <li class="main-nav has-dropdown mega-menu project-a-after">
+                                    <li class="main-nav project-a-after">
                                         <a href="/">Home</a>
                                     </li>
-                                    <li class="main-nav has-dropdown mega-menu">
+                                    <li class="main-nav">
                                         <a href="index.html#">About</a>
                                     </li>
-                                    <li class="main-nav has-dropdown mega-menu">
+                                    <li class="main-nav">
                                         <a href="index.html#">Service</a>
                                     </li>
-                                    <li class="main-nav has-dropdown mega-menu">
+                                    <li class="main-nav">
                                         <a href="index.html#">Project</a>
                                     </li>
-                                    <li class="main-nav has-dropdown project-a-after">
+                                    <li class="main-nav project-a-after">
                                         <a href="{{ route('contact') }}">Contact Us</a>
                                     </li>
                                 </ul>

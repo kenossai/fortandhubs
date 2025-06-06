@@ -9,11 +9,9 @@
                             <div class="col-lg-12">
                                 <div class="banner-inner-two-content">
                                     <p class="pre-title"><span>Welcome!</span> Forts &amp; Hubs Global Inc.</p>
-                                    <h1 class="title">Re-think, Re-Invent...</h1>
+                                    <h1 class="title" style="font-size: 96px;">Re-think, Re-Invent...</h1>
                                     <p class="disc">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
-                                        Dui feugiat
-                                        fusce conubia ridiculus tristique parturient
+                                        In an increasingly digital and interconnected world, organizations must embrace digital and cyber transformation to remain competitive and secure -
                                     </p>
                                     <a href="index.html#" class="rts-btn btn-primary btn-white">Get Consultant</a>
                                 </div>
@@ -45,11 +43,9 @@
                             <div class="col-lg-12">
                                 <div class="banner-inner-two-content">
                                     <p class="pre-title"><span>Welcome!</span> Forts &amp; Hubs Global Inc.</p>
-                                    <h1 class="">Re-We&#39;re a Cybersecurity and Digital<br> Transformation service company,</h1>
+                                    <h1 class="">We&#39;re a Cybersecurity and Digital<br> Transformation service company,</h1>
                                     <p class="disc">
-                                        Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
-                                        Dui feugiat
-                                        fusce conubia ridiculus tristique parturient
+                                        We are dedicated to helping businesses navigate this complex landscape by providing comprehensive solutions tailored to their specific needs.
                                     </p>
                                     <a href="index.html#" class="rts-btn btn-primary btn-white">Get Consultant</a>
                                 </div>
