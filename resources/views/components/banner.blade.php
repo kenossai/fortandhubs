@@ -8,8 +8,8 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="banner-inner-two-content">
-                                    <p class="pre-title"><span>Welcome!</span> Start Growing Your Business Today</p>
-                                    <h1 class="title">Innovative Solutions <br> Tailored for Your Success</h1>
+                                    <p class="pre-title"><span>Welcome!</span> Forts &amp; Hubs Global Inc.</p>
+                                    <h1 class="title">Re-think, Re-Invent...</h1>
                                     <p class="disc">
                                         Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
                                         Dui feugiat
@@ -44,8 +44,8 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="banner-inner-two-content">
-                                    <p class="pre-title"><span>Welcome!</span> Start Growing Your Business Today</p>
-                                    <h1 class="title">Impressive Solutions <br> Crafted for Your Goal</h1>
+                                    <p class="pre-title"><span>Welcome!</span> Forts &amp; Hubs Global Inc.</p>
+                                    <h1 class="">Re-We&#39;re a Cybersecurity and Digital<br> Transformation service company,</h1>
                                     <p class="disc">
                                         Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
                                         Dui feugiat
@@ -80,8 +80,8 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="banner-inner-two-content">
-                                    <p class="pre-title"><span>Welcome!</span> Start Growing Your Business Today</p>
-                                    <h1 class="title">Best Solutions <br> Intro for Your Business</h1>
+                                    <p class="pre-title"><span>Welcome!</span> Forts &amp; Hubs Global Inc.</p>
+                                    <h1 class="title">Best Solutions <br> for Your Business</h1>
                                     <p class="disc">
                                         Porttitor ornare fermentum aliquam pharetra facilisis gravida risus suscipit
                                         Dui feugiat
