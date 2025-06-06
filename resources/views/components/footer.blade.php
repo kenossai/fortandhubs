@@ -1,109 +1,166 @@
-<footer class="bg-blck">
-    <div class="main-footer section-padding">
-        <div class="call-action pb-50 mb-50 bord-thin-bottom">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-9">
-                        <div class="cont">
-                            <h2>Let’s start your Project <span class="bg-img"
-                                    data-background="assets/imgs/call-action/0.jpg"></span></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 d-flex align-items-center justify-content-end">
-                        <a href="home-design-studio.html#0"
-                            class="butn-circle butn-light d-flex align-items-center justify-content-center text-center">
-                            <div>
-                                <span class="text fw-700 mb-15">Get In Touch</span>
-                                <br>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                    viewBox="0 0 37 36" fill="none">
-                                    <path
-                                        d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                        stroke="#fff" stroke-width="2"></path>
-                                </svg>
+<div class="rts-footer-area footer-two mt-dec-footer-map bg-footer-two bg_image">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="map-area-main-wrapper">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="map-area-main-footer-two">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.07522277672!2d90.423296!3d23.7826795!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1738651440174!5m2!1sen!2sbd" width="625" height="625" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Company location on Google Maps"></iframe>
                             </div>
-                        </a>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="map-information-2-footer">
+                                <h5 class="title-main">Contact Us</h5>
+                                <img loading="lazy" src="assets/images/footer/02.svg" alt="line" class="line">
+                                <div class="contact-information-main-wrapper">
+                                    <div class="signle-contact-information">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-phone"></i>
+                                        </div>
+                                        <div class="information-wrapper">
+                                            <span>Call Us 24/7</span>
+                                            <a href="index.html#">
+                                                <h6 class="title">(+256) 2145.2156</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="signle-contact-information">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="information-wrapper">
+                                            <span>Work with us</span>
+                                            <a href="index.html#">
+                                                <h6 class="title">info@invena.com</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="signle-contact-information">
+                                        <div class="icon">
+                                            <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                        </div>
+                                        <div class="information-wrapper">
+                                            <span>Our Location</span>
+                                            <a href="index.html#">
+                                                <h6 class="title">125 TownUnited State</h6>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-items">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="info">
-                            <div class="logo mb-40 icon-img-100">
-                                <img src="assets/imgs/Logo-1.png" alt="">
-                            </div>
-                            <div class="social-text sub-font fw-700">
-                                <a href="home-design-studio.html#0">
-                                    <i class="fab fa-facebook-f"></i>
-                                    Facebook
-                                </a>
-                                <a href="home-design-studio.html#0">
-                                    <i class="fab fa-instagram"></i>
-                                    Instagram
-                                </a>
-                                <a href="home-design-studio.html#0">
-                                    <i class="fab fa-pinterest-p"></i>
-                                    Pinterest
-                                </a>
-                                <a href="home-design-studio.html#0">
-                                    <i class="fab fa-dribbble"></i>
-                                    Dribbble
-                                </a>
+    </div>
+    <div class="container bg-shape-f1">
+        <!-- rts footer area -->
+        <div class="row pt--120 pt_sm--80 pb--80 pb_sm--40">
+
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized mid-bg">
+                    <div class="wized-title">
+                        <h5 class="title">Opening Hours</h5>
+                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                    </div>
+                    <div class="opening-time-inner">
+                        <div class="single-opening">
+                            <p class="day">Week Days</p>
+                            <p class="time">09.00 - 24:00</p>
+                        </div>
+                        <div class="single-opening">
+                            <p class="day">Saturday</p>
+                            <p class="time">08:00 - 03.00</p>
+                        </div>
+                        <div class="single-opening mb--30 mb_sm--10">
+                            <p class="day">Sunday</p>
+                            <p class="time">Day Off</p>
+                        </div>
+                        <a href="index.html#" class="rts-btn btn-primary btn-white">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- footer mid area end -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12 pl--50 pl_sm--15">
+                <div class="footer-one-single-wized">
+                    <div class="wized-title">
+                        <h5 class="title">Quick Links</h5>
+                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                    </div>
+                    <div class="quick-link-inner">
+                        <ul class="links">
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> Forum Support</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> Help &amp; FAQ</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> Contact Us</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> Pricing &amp; Plans</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> Cookie Policy</a></li>
+                        </ul>
+                        <ul class="links margin-left-70">
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> About Us</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i> My Account</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i>Our Company</a></li>
+                            <li><a href="index.html#"><i class="far fa-arrow-right"></i>Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- footer mid area -->
+
+            <!-- footer end area post -->
+            <div class="col-xl-4 col-md-6 col-sm-12 col-12">
+                <div class="footer-one-single-wized margin-left-65">
+                    <div class="wized-title">
+                        <h5 class="title">Get Updates</h5>
+                        <img loading="lazy" src="assets/images/footer/01.svg" alt="finbiz_footer">
+                    </div>
+                    <div class="body">
+                        <div class="update-wrapper">
+                            <p class="disc">Sign up for our latest news &amp; articles. We won’t give you spam
+                                mails.</p>
+                            <form action="{{ route('subscribe') }}" method="POST" class="email-footer-area">
+                                @csrf
+                                @if(session('success'))
+                                    <div class="alert alert-success mt-2">
+                                        {{ session('success') }}
+                                    </div>
+                                @endif
+                                <input type="email" placeholder="Enter Email Address" required="" name="email">
+                                <button type="submit" title="Close menu"><i
+                                        class="fas fa-location-arrow"></i></button>
+                            </form>
+                            <div class="note-area">
+                                <p><span>Note:</span> We do not publish your email</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 offset-lg-1">
-                        <div class="links">
-                            <div class="ftitle mb-15">
-                                <h6 class="fw-700">More Services</h6>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <ul class="rest sub-font">
-                                        <li>
-                                            <a href="home-design-studio.html#0">Corporate Business</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">SEO Agency</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">Company Report</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">Marketing</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-6">
-                                    <ul class="rest sub-font">
-                                        <li>
-                                            <a href="home-design-studio.html#0">About us</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">Case Studies</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <a href="home-design-studio.html#0">Contact us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <!-- footer end area post end-->
+        </div>
+        <!-- rts footer area End -->
+    </div>
+    <!-- copyright area start -->
+    <div class="rts-copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <p>Invena - Copyright
+                            <script>
+                                document.write(
+                                    new Date().getFullYear()
+                                )
+                            </script>. All rights reserved.
+                        </p>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="subscribe">
-                            <div class="ftitle mb-30">
-                                <h6 class="fw-700">Subscribe</h6>
-                            </div>
-                            <div class="text">
-                                <p>United States 866 Wilshire, 2nd Street Los Angeles 90024.</p>
-                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright area end -->
+</div>
                             <form action="{{ route('subscribe') }}" method="POST">
                                 @csrf
                                 @if(session('success'))
@@ -123,39 +180,3 @@
                                         </button>
                                 </div>
                             </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="sub-footer pt-30 pb-30">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="text">
-                        <p class="fz-14">© 2024 <span class="text-light">Goncy</span>. All Rights Reserved.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-5 d-flex justify-content-end">
-                    <div class="slink fz-14">
-                        <a href="home-design-studio.html#0">
-                            <span class="text">Privacy & Cookie Policy</span>
-                        </a>
-                        <a href="home-design-studio.html#0">
-                            <span class="text">Terms of Services</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="paterns">
-        <div class="tringle"></div>
-        <div class="circle"></div>
-        <div class="logo-img">
-            <img src="assets/imgs/vector-img/Logo.svg" alt="">
-        </div>
-    </div>
-</footer>

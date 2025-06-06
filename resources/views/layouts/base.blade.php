@@ -15,90 +15,42 @@
     <!-- Title  -->
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/imgs/favicon.ico">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/fontawesome.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/swiper.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/metismenu.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/magnifying-popup.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/odometer.css') }}" as="style">
+    <link rel="stylesheet preload" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}" as="style">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-
-    <!-- Plugins -->
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins.css') }}">
-
-    <!-- Core Style Css -->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet preload" as="style">
+    <link rel="preload" as="image" href="{{ asset('assets/images/banner/21.webp') }}" />
+    <link rel="stylesheet preload" href="{{ asset('assets/css/style.css') }}" as="style">
 
 </head>
 
 <body>
- <!-- ==================== Start Loading ==================== -->
 
- <x-loader />
+{{ $slot }}
+    <script defer src="{{ asset('assets/js/plugins/jquery.js') }}"></script>
 
- <!-- ==================== End Loading ==================== -->
-
-
- <div class="cursor"></div>
+    <script defer src="{{ asset('assets/js/plugins/odometer.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/jquery-appear.js') }}"></script>
 
 
- <!-- ==================== Start progress-scroll-button ==================== -->
+    <script defer src="{{ asset('assets/js/plugins/gsap.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/split-text.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/scroll-trigger.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/smooth-scroll.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/metismenu.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/popup.js') }}"></script>
 
- <div class="progress-wrap cursor-pointer">
-     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-     </svg>
- </div>
+    <script defer src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/swiper.js') }}"></script>
+    <script defer src="{{ asset('assets/js/plugins/contact.form.js') }}"></script>
 
- <!-- ==================== End progress-scroll-button ==================== -->
-
-
-
- <div id="smooth-wrapper">
-
-
-     <div id="smooth-content">
-
-         <!-- ==================== Start Topbar ==================== -->
-
-         <x-top-nav />
-
-         <!-- ==================== End Topbar ==================== -->
-
-        <main class="position-re">
-
-            {{ $slot }}
-
-        </main>
-
-        <!-- ==================== Start Footer ==================== -->
-
-        <x-footer />
-
-        <!-- ==================== End Footer ==================== -->
-
-
-    </div>
-
-</div>
-
-    <!-- jQuery -->
-    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery-migrate-3.4.0.min.js') }}"></script>
-
-    <!-- plugins -->
-    <script src="{{ asset('assets/js/plugins.js') }}"></script>
-
-    <script src="{{ asset('assets/js/gsap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/ScrollSmoother.min.js') }}"></script>
-    <script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
-    <script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
-
-    <!-- custom scripts -->
-    <script src="{{ asset('assets/js/scripts.js') }}"></script>
-
+    <script defer src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 
 </html>

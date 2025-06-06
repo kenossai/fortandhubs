@@ -2,917 +2,585 @@
     <!-- ==================== Start Intro ==================== -->
 @section('title', 'Home Page')
 <x-banner />
-    <section class="feat-intro section-padding">
+
+    <!-- rts about area start -->
+    <div class="rts-about-area-two rts-section-gap">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item md-mb40 wow fadeIn" data-wow-delay="0.2s">
-                        <div class="icon icon-img-30">
-                            <img src="assets/imgs/serv-img/d1.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>Branding Design</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item md-mb40 wow fadeIn" data-wow-delay="0.4s">
-                        <div class="icon icon-img-40">
-                            <img src="assets/imgs/serv-img/d2.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>SEO Design</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item md-mb40 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="icon icon-img-30">
-                            <img src="assets/imgs/serv-img/d3.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>UX/UI Design</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item sm-mb40 wow fadeIn" data-wow-delay="0.8s">
-                        <div class="icon icon-img-60">
-                            <img src="assets/imgs/serv-img/d4.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>Web Design</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item sm-mb40 wow fadeIn" data-wow-delay="1s">
-                        <div class="icon icon-img-50">
-                            <img src="assets/imgs/serv-img/d5.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>Mockup Design</h6>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-6">
-                    <div class="item wow fadeIn" data-wow-delay="1.2s">
-                        <div class="icon icon-img-30">
-                            <img src="assets/imgs/serv-img/d6.svg" alt="">
-                        </div>
-                        <span class="check ti-check"></span>
-                        <h6>Video Design</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Intro ==================== -->
-
-
-
-    <!-- ==================== Start About ==================== -->
-
-    <section class="about-modern section-padding pt-0">
-        <div class="container">
-            <div class="lg-bold-head mb-80">
-                <h2 class="sub-font text-center">Ab<span class="inline">o<span class="icon"><img
-                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></span>ut Us</h2>
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-1">
-                        <div class="text mt-40">
-                            <p>Phasellus in turpis maximus, iaculis orci eget, elementum libero. Aliquam
-                                eget augue sed ante tincidunt facilisis quis eget sem. Vestibulum efficitur
-                                facilisis nunc.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="content mt-40">
-                <div class="row">
-                    <div class="col-lg-5 offset-lg-1 valign">
-                        <div class="img1 fit-img md-mb50 wow fadeIn" data-wow-delay="0.4s">
-                            <img src="assets/imgs/hero/m1.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <div class="img2 fit-img wow zoomIn" data-wow-delay="0.4s">
-                            <img src="assets/imgs/hero/m2.jpg" alt="">
-                        </div>
-                        <div class="text">
-                            <h6 class="sub-font mb-10">Donec ac augue a enim tempus cinia sed id odio. Orci
-                                arius natoque penatibu magnis parturient.</h6>
-                            <p>Phasellus in turpis maximus, iaculis orci eget, elementum libero. Aliquam
-                                eget augue sed ante tincidunt facilisis quis eget sem. Vestibulum efficitur
-                                facilisis nunc, posuere facilisis massa facilisis sit amet. Nulla consequat
-                                sit amet enim vel fermentum. Proin eget euismod turpis.</p>
-                            <a href="home-design-studio.html#0"
-                                class="butn-circle butn-dark d-flex align-items-center justify-content-center text-center mt-40">
-                                <div>
-                                    <span class="text fw-700 mb-15">About More</span>
-                                    <br>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                        viewBox="0 0 37 36" fill="none">
-                                        <path
-                                            d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                            stroke="#fff" stroke-width="2"></path>
-                                    </svg>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="img3 fit-img wow zoomIn" data-wow-delay="0.4s">
-                    <img src="assets/imgs/hero/m3.jpg" alt="">
-                </div>
-                <div class="img4 fit-img">
-                    <img src="assets/imgs/hero/m4.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End About ==================== -->
-
-
-
-    <!-- ==================== Start Services ==================== -->
-
-    <section class="services-modern bg-blck">
-        <div class="container section-padding position-re">
-            <div class="sec-head mb-80">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Best Of work Services</h6>
-                        <h2 class="fw-700 js-splittext-lines">Freelance Business Name Generator Guide & Ideas Service.</h2>
-                    </div>
-                    <div class="col-lg-6 d-flex align-items-center justify-content-end">
-                        <div class="head-cont">
-                            <div class="icon-img-60 icon mb-80">
-                                <img src="assets/imgs/vector-img/plus-light.svg" alt="">
-                            </div>
-                            <a href="home-design-studio.html#0">
-                                <span class="text mr-15">View All Service</span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                        viewBox="0 0 19 8" fill="none">
-                                        <path
-                                            d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                            stroke="#fff" />
-                                    </svg></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-9 offset-lg-3">
-                    <div class="item mb-30 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <span class="num">01.</span>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cont">
-                                    <h5>Search Engine Optimization</h5>
-                                    <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                        gravida ornare odio.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 d-flex justify-content-end">
-                                <div>
-                                    <a href="home-design-studio.html#0" class="arrow">
-                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                viewBox="0 0 37 36" fill="none">
-                                                <path
-                                                    d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                    stroke="#fff" stroke-width="2"></path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img fit-img">
-                            <img src="assets/imgs/serv-img/02.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="item mb-30 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <span class="num">02.</span>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cont">
-                                    <h5>Web Design & Development</h5>
-                                    <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                        gravida ornare odio.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 d-flex justify-content-end">
-                                <div>
-                                    <a href="home-design-studio.html#0" class="arrow">
-                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                viewBox="0 0 37 36" fill="none">
-                                                <path
-                                                    d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                    stroke="#fff" stroke-width="2"></path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img fit-img">
-                            <img src="assets/imgs/serv-img/01.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="item mb-30 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <span class="num">03.</span>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cont">
-                                    <h5>Design & Multimedia</h5>
-                                    <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                        gravida ornare odio.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 d-flex justify-content-end">
-                                <div>
-                                    <a href="home-design-studio.html#0" class="arrow">
-                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                viewBox="0 0 37 36" fill="none">
-                                                <path
-                                                    d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                    stroke="#fff" stroke-width="2"></path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img fit-img">
-                            <img src="assets/imgs/serv-img/01.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="item wow fadeInUp" data-wow-delay="1s">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <span class="num">04.</span>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="cont">
-                                    <h5>Sofrware Design & Development</h5>
-                                    <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                        gravida ornare odio.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 d-flex justify-content-end">
-                                <div>
-                                    <a href="home-design-studio.html#0" class="arrow">
-                                        <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                viewBox="0 0 37 36" fill="none">
-                                                <path
-                                                    d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                    stroke="#fff" stroke-width="2"></path>
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="img fit-img">
-                            <img src="assets/imgs/serv-img/02.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="intro-img">
-                <img src="assets/imgs/hero/intro-seo.png" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Services ==================== -->
-
-
-
-    <!-- ==================== Start Why Us ==================== -->
-
-    <section class="why-us section-padding pb-60">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 valign">
-                    <div class="clas-skills">
-                        <h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Why Choose Us</h6>
-                        <h2 class="fw-700 mb-15 js-splittext-lines">We Provide brilliant ideas <br> & the digital agency</h2>
-                        <h5 class="sub-font mb-10 wow fadeIn" data-wow-delay="0.8s">Donec ac augue a enim tempus cinia sed id odio. Orci
-                            arius natoque penatibu magnis parturient.</h5>
-                        <p class="wow fadeIn" data-wow-delay="0.8s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a velit sed quam
-                            dignissim facilisis id ac orci. Nam ultricies malesuada arcu ut facilisis.</p>
-                        <div class="skills-box mt-40">
-                            <div class="skill-item mb-40">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="85%"></div>
-                                </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Web
-                                        Solution</span> <span class="ml-auto fz-14">85%</span></h6>
-                            </div>
-                            <div class="skill-item mb-40">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="75%"></div>
-                                </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Mobile
-                                        Solution</span> <span class="ml-auto fz-14">75%</span></h6>
-                            </div>
-                            <div class="skill-item">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="90%"></div>
-                                </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Business
-                                        Solution</span> <span class="ml-auto fz-14">90%</span></h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <div class="g-img">
-                        <img src="assets/imgs/hero/intro-why.png" alt="">
+                    <div class="left-thumbnail-about-area-two">
+                        <img loading="lazy" src="assets/images/about/04.webp" alt="about">
+                        <div class="small-image">
+                            <img loading="lazy" src="assets/images/about/05.webp" alt="small">
+                        </div>
+                        <div class="counter-about-area">
+                            <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
+                            </h2>
+                            <span>Year of experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt_sm--80 mt_md--80">
+                    <div class="about-inner-content-two">
+                        <div class="title-style-two left">
+                            <span class="bg-content">About Us</span>
+                            <span class="pre">More About Us</span>
+                            <h2 class="title rts-text-anime-style-1">Empowering You to Feel <br> Your Best Every Day
+                            </h2>
+                        </div>
+                        <div class="about-between-wrapper">
+                            <p class="disc">
+                                Porttitor ornare fermentum aliquam pharetra
+                                ut facilisis gravida risus suscipit. dui feugiat
+                                fusce conubia ridiculus tristique parturient
+                                natoque vulputate risu.
+                            </p>
+                            <div class="check-wrapper-area">
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>24/7 Call Services Avilable</p>
+                                </div>
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Great Skilled Consultant</p>
+                                </div>
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Expert Team Members</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="call-and-sign-area two">
+                            <div class="call-area">
+                                <div class="icon">
+                                    <i class="fa-sharp fa-regular fa-phone-volume"></i>
+                                </div>
+                                <div class="information">
+                                    <span>Call us anytime</span>
+                                    <a href="index.html#">
+                                        <h6 class="title">+256 56778.5678</h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sign-area">
+                                <img loading="lazy" src="assets/images/about/sign.svg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="shape-area">
+            <img loading="lazy" src="assets/images/about/shape/01.svg" alt="shape" class="one">
+            <img loading="lazy" src="assets/images/about/shape/02.svg" alt="shape" class="two">
+        </div>
+    </div>
+    <!-- rts about area end -->
 
-    <!-- ==================== End Why Us ==================== -->
 
-
-
-    <!-- ==================== Start Brands ==================== -->
-
-    <div class="brands">
+    <!-- rts service area start -->
+    <div class="rts-service-area pt--40 pb--60">
         <div class="container">
             <div class="row">
-                <div class="col-lg col-md-4 col-6">
-                    <div class="item">
-                        <a href="home-design-studio.html#0">
-                            <img src="assets/imgs/brands/2.png" alt="">
-                        </a>
+                <div class="col-lg-12">
+                    <div class="title-style-two center">
+                        <span class="bg-content">Services</span>
+                        <span class="pre">our Service</span>
+                        <h2 class="title rts-text-anime-style-1">High Quality Services
+                        </h2>
                     </div>
                 </div>
-                <div class="col-lg col-md-4 col-6">
-                    <div class="item">
-                        <a href="home-design-studio.html#0">
-                            <img src="assets/imgs/brands/2.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg col-md-4 col-6">
-                    <div class="item">
-                        <a href="home-design-studio.html#0">
-                            <img src="assets/imgs/brands/3.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg col-md-4 col-6">
-                    <div class="item">
-                        <a href="home-design-studio.html#0">
-                            <img src="assets/imgs/brands/4.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg col-md-4 col-6">
-                    <div class="item">
-                        <a href="home-design-studio.html#0">
-                            <img src="assets/imgs/brands/5.png" alt="">
-                        </a>
+            </div>
+        </div>
+        <div class="container-2 mt--30">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="service-bg-style-one-wrapper">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="service-style-swiper-wrapper-two">
+                                    <div class="swiper mySwiper-service-1">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="single-service-signle-wrapper">
+                                                    <div class="icons">
+                                                        <img loading="lazy" src="assets/images/service/icons/01.svg" alt="service">
+                                                    </div>
+                                                    <div class="information">
+                                                        <h5 class="title">Business Planning</h5>
+                                                        <p class="disc">
+                                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
+                                                            auctor etiam
+                                                            pretium libero
+                                                        </p>
+                                                        <a href="service-details.html" class="arrow-right">
+                                                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                                            <span>Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="single-service-signle-wrapper">
+                                                    <div class="icons">
+                                                        <img loading="lazy" src="assets/images/service/icons/02.svg" alt="service">
+                                                    </div>
+                                                    <div class="information">
+                                                        <h5 class="title">Process Development</h5>
+                                                        <p class="disc">
+                                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
+                                                            auctor etiam
+                                                            pretium libero
+                                                        </p>
+                                                        <a href="service-details.html" class="arrow-right">
+                                                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                                            <span>Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="single-service-signle-wrapper">
+                                                    <div class="icons">
+                                                        <img loading="lazy" src="assets/images/service/icons/03.svg" alt="service">
+                                                    </div>
+                                                    <div class="information">
+                                                        <h5 class="title">Strategy & Planning</h5>
+                                                        <p class="disc">
+                                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
+                                                            auctor etiam
+                                                            pretium libero
+                                                        </p>
+                                                        <a href="service-details.html" class="arrow-right">
+                                                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                                            <span>Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="single-service-signle-wrapper">
+                                                    <div class="icons">
+                                                        <img loading="lazy" src="assets/images/service/icons/01.svg" alt="service">
+                                                    </div>
+                                                    <div class="information">
+                                                        <h5 class="title">Business Goal</h5>
+                                                        <p class="disc">
+                                                            Sagitis himos pulvinar morb socis laoreet posuere enim non
+                                                            auctor etiam
+                                                            pretium libero
+                                                        </p>
+                                                        <a href="index.html#" class="arrow-right">
+                                                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                                                            <span>Read More</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- ==================== End Brands ==================== -->
-
+    <!-- rts service area end -->
 
 
-    <!-- ==================== Start Portfolio ==================== -->
+    <!-- rts call to action area start -->
+    <div class="rts-call-to-action-area-two bg_image">
+        <div class="container-full">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="cta-style-two-area">
+                                    <h3 class="title rts-text-anime-style-1">
+                                        Let’s discuss about how we can help <br>
+                                        make your business better
+                                    </h3>
+                                    <a href="contact.html" class="rts-btn btn-primary btn-white">Lets Work Together</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts call to action area end -->
 
-    <section class="work-carsouel section-padding">
+
+
+    <!-- rts business goal area start -->
+    <div class="business-goal-area-2 rts-section-gap">
+        <div class="container pt--30">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="consultancy-style-one">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Business Goal</span>
+                            <span class="pre">JUST A CONSULTANCY</span>
+                            <h2 class="title rts-text-anime-style-1">We know how to manage <br>
+                                business globally
+                            </h2>
+                        </div>
+                        <div class="signle-consultancy mb--30">
+                            <div class="icon">
+                                <img loading="lazy" src="assets/images/about/icons/01.svg" alt="">
+                            </div>
+                            <div class="information">
+                                <h4 class="title">Best Business Consulting</h4>
+                                <p class="disc">
+                                    Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris
+                                    gravida
+                                    rutrum
+                                </p>
+                            </div>
+                        </div>
+                        <div class="signle-consultancy">
+                            <div class="icon">
+                                <img loading="lazy" src="assets/images/about/icons/02.svg" alt="">
+                            </div>
+                            <div class="information">
+                                <h4 class="title">24/7 Customer Support</h4>
+                                <p class="disc">
+                                    Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris
+                                    gravida
+                                    rutrum
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
+                            <a href="contact.html" class="rts-btn btn-primary">Contact Us</a>
+                            <div class="vedio-icone">
+                                <a class="video-play-button play-video popup-video" href="https://www.youtube.com/watch?v=vZE0j_WCRvI" aria-label="Watch promotional video on YouTube">
+                                    <span></span>
+                                </a>
+                                <div class="video-overlay">
+                                    <a href="index.html#section1" class="video-overlay-close">×</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="thumbnail-business-area-right-two">
+                        <div class="large-thumbnail">
+                            <img loading="lazy" src="assets/images/business-goal/02.webp" alt="">
+                        </div>
+                        <div class="small-thumbnail images-r">
+                            <img loading="lazy" src="assets/images/business-goal/01.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- rts business goal area end -->
+    </div>
+
+    <!-- rts counter up area start -->
+    <div class="rts-counter-up-area rts-section-gap counter-bg">
         <div class="container">
-            <div class="sec-head mb-30">
-                <div class="row">
-                    <div class="col-lg-5 col-md-4">
-                        <h6 class="mb-30 wow fadeInUp" data-wow-delay="0.4s">// Best Of work Services</h6>
-                        <div class="row sm-hide">
-                            <div class="col-lg-5">
-                                <div class="g-img">
-                                    <img src="assets/imgs/vector-img/G1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 offset-lg-1 valign">
-                                <div class="icon-img-80 md-hide wow zoomIn" data-wow-delay="1.2s">
-                                    <img src="assets/imgs/vector-img/Vector.svg" alt="">
-                                </div>
-                            </div>
+            <div class="row g-5">
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter">
+                        <div class="icon">
+                            <img loading="lazy" src="assets/images/counterup/icon/01.svg" alt="Business_counter">
                         </div>
-                    </div>
-                    <div class="col-lg-7 col-md-8 valign">
-                        <div class="lg-title">
-                            <h2 class="js-splittext-lines">Lat’s Look Our Project</h2>
+                        <div class="counter-details">
+                            <h2 class="counter title"><span class="odometer" data-count="199">00</span>+
+                            </h2>
+                            <p class="disc">Successful Projects</p>
                         </div>
                     </div>
                 </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 justify-content-center two pl--30">
+                        <div class="icon">
+                            <img loading="lazy" src="assets/images/counterup/icon/02.svg" alt="Business_counter">
+                        </div>
+                        <div class="counter-details">
+                            <h2 class="counter title"><span class="odometer" data-count="300">00</span>+
+                            </h2>
+                            <p class="disc">Media Activities</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 justify-content-center three pl--50 pl_md--10 pl_sm--0">
+                        <div class="icon">
+                            <img loading="lazy" src="assets/images/counterup/icon/03.svg" alt="Business_counter">
+                        </div>
+                        <div class="counter-details">
+                            <h2 class="counter title"><span class="odometer" data-count="699">00</span>+
+                            </h2>
+                            <p class="disc">Skilled Experts</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
+                <!-- counter up area -->
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="single-counter pl--10 four">
+                        <div class="icon">
+                            <img loading="lazy" src="assets/images/counterup/icon/04.svg" alt="Business_counter">
+                        </div>
+                        <div class="counter-details">
+                            <h2 class="counter title"><span class="odometer" data-count="120">00</span>+
+                            </h2>
+                            <p class="disc">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- counter up area -->
             </div>
         </div>
-        <div class="container-box">
-            <div class="work-swiper" data-carousel="swiper" data-items="2" data-center="true"
-                data-loop="true" data-space="0">
-                <div id="content-carousel-container-unq-work" class="swiper-container"
-                    data-swiper="container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="full-width">
-                                <div class="item mb-80">
-                                    <div class="img fit-img img1">
-                                        <img src="assets/imgs/works/stand1/6.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img fit-img img2">
-                                        <img src="assets/imgs/works/stand1/0.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="full-width">
-                                <div class="item mb-80">
-                                    <div class="img fit-img img3">
-                                        <img src="assets/imgs/works/stand1/9.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img fit-img img4">
-                                        <img src="assets/imgs/works/stand1/8.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="full-width">
-                                <div class="item mb-80">
-                                    <div class="img fit-img img1">
-                                        <img src="assets/imgs/works/stand1/6.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img fit-img img2">
-                                        <img src="assets/imgs/works/stand1/0.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="full-width">
-                                <div class="item mb-80">
-                                    <div class="img fit-img img4">
-                                        <img src="assets/imgs/works/stand1/5.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="img fit-img img3">
-                                        <img src="assets/imgs/works/stand1/7.jpg" alt="">
-                                    </div>
-                                    <div class="cont">
-                                        <h6 class="fz-18 mb-10">// Web Design</h6>
-                                        <h4>
-                                            <a href="home-design-studio.html#0">Business Strategy <br> & Important HBS <br>
-                                                Online</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+    <!-- rts counter up area end -->
 
-    <!-- ==================== End Portfolio ==================== -->
+    <!-- start gallery section -->
+    <div class="rts-gallery-area rts-section-gap gallery-bg bg_image">
+        <div class="container pt--40">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-between-wrapper-gallery-project">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Projects</span>
+                            <span class="pre">Popular Projects</span>
+                            <h2 class="title rts-text-anime-style-1">Projects
+                                Our Completed Projects
+                            </h2>
+                        </div>
 
-
-
-    <!-- ==================== Start Team tabs ==================== -->
-
-    <section class="team-tab section-padding pt-0">
-        <div class="main-marq mb-80">
-            <div class="slide-har st1">
-                <div class="box non-strok">
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                </div>
-                <div class="box non-strok">
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                    <div class="item">
-                        <h4 class="d-flex align-items-center"><span>Team Member</span></h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row" id="tabs">
-                <div class="col-lg-5 d-flex justify-content-center">
-                    <div class="team-tab-link tab-links d-flex align-items-center md-mb50">
-                        <div>
-                            <div class="img1 fit-img item-link current" data-tab="tabs-1">
-                                <img src="assets/imgs/team/t1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="img2 fit-img item-link" data-tab="tabs-2">
-                                <img src="assets/imgs/team/t2.jpg" alt="">
-                            </div>
-                            <div class="img2 fit-img item-link" data-tab="tabs-3">
-                                <img src="assets/imgs/team/t3.jpg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="img3 fit-img item-link" data-tab="tabs-4">
-                                <img src="assets/imgs/team/t4.jpg" alt="">
-                            </div>
-                            <div class="img3 fit-img item-link" data-tab="tabs-5">
-                                <img src="assets/imgs/team/t5.jpg" alt="">
-                            </div>
-                            <div class="img3 fit-img item-link" data-tab="tabs-6">
-                                <img src="assets/imgs/team/t6.jpg" alt="">
-                            </div>
-                        </div>
-                        <div>
-                            <div class="img1 fit-img item-link" data-tab="tabs-7">
-                                <img src="assets/imgs/team/t7.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 valign">
-                    <div class="team-tab-cont">
-                        <div class="tab-content current" id="tabs-1">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Daniel</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-2">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Matthew</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-3">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Michael</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-4">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Topher</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-5">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Casey</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-6">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m David</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-content" id="tabs-7">
-                            <div class="cont">
-                                <span class="sub-font sm-title">Brand Ambassador <i></i></span>
-                                <h2>Hello, I’m Andrey</h2>
-                                <div class="text">
-                                    <p>Proin nec lectus ac magna sagittis consectetur in vel odio. Quisque
-                                        in arcu ut ipsum aliquet mattis. Aliquam maximus quam et neque
-                                        ornare malesuada. Etiam luctus diam diam, vel tempor quam finibus
-                                        ac. Etiam commodo.</p>
-                                </div>
-                                <div class="social">
-                                    <a href="home-design-studio.html#0"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="home-design-studio.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Team tabs ==================== -->
-
-
-
-    <!-- ==================== Start Testimonials ==================== -->
-
-    <section class="testimonials section-padding pt-0">
-        <div class="container">
-            <div class="sec-head mb-80">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center">
-                            <h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Testimonials</h6>
-                            <h3 class="fw-700 js-splittext-lines">What People Says Our Best Of Goncy Digital Agency Website
-                            </h3>
-                        </div>
+                        <div class="swiper-paginations"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="testim-swiper3" data-carousel="swiper" data-items="3" data-loop="true"
-                        data-space="30">
-                        <div id="content-carousel-container-unq-testim" class="swiper-container"
-                            data-swiper="container">
+                <div class="col-lg-12">
+                    <div class="project-style-one-wrapper">
+
+                        <div class="swiper mySwiper-project-1">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/1.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
-                                            </div>
+                                    <div class="project-style-one">
+                                        <a href="project-details.html" class="thumbnail">
+                                            <img loading="lazy" src="assets/images/project/01.webp" alt="project">
+                                        </a>
+                                        <div class="inner-content">
+                                            <a href="project-details.html">
+                                                <h5 class="title">Business Growth</h5>
+                                            </a>
+                                            <span>Business Strategy</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/2.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
-                                            </div>
+                                    <div class="project-style-one">
+                                        <a href="project-details.html" class="thumbnail">
+                                            <img loading="lazy" src="assets/images/project/02.webp" alt="project">
+                                        </a>
+                                        <div class="inner-content">
+                                            <a href="project-details.html">
+                                                <h5 class="title">Startup Solution</h5>
+                                            </a>
+                                            <span>Business Strategy</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/3.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
-                                            </div>
+                                    <div class="project-style-one">
+                                        <a href="project-details.html" class="thumbnail">
+                                            <img loading="lazy" src="assets/images/project/01.webp" alt="project">
+                                        </a>
+                                        <div class="inner-content">
+                                            <a href="project-details.html">
+                                                <h5 class="title">Marketing Growth</h5>
+                                            </a>
+                                            <span>Business Strategy</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/1.jpg" alt="">
-                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start gallery section -->
+
+
+    <div class="rts-trusted-client rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-area-client-client text-center">
+                        <p class="client-title">Our Trusted Clients</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="client-wrapper-one">
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.1" data-duration="1.2"><img src="assets/images/client/1.webp" alt="business_invena"></a>
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2"><img src="assets/images/client/2.webp" alt="business_invena"></a>
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.3" data-duration="1.2"><img src="assets/images/client/3.webp" alt="business_invena"></a>
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2"><img src="assets/images/client/4.webp" alt="business_invena"></a>
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.5" data-duration="1.2"><img src="assets/images/client/5.webp" alt="business_invena"></a>
+                    <a href="index.html#" data-animation="fadeInUp" data-delay="0.6" data-duration="1.2"><img src="assets/images/client/6.webp" alt="business_invena"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rts team area start -->
+    <div class="rts-team-area rts-section-gapBottom pt--40">
+        <div class="container">
+            <div class="row">
+                <div class="title-style-two center">
+                    <span class="bg-content">Members</span>
+                    <span class="pre">Expert Members</span>
+                    <h2 class="title rts-text-anime-style-1">Professionals Team
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper mySwiperh1_team pt--50 pb--80" dir="ltr">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img loading="lazy" src="assets/images/team/04.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
                                                 </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="single-details" dir="rtl">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Archer Graham</h5>
+                                        </a>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img loading="lazy" src="assets/images/team/05.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-details" dir="rtl">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Amelia Clover</h5>
+                                        </a>
+                                        <p>Co-Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img loading="lazy" src="assets/images/team/06.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-details" dir="rtl">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Beckett Hayden</h5>
+                                        </a>
+                                        <p>Deputy Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-details" dir="rtl">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Julian Wyat</h5>
+                                        </a>
+                                        <p>Finance Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img loading="lazy" src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-details" dir="rtl">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Julian Wyat</h5>
+                                        </a>
+                                        <p>Finance Manager</p>
                                     </div>
                                 </div>
                             </div>
@@ -922,229 +590,282 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- ==================== End Testimonials ==================== -->
-
+    </div>
+    <!-- rts team area end -->
 
 
 
-    <!-- ==================== Start FAQS ==================== -->
-
-    <section class="faqs section-padding">
-        <div class="position-re">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 valign">
-                        <div class="md-mb50">
-                            <div class="sec-head mb-40">
-                                <h6 class="mb-15 wow fadeInUp" data-wow-delay="0.4s">// Our Frequency & Question's</h6>
-                                <h3 class="fw-700 mb-15 js-splittext-lines">We Provide brilliant ideas <br> Frequency &
-                                    question's</h3>
-                                <h5 class="sub-font fw-500 mb-10 wow fadeInUp" data-wow-delay="0.8s">Donec ac augue a enim tempus cinia sed id
-                                    odio. Orci
-                                    arius natoque penatibu magnis parturient.</h5>
-                            </div>
-                            <div class="accordion wow fadeIn" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                            aria-expanded="true" aria-controls="collapseOne"><span
-                                                class="face-icon mr-30"><img
-                                                    src="assets/imgs/vector-img/face.svg" alt=""></span>
-                                            What
-                                            can we
-                                            do for you with Figma? <span class="icon"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                    viewBox="0 0 19 8" fill="none">
-                                                    <path
-                                                        d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                        stroke="#141414" />
-                                                </svg></span></button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show"
-                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis
-                                                cursus
-                                                dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                fringilla commodo nisl. Quisque eu tellus tincidunt,
-                                                vehicula
-                                                arcu
-                                                in, feugiat velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                            aria-expanded="false" aria-controls="collapseTwo">
-                                            <span class="face-icon mr-30"><img
-                                                    src="assets/imgs/vector-img/face.svg" alt=""></span> Do
-                                            you
-                                            create one single full home page?<span class="icon"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                    viewBox="0 0 19 8" fill="none">
-                                                    <path
-                                                        d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                        stroke="#141414" />
-                                                </svg></span>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis
-                                                cursus
-                                                dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                fringilla commodo nisl. Quisque eu tellus tincidunt,
-                                                vehicula
-                                                arcu
-                                                in, feugiat velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                            aria-expanded="false" aria-controls="collapseThree">
-                                            <span class="face-icon mr-30"><img
-                                                    src="assets/imgs/vector-img/face.svg" alt=""></span>What
-                                            is
-                                            the standard size of business cards?<span class="icon"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                    viewBox="0 0 19 8" fill="none">
-                                                    <path
-                                                        d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                        stroke="#141414" />
-                                                </svg></span>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis
-                                                cursus
-                                                dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                fringilla commodo nisl. Quisque eu tellus tincidunt,
-                                                vehicula
-                                                arcu
-                                                in, feugiat velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                            aria-expanded="false" aria-controls="collapseFour">
-                                            <span class="face-icon mr-30"><img
-                                                    src="assets/imgs/vector-img/face.svg" alt=""></span>What
-                                            should be on an agency website?<span class="icon"><svg
-                                                    xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                    viewBox="0 0 19 8" fill="none">
-                                                    <path
-                                                        d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                        stroke="#141414" />
-                                                </svg></span>
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis
-                                                cursus
-                                                dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                fringilla commodo nisl. Quisque eu tellus tincidunt,
-                                                vehicula
-                                                arcu
-                                                in, feugiat velit.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 valign">
-                        <div>
-                            <img src="assets/imgs/hero/intro-faq.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End FAQS ==================== -->
-
-
-
-    <!-- ==================== Start Numbers ==================== -->
-
-    <section class="numbers section-padding pt-0">
+    <!-- rts clients review area start -->
+    <div class="rts-client-review-area rts-section-gapBottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="item md-mb30">
-                        <div>
-                            <h3>5K</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Project Complete</span>
-                            </div>
+                <div class="col-lg-12">
+                    <div class="title-area-between-wrapper" dir="ltr">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Review</span>
+                            <span class="pre">Our Testimonial</span>
+                            <h2 class="title ">Our Client Reviews
+                            </h2>
+                        </div>
+                        <div class="pagination-wrapper">
+                            <div class="swiper-pagination-fraction"></div>
+                            <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
+                            <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item md-mb30">
-                        <div>
-                            <h3>98%</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Success Rate</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item sm-mb30">
-                        <div>
-                            <h3>30</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Awards Winning</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <div>
-                            <h3>12</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Years Of Experience</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="testimonials-wrapper-swiper-demo-2">
+                        <div class="swiper mySwiper-testimonials-dmeo-2" dir="ltr">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img loading="lazy" src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- rts clients review area end -->
 
-    <!-- ==================== End Numbers ==================== -->
 
+    <!-- appoinment areas tart -->
+    <div class="appoinment-area-start rts-section-gapBottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="appoinment-wrapper-one-start">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Hello</span>
+                            <span class="pre">Make An Appointment</span>
+                            <h2 class="title">Request a free quote</h2>
+                        </div>
+                        <form action="index.html#">
+                            <div class="single-input-wrapper">
+                                <div class="single-input">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class="single-input">
+                                    <input type="number" placeholder="Number">
+                                </div>
+                            </div>
+                            <div class="single-input">
+                                <input type="email" placeholder="Your Email">
+                            </div>
+                            <div class="single-input mb--30">
+                                <textarea placeholder="Type Your Message"></textarea>
+                            </div>
+                            <button class="rts-btn btn-primary">Submit Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="appoinment-thumbnail">
+                        <img loading="lazy" src="assets/images/appoinment/01.webp" alt="appoinment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- appoinment areas end -->
+
+
+
+    <!-- rts blog area start -->
+    <div class="rts-blog-area rts-section-gapBottom pt--40 mb--310">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-style-two center">
+                        <span class="bg-content">Blog</span>
+                        <span class="pre">Blog & News</span>
+                        <h2 class="title">Recent blog post
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 mt--20">
+                <div class="col-lg-12">
+                    <div class="blog-swiper-style-one">
+                        <div class="swiper mySwiper-blog-one">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">Building a Brand That from Market Leaders</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/01.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">Transforming Your Best Of Approach to Business</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/02.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">The quick settle tips of the new ages exist</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/03.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">Building a Brand That from Market Leaders</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/01.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">Transforming Your Best Of Approach to Business</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/02.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-blog-area-one">
+                                        <p>Business Solution / <span>by David Dolean</span></p>
+                                        <a href="blog-details.html">
+                                            <h4 class="title">The quick settle tips of the new ages exist</h4>
+                                        </a>
+                                        <div class="bottom-details">
+                                            <a href="blog-details.html" class="thumbnail">
+                                                <img loading="lazy" src="assets/images/blog/03.webp" alt="blog-area">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts blog area end -->
+
+
+
+    <!-- rts footer two area wrapper -->
+    <x-footer />
+    <!-- rts footer two area wrapper end -->
+
+
+
+    <x-sidebar-about />
+    <!-- inner menu area desktop End -->
+
+
+    <!-- offcanvase search -->
+    <x-search-form />
+    <div id="anywhere-home" class="">
+    </div>
+
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- progress area end -->
 </x-app-layout>
 
 
