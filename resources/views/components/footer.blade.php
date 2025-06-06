@@ -147,7 +147,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-center">
-                        <p>Invena - Copyright
+                        <p>FortandHubs - Copyright
                             <script>
                                 document.write(
                                     new Date().getFullYear()
@@ -161,22 +161,3 @@
     </div>
     <!-- copyright area end -->
 </div>
-                            <form action="{{ route('subscribe') }}" method="POST">
-                                @csrf
-                                @if(session('success'))
-                                    <div class="alert alert-success mt-2">
-                                        {{ session('success') }}
-                                    </div>
-                                @endif
-                                <div class="form-item mt-30 sub-font">
-                                    <input type="email" placeholder="Enter your email address..."
-                                        name="email">
-                                        <button type="submit" style="background: none; border: none; padding: 0; margin-left: -30px;">
-                                            <svg width="14" height="13" viewBox="0 0 14 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1 12L11.2929 1.70711C11.9229 1.07714 13 1.52331 13 2.41421V7.37143L11.1207 5.49217"
-                                                    stroke="white" stroke-width="2" />
-                                            </svg>
-                                        </button>
-                                </div>
-                            </form>
