@@ -7,7 +7,7 @@
                     <div class="header-main-one-wrapper">
                         <div class="thumbnail">
                             <a href="index.html">
-                                <img src="assets/images/logo/01.svg" alt="finbiz-logo">
+                                <img class="site-logo" src="{{ asset('assets/images/logo/logo.png') }}" alt="finbiz-logo">
                             </a>
                         </div>
                         <div class="main-header">
@@ -20,7 +20,7 @@
                                         <a href="index.html#">About</a>
                                     </li>
                                     <li class="main-nav">
-                                        <a href="index.html#">Service</a>
+                                        <a href="{{ route('service') }}">Service</a>
                                     </li>
                                     <li class="main-nav">
                                         <a href="index.html#">Project</a>

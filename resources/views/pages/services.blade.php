@@ -2,479 +2,426 @@
 
     @section('title', 'Services')
 
-    <!-- ==================== Start About ==================== -->
-
-    <section class="intro-marketing section-padding">
+   <!-- about us area wrapper main -->
+    <div class="rts-breadcrumb-area small-h">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="img md-mb50">
-                        <img src="assets/imgs/hero/intro-m.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1 valign">
-                    <div class="cont">
-                        <h6 class="mb-15">// Why Choose Us</h6>
-                        <h3 class="mb-20">We Provide brilliant ideas <br> & the digital agency</h3>
-                        <h6 class="sub-font mb-10">Donec ac augue a enim tempus cinia sed id odio. Orci
-                            arius natoque penatibu magnis parturient.</h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a velit sed quam
-                            dignissim facilisis id ac orci. Nam ultricies malesuada arcu ut facilisis.</p>
-                        <div class="row mt-40 pt-40 bord-thin-top">
-                            <div class="col-md-6">
-                                <div class="item d-flex align-items-center sm-mb30">
-                                    <div>
-                                        <span class="icon-img-40 mr-30">
-                                            <img src="assets/imgs/vector-img/boxs.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <h6>Online Courses For Ux/UI Design</h6>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="item d-flex align-items-center">
-                                    <div>
-                                        <span class="icon-img-40 mr-30">
-                                            <img src="assets/imgs/vector-img/boxs.svg" alt="">
-                                        </span>
-                                    </div>
-                                    <h6>Digital Marketing & Branding Design</h6>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-12">
+                    <div class="title-area-left center">
+                        <span class="pre">Our Service</span>
+                        <span class="bg-title">Our Service</span>
+                        <h1 class="title rts-text-anime-style-1">
+                            Service We Provide
+                        </h1>
                     </div>
                 </div>
             </div>
-            <div class="v-img fit-img">
-                <img src="assets/imgs/hero/m5.jpg" alt="">
-            </div>
         </div>
-        <div class="vector-icon">
-            <img src="assets/imgs/vector-img/Vector.svg" alt="">
+        <div class="shape-area">
+            <img src="assets/images/about/shape/01.png" alt="shape" class="one">
+            <img src="assets/images/about/shape/02.png" alt="shape" class="two">
+            <img src="assets/images/about/shape/03.png" alt="shape" class="three">
         </div>
-    </section>
+    </div>
+    <!-- about us area wrapper main end -->
 
-    <!-- ==================== End About ==================== -->
-
-
-
-    <!-- ==================== Start Services ==================== -->
-
-    <section class="serv-box section-padding">
+    <!-- service area start -->
+    <div class="our-service-area-start rts-section-gapBottom">
         <div class="container">
-            <div class="sec-head mb-80">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center">
-                            <h6 class="mb-15">// Our Best Of Service</h6>
-                            <h3 class="fw-700">What People Says Our Best Of Goncy Digital Agency Website
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="serv-swiper" data-carousel="swiper" data-items="3" data-loop="true" data-space="30">
-                <div id="content-carousel-container-unq-serv" class="swiper-container"
-                    data-swiper="container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="item text-center">
-                                <span class="icon-img-70 mb-40">
-                                    <img src="assets/imgs/serv-img/s1.svg" alt="">
-                                </span>
-                                <h5>Marketing Strategy services</h5>
-                                <div class="text mt-20">
-                                    <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
-                                        vestibulum condimentum.</p>
-                                </div>
-                                <a href="page-services.html#0" class="arrow mt-40">
-                                    <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                stroke="#141414" stroke-width="2"></path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item text-center">
-                                <span class="icon-img-70 mb-40">
-                                    <img src="assets/imgs/serv-img/s2.svg" alt="">
-                                </span>
-                                <h5>Website Data & Analytics Service</h5>
-                                <div class="text mt-20">
-                                    <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
-                                        vestibulum condimentum.</p>
-                                </div>
-                                <a href="page-services.html#0" class="arrow mt-40">
-                                    <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                stroke="#141414" stroke-width="2"></path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item text-center">
-                                <span class="icon-img-70 mb-40">
-                                    <img src="assets/imgs/serv-img/s3.svg" alt="">
-                                </span>
-                                <h5>Brand Identity and Graphics</h5>
-                                <div class="text mt-20">
-                                    <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
-                                        vestibulum condimentum.</p>
-                                </div>
-                                <a href="page-services.html#0" class="arrow mt-40">
-                                    <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                stroke="#141414" stroke-width="2"></path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="item text-center">
-                                <span class="icon-img-70 mb-40">
-                                    <img src="assets/imgs/serv-img/s1.svg" alt="">
-                                </span>
-                                <h5>Marketing Strategy services</h5>
-                                <div class="text mt-20">
-                                    <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis
-                                        vestibulum condimentum.</p>
-                                </div>
-                                <a href="page-services.html#0" class="arrow mt-40">
-                                    <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                stroke="#141414" stroke-width="2"></path>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== End Services ==================== -->
-
-
-
-    <!-- ==================== Start Numbers ==================== -->
-
-    <section class="numbers section-padding num-dark">
-        <div class="container ontop">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="item md-mb30">
-                        <div>
-                            <h3>5K</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Project Complete</span>
+                <div class="col-lg-12">
+                    <div class="rts-service-main-wrapper-10">
+                        <div class="signle-service-style-10">
+                            <div class="content-area-wrapper">
+                                <div class="icon">
+                                    <img src="assets/images/service/icons/11.svg" alt="service">
+                                </div>
+                                <h5 class="title">Business Solution</h5>
+                                <p class="disc">
+                                    Fusce dignissim erat dis proin ornare class sem nibh
+                                </p>
+                                <a href="service.html#" class="arrow-right-btn">Learn More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="assets/images/service/07.webp" alt="service">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item md-mb30">
-                        <div>
-                            <h3>98%</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Success Rate</span>
+                        <div class="signle-service-style-10">
+                            <div class="content-area-wrapper">
+                                <div class="icon">
+                                    <img src="assets/images/service/icons/12.svg" alt="service">
+                                </div>
+                                <h5 class="title">Marketing Solution</h5>
+                                <p class="disc">
+                                    Fusce dignissim erat dis proin ornare class sem nibh
+                                </p>
+                                <a href="service.html#" class="arrow-right-btn">Learn More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <div class="thumbnail">
+                                <img src="assets/images/service/08.webp" alt="service">
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item sm-mb30">
-                        <div>
-                            <h3>30</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Awards Winning</span>
+                        <div class="signle-service-style-10 order-control-sm-device">
+                            <div class="thumbnail">
+                                <img src="assets/images/service/09.webp" alt="service">
+                            </div>
+                            <div class="content-area-wrapper">
+                                <div class="icon">
+                                    <img src="assets/images/service/icons/13.svg" alt="service">
+                                </div>
+                                <h5 class="title">Agency Marketing</h5>
+                                <p class="disc">
+                                    Fusce dignissim erat dis proin ornare class sem nibh
+                                </p>
+                                <a href="service.html#" class="arrow-right-btn">Learn More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="item">
-                        <div>
-                            <h3>12</h3>
-                            <div>
-                                <span class="icon">
-                                    <i class="ti-plus"></i>
-                                </span>
-                                <span class="sm-title">Years Of Experience</span>
+                        <div class="signle-service-style-10 order-control-sm-device">
+
+                            <div class="thumbnail">
+                                <img src="assets/images/service/10.webp" alt="service">
+                            </div>
+                            <div class="content-area-wrapper">
+                                <div class="icon">
+                                    <img src="assets/images/service/icons/14.svg" alt="service">
+                                </div>
+                                <h5 class="title">Business Marketing</h5>
+                                <p class="disc">
+                                    Fusce dignissim erat dis proin ornare class sem nibh
+                                </p>
+                                <a href="service.html#" class="arrow-right-btn">Learn More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="g-img">
-            <img src="assets/imgs/vector-img/G2.svg" alt="">
-        </div>
-    </section>
-
-    <!-- ==================== End Numbers ==================== -->
-
-
-
-    <!-- ==================== Start Why Us ==================== -->
-
-    <section class="why-us">
-        <div class="container section-padding">
-            <div class="sec-head mb-80">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="text">
-                            <h2 class="sub-font">Why <br> Choose Us</h2>
-                            <div class="img-vector">
-                                <img src="assets/imgs/vector-img/Vector.svg" alt="">
+    </div>
+    <!-- service area end -->
+    <!-- eorking process areas start -->
+    <div class="working-process-one bg-main rts-section-gap without-clip-radious">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="title-style-one">
+                        <span class="pre">How we works</span>
+                        <h2 class="title rts-text-anime-style-1">Easy 3 Steps To Work
+                        </h2>
+                    </div>
+                    <div class="working-process-main-wrapper mt--60">
+                        <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                            <div class="left">
+                                <div class="icon">
+                                    <img src="assets/images/process/icon/01.svg" alt="process">
+                                </div>
+                            </div>
+                            <div class="inner-content">
+                                <div class="number-main">
+                                    <span class="number">01</span>
+                                </div>
+                                <h5 class="title">Client Discovery</h5>
+                                <p class="disc">
+                                    The agency begins by understanding the
+                                    client's needs, goals, and
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                            <div class="left">
+                                <div class="icon">
+                                    <img src="assets/images/process/icon/02.svg" alt="process">
+                                </div>
+                            </div>
+                            <div class="inner-content">
+                                <div class="number-main">
+                                    <span class="number">02</span>
+                                </div>
+                                <h5 class="title">Research & Analysis</h5>
+                                <p class="disc">
+                                    The agency begins by understanding the
+                                    client's needs, goals, and
+                                </p>
+                            </div>
+                        </div>
+                        <div class="single-working-process-one" data-animation="fadeInUp" data-delay="0.2" data-duration="1.2">
+                            <div class="left">
+                                <div class="icon">
+                                    <img src="assets/images/process/icon/03.svg" alt="process">
+                                </div>
+                            </div>
+                            <div class="inner-content">
+                                <div class="number-main">
+                                    <span class="number">03</span>
+                                </div>
+                                <h5 class="title">Strategy Development</h5>
+                                <p class="disc">
+                                    The agency begins by understanding the
+                                    client's needs, goals, and
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6">
+                    <div class="thumbnail-working-procss-one" data-animation="zoomOut" data-delay="0.2" data-duration="1.2">
+                        <img src="assets/images/process/03.webp" alt="working-process">
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
+        </div>
+    </div>
+    <!-- eorking process areas end -->
+
+    <!-- faq area start -->
+    <div class="rts-faq-area rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-style-five center">
+                        <span class="pre">FAQ</span>
+                        <h2 class="title rts-text-anime-style-1">Frequently Asked Questions</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-full mt--40">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="thumbnail-faq-left">
+                        <img src="assets/images/faq/02.webp" alt="faq-iumage area">
+                    </div>
+                </div>
                 <div class="col-lg-4">
-                    <div class="g-img">
-                        <img src="assets/imgs/hero/g1.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 offset-lg-1 valign">
-                    <div class="clas-skills">
-                        <h6 class="mb-15">// Why Choose Us</h6>
-                        <h2 class="fw-700 mb-15">We Provide brilliant ideas <br> & the digital agency</h2>
-                        <h5 class="sub-font mb-10">Donec ac augue a enim tempus cinia sed id odio. Orci
-                            arius natoque penatibu magnis parturient.</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a velit sed quam
-                            dignissim facilisis id ac orci. Nam ultricies malesuada arcu ut facilisis.</p>
-                        <div class="skills-box mt-40">
-                            <div class="skill-item mb-40">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="85%"></div>
+                    <div class="accordion faq-wrapper-inner-page" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    01. What services/products do you offer?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Neque partrient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet
+                                    vivamus est aliquam euismod nector quam convallis ornare justo service visionary
+                                    sources unleash online
                                 </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Web
-                                        Solution</span> <span class="ml-auto fz-14">85%</span></h6>
                             </div>
-                            <div class="skill-item mb-40">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="75%"></div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    02. Where i can find my business growth result?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Neque partrient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet
+                                    vivamus est aliquam euismod nector quam convallis ornare justo service visionary
+                                    sources unleash online
                                 </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Mobile
-                                        Solution</span> <span class="ml-auto fz-14">75%</span></h6>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-progress">
-                                    <div class="progres" data-value="90%"></div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    03. Did you get any business consultant?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Neque partrient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet
+                                    vivamus est aliquam euismod nector quam convallis ornare justo service visionary
+                                    sources unleash online
                                 </div>
-                                <h6 class="sub-font fz-16 mt-10 d-flex align-items-center"><span>Business
-                                        Solution</span> <span class="ml-auto fz-14">90%</span></h6>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    04. Do you need any business invesment policy?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Neque partrient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet
+                                    vivamus est aliquam euismod nector quam convallis ornare justo service visionary
+                                    sources unleash online
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    04. Do you need any business invesment policy?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Neque partrient sed nascetur facilisis suscipit ridiculus magna lobortis imperdiet
+                                    vivamus est aliquam euismod nector quam convallis ornare justo service visionary
+                                    sources unleash online
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="img-top-left fit-img">
-                <img src="assets/imgs/background/1.jpeg" alt="">
-            </div>
-            <div class="img-top-right fit-img">
-                <img src="assets/imgs/background/2.jpeg" alt="">
-            </div>
         </div>
-    </section>
+    </div>
+    <!-- faq area start -->
 
-    <!-- ==================== End Why Us ==================== -->
-
-
-
-    <!-- ==================== Start Testimonials ==================== -->
-
-    <section class="testimonials section-padding pt-0">
+    <!-- brand area start -->
+    <div class="rts-brand-area rts-section-gapBottom">
         <div class="container">
-            <div class="sec-head mb-80">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center">
-                            <h6 class="mb-15">// Our Testimonials</h6>
-                            <h3 class="fw-700">What People Says Our Best Of Goncy Digital Agency Website
-                            </h3>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand-list-area-wrapper">
+                        <div class="left-paragraph">
+                            <p>Our Trusted Clients</p>
+                        </div>
+                        <div class="right-brand-area-wrapper">
+                            <div class="single-image">
+                                <img src="assets/images/brand/01.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/02.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/03.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/04.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/05.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/06.webp" alt="brand">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- brand area end -->
+
+    <!-- tectimonisl-area start -->
+    <div class="rts-testimonials-area-five bg_image rts-section-gapBottom">
+        <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="testim-swiper3" data-carousel="swiper" data-items="3" data-loop="true"
-                        data-space="30">
-                        <div id="content-carousel-container-unq-testim" class="swiper-container"
-                            data-swiper="container">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/1.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
+                <div class="col-lg-12">
+                    <div class="title-between-area">
+                        <div class="title-style-five">
+                            <span class="pre">Our Testimonials</span>
+                            <h2 class="title rts-text-anime-style-1">Our Customer Feedbacks
+                            </h2>
+                        </div>
+                        <div class="pagination-wrapper">
+                            <div class="swiper-button-prevs"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
+                            <div class="swiper-pagination-fractions"></div>
+                            <div class="swiper-button-nexts"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 mt--10">
+                <div class="col-lg-12">
+                    <div class="swiper mySwiper-testimonials-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-style-five">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/testimonials/03.webp" alt="testimoanils">
+                                    </div>
+                                    <div class="inner-content">
+                                        <div class="name-area">
+                                            <h5 class="title">Jonathon Doe</h5>
+                                            <span>Finance</span>
+                                        </div>
+                                        <p class="disc">
+                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu
+                                            dictums augue
+                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
+                                        </p>
+                                        <div class="body-end">
+                                            <a href="service.html#"><img src="assets/images/testimonials/icons/03.webp" alt="Client_logo"></a>
+                                            <div class="star-icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/2.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-style-five">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/testimonials/04.webp" alt="testimoanils">
+                                    </div>
+                                    <div class="inner-content">
+                                        <div class="name-area">
+                                            <h5 class="title">Jonathon Doe</h5>
+                                            <span>Finance</span>
+                                        </div>
+                                        <p class="disc">
+                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu
+                                            dictums augue
+                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
+                                        </p>
+                                        <div class="body-end">
+                                            <a href="service.html#"><img src="assets/images/testimonials/icons/02.webp" alt="Client_logo"></a>
+                                            <div class="star-icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/3.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="single-testimonials-style-five">
+                                    <div class="thumbnail">
+                                        <img src="assets/images/testimonials/03.webp" alt="testimoanils">
                                     </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="item">
-                                        <div class="content">
-                                            <div class="info d-flex align-items-center mb-25">
-                                                <div>
-                                                    <div class="fit-img circle">
-                                                        <img src="assets/imgs/testim/1.jpg" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="ml-20">
-                                                    <h5 class="fw-700">N. Henry Lucas</h5>
-                                                    <span class="sub-font opacity-7">Branding
-                                                        Specialist</span>
-                                                </div>
-                                            </div>
-                                            <div class="text pb-30 mb-30 bord-thin-bottom">
-                                                <h5 class="sub-font fw-400">Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats. Integer, tempus
-                                                    semper
-                                                    our has been lecto. Nam ultricies sed leo eget vehi.
-                                                    Sed
-                                                    variu noni magna quistoli mats.</h5>
-                                            </div>
-                                            <div class="botm">
-                                                <span class="sub-font opacity-7 mb-5">Average 5.00
-                                                    ratting</span>
-                                                <div class="icon-img-90">
-                                                    <img src="assets/imgs/vector-img/star.svg" alt="">
-                                                </div>
+                                    <div class="inner-content">
+                                        <div class="name-area">
+                                            <h5 class="title">Jonathon Doe</h5>
+                                            <span>Finance</span>
+                                        </div>
+                                        <p class="disc">
+                                            “Dabus nisl aliquet congue tellus nascetur lectus sagpien mattis arcu
+                                            dictums augue
+                                            volutpat felis etiam suspendisse rhoncus mauris dignissim ante”
+                                        </p>
+                                        <div class="body-end">
+                                            <a href="service.html#"><img src="assets/images/testimonials/icons/03.webp" alt="Client_logo"></a>
+                                            <div class="star-icon">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- ==================== End Testimonials ==================== -->
+    </div>
+    <!-- tectimonisl-area end -->
 </x-app-layout>
