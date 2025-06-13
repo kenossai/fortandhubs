@@ -8452,8 +8452,8 @@ header.header--sticky.sticky .nav-area ul li.main-nav {
 }
 
 .rts-banner-area-two {
-    background-image: url(../images/banner/02.webp);
-    height: 850px;
+    /* background-image: url(../images/banner/02.webp); */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;

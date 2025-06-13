@@ -1,716 +1,462 @@
 <x-app-layout>
      @section('title', 'About Us')
 
+<!-- about us area wrapper main -->
+    <div class="rts-breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-left">
+                        <span class="pre">About Invena</span>
+                        <span class="bg-title">About Us</span>
+                        <h1 class="title rts-text-anime-style-1">
+                            Smart and effective <br>
+                            business agency.
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-area">
+            <img src="assets/images/about/shape/01.png" alt="shape" class="one">
+            <img src="assets/images/about/shape/02.png" alt="shape" class="two">
+            <img src="assets/images/about/shape/03.png" alt="shape" class="three">
+        </div>
+    </div>
+    <!-- about us area wrapper main end -->
 
-                <!-- ==================== Start Header ==================== -->
+    <div class="about-invena-large-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="large-image-bottm-breadcrumb">
+                        <img src="assets/images/about/16.webp" alt="about">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <div class="about-header bg-img" data-background="{{ asset('assets/imgs/header/about.jpg') }}"></div>
-
-                <!-- ==================== End Header ==================== -->
-
-
-
-                <!-- ==================== Start intro ==================== -->
-
-                <section class="hero-dark light-ver section-padding">
-                    <div class="container position-re">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="cont">
-                                    <h6 class="md-title mb-15">// About History</h6>
-                                    <h2>Digital agencies strate marketing agencies focus experience, mobile, socia
-                                        gathering analytics.</h2>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 d-flex justify-content-end align-items-end">
-                                <div>
-                                    <img src="assets/imgs/vector-img/Vector.svg" alt="">
-                                </div>
-                            </div>
+    <!-- rts about area start -->
+    <div class="rts-about-area-two rts-section-gap">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="left-thumbnail-about-area-two">
+                        <img src="assets/images/about/04.webp" alt="about">
+                        <div class="small-image">
+                            <img src="assets/images/about/05.webp" alt="small">
                         </div>
-                        <div class="row mt-30">
-                            <div class="col-lg-5">
-                                <div class="img mr-30">
-                                    <img src="assets/imgs/hero/intro-crev2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-lg-5 offset-lg-1">
-                                <div class="text mt-30">
-                                    <p>Phasellus in turpis maximus, iaculis orci eget, elementum libero. Aliquam eget
-                                        augue sed ante tincidunt facilisis quis eget sem. Vestibulum efficitur facilisis
-                                        nunc, posuere facilisis massa facilisis sit amet. Nulla consequat sit amet enim
-                                        vel fermentum. Proin eget euismod turpis.</p>
-                                </div>
-                                <div class="mt-40">
-                                    <a href="page-about.html#0"
-                                        class="butn-circle d-flex align-items-center justify-content-center text-center">
-                                        <div>
-                                            <span class="text fw-700 mb-15">About More</span>
-                                            <br>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                viewBox="0 0 37 36" fill="none">
-                                                <path
-                                                    d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                    stroke="#141414" stroke-width="2"></path>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="circle-img-bord fit-img">
-                            <img src="assets/imgs/hero/2.jpeg" alt="">
+                        <div class="counter-about-area">
+                            <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
+                            </h2>
+                            <span>Year of experience</span>
                         </div>
                     </div>
-                    <div class="brands container mt-80">
-                        <div class="row">
-                            <div class="col-lg col-md-4 col-6">
-                                <div class="item">
-                                    <a href="page-about.html#0">
-                                        <img src="assets/imgs/brands/1.png" alt="">
-                                    </a>
+                </div>
+                <div class="col-lg-6 mt_sm--80 mt_md--80">
+                    <div class="about-inner-content-two">
+                        <div class="title-style-two left">
+                            <span class="bg-content">About Us</span>
+                            <span class="pre">More About Us</span>
+                            <h2 class="title rts-text-anime-style-1">Empowering You to Feel <br> Your Best Every Day
+                            </h2>
+                        </div>
+                        <div class="about-between-wrapper">
+                            <p class="disc">
+                                Porttitor ornare fermentum aliquam pharetra
+                                ut facilisis gravida risus suscipit. dui feugiat
+                                fusce conubia ridiculus tristique parturient
+                                natoque vulputate risu.
+                            </p>
+                            <div class="check-wrapper-area">
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>24/7 Call Services Avilable</p>
                                 </div>
-                            </div>
-                            <div class="col-lg col-md-4 col-6">
-                                <div class="item">
-                                    <a href="page-about.html#0">
-                                        <img src="assets/imgs/brands/2.png" alt="">
-                                    </a>
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Great Skilled Consultant</p>
                                 </div>
-                            </div>
-                            <div class="col-lg col-md-4 col-6">
-                                <div class="item">
-                                    <a href="page-about.html#0">
-                                        <img src="assets/imgs/brands/3.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg col-md-4 col-6">
-                                <div class="item">
-                                    <a href="page-about.html#0">
-                                        <img src="assets/imgs/brands/4.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg col-md-4 col-6">
-                                <div class="item">
-                                    <a href="page-about.html#0">
-                                        <img src="assets/imgs/brands/5.png" alt="">
-                                    </a>
+                                <div class="single-check">
+                                    <i class="fa-solid fa-circle-check"></i>
+                                    <p>Expert Team Members</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-
-                <!-- ==================== End intro ==================== -->
-
-
-
-                <!-- ==================== Start Services ==================== -->
-
-                <section class="services section-padding pt-0">
-                    <div class="container">
-                        <div class="sec-head mb-80">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="text-center">
-                                        <h6 class="mb-15">// Our Best Of Service</h6>
-                                        <h3 class="fw-700">What People Says Our Best Of Goncy Digital Agency Website
-                                        </h3>
-                                    </div>
+                        <div class="call-and-sign-area two">
+                            <div class="call-area">
+                                <div class="icon">
+                                    <i class="fa-sharp fa-regular fa-phone-volume"></i>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row md-marg">
-                            <div class="col-lg-4">
-                                <div class="item text-center md-mb50">
-                                    <div class="icon">
-                                        <img src="assets/imgs/serv-img/icon1.svg" alt="">
-                                    </div>
-                                    <h5 class="fw-700">Marketing Strategy <br> services</h5>
-                                    <div class="text mt-15">
-                                        <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis vestibulum
-                                            condimentum.</p>
-                                    </div>
-                                    <a href="page-about.html#0" class="arrow mt-40">
-                                        <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                    stroke="#141414" stroke-width="2" />
-                                            </svg>
-                                        </span>
+                                <div class="information">
+                                    <span>Call us anytime</span>
+                                    <a href="about.html#">
+                                        <h6 class="title">+256 56778.5678</h6>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
-                                <div class="item text-center md-mb50">
-                                    <div class="icon">
-                                        <img src="assets/imgs/serv-img/icon2.svg" alt="">
-                                    </div>
-                                    <h5 class="fw-700">Marketing Strategy <br> services</h5>
-                                    <div class="text mt-15">
-                                        <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis vestibulum
-                                            condimentum.</p>
-                                    </div>
-                                    <a href="page-about.html#0" class="arrow mt-40">
-                                        <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                    stroke="#141414" stroke-width="2" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="item text-center">
-                                    <div class="icon">
-                                        <img src="assets/imgs/serv-img/icon3.svg" alt="">
-                                    </div>
-                                    <h5 class="fw-700">Marketing Strategy <br> services</h5>
-                                    <div class="text mt-15">
-                                        <p>Pellentesque sit amet urna justo. Fusce velit nibh commodo iaculis vestibulum
-                                            condimentum.</p>
-                                    </div>
-                                    <a href="page-about.html#0" class="arrow mt-40">
-                                        <span><svg width="34" height="13" viewBox="0 0 34 13" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path
-                                                    d="M0.0294371 0.99986H31.5563C32.4473 0.99986 32.8934 2.077 32.2635 2.70697L23.5458 11.4246L20.3941 8.27296"
-                                                    stroke="#141414" stroke-width="2" />
-                                            </svg>
-                                        </span>
-                                    </a>
-                                </div>
+                            <div class="sign-area">
+                                <img src="assets/images/about/sign.svg" alt="">
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+            </div>
+        </div>
+        <div class="shape-area">
+            <img src="assets/images/about/shape/01.svg" alt="shape" class="one">
+            <img src="assets/images/about/shape/02.svg" alt="shape" class="two">
+        </div>
+    </div>
+    <!-- rts about area end -->
 
-                <!-- ==================== End Services ==================== -->
 
-
-
-                <!-- ==================== Start Services ==================== -->
-
-                <section class="services-modern bg-blck">
-                    <div class="container section-padding position-re">
-                        <div class="sec-head mb-80">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <h6 class="mb-15">// Best Of work Services</h6>
-                                    <h2 class="fw-700">Freelance Business Name Generator Guide & Ideas Service.</h2>
-                                </div>
-                                <div class="col-lg-6 d-flex align-items-center justify-content-end">
-                                    <div class="head-cont">
-                                        <div class="icon-img-60 icon mb-80">
-                                            <img src="assets/imgs/vector-img/plus-light.svg" alt="">
-                                        </div>
-                                        <a href="page-about.html#0">
-                                            <span class="text mr-15">View All Service</span>
-                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                    viewBox="0 0 19 8" fill="none">
-                                                    <path
-                                                        d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                        stroke="#fff" />
-                                                </svg></span>
+    <!-- rts team area start -->
+    <div class="rts-team-area rts-section-gapBottom pt--40">
+        <div class="container">
+            <div class="row">
+                <div class="title-style-two center">
+                    <span class="bg-content">Members</span>
+                    <span class="pre">Expert Members</span>
+                    <h2 class="title rts-text-anime-style-1">Professionals Team
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper mySwiperh1_team pt--50 pb--80">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img src="assets/images/team/04.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
+                                                </div>
+                                            </div>
                                         </a>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-9 offset-lg-3">
-                                <div class="item mb-30">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <span class="num">01.</span>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="cont">
-                                                <h5>Search Engine Optimization</h5>
-                                                <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                                    gravida ornare odio.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 d-flex justify-content-end">
-                                            <div>
-                                                <a href="page-about.html#0" class="arrow">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                            viewBox="0 0 37 36" fill="none">
-                                                            <path
-                                                                d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                                stroke="#fff" stroke-width="2"></path>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="img fit-img">
-                                        <img src="assets/imgs/serv-img/02.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="item mb-30">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <span class="num">02.</span>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="cont">
-                                                <h5>Web Design & Development</h5>
-                                                <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                                    gravida ornare odio.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 d-flex justify-content-end">
-                                            <div>
-                                                <a href="page-about.html#0" class="arrow">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                            viewBox="0 0 37 36" fill="none">
-                                                            <path
-                                                                d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                                stroke="#fff" stroke-width="2"></path>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="img fit-img">
-                                        <img src="assets/imgs/serv-img/01.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="item mb-30">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <span class="num">03.</span>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="cont">
-                                                <h5>Design & Multimedia</h5>
-                                                <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                                    gravida ornare odio.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 d-flex justify-content-end">
-                                            <div>
-                                                <a href="page-about.html#0" class="arrow">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                            viewBox="0 0 37 36" fill="none">
-                                                            <path
-                                                                d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                                stroke="#fff" stroke-width="2"></path>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="img fit-img">
-                                        <img src="assets/imgs/serv-img/01.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <span class="num">04.</span>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="cont">
-                                                <h5>Sofrware Design & Development</h5>
-                                                <p>Morbi purus velit, semper eget ante in, feugiat magna. Curabitur
-                                                    gravida ornare odio.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3 d-flex justify-content-end">
-                                            <div>
-                                                <a href="page-about.html#0" class="arrow">
-                                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="37" height="36"
-                                                            viewBox="0 0 37 36" fill="none">
-                                                            <path
-                                                                d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                                                stroke="#fff" stroke-width="2"></path>
-                                                        </svg>
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="img fit-img">
-                                        <img src="assets/imgs/serv-img/02.jpg" alt="">
+                                    <div class="single-details">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Archer Graham</h5>
+                                        </a>
+                                        <p>Founder</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="intro-img">
-                            <img src="assets/imgs/hero/intro-seo.png" alt="">
-                        </div>
-                    </div>
-                </section>
-
-                <!-- ==================== End Services ==================== -->
-
-
-
-                <!-- ==================== Start Team ==================== -->
-
-                <section class="team section-padding">
-                    <div class="container">
-                        <div class="sec-head mb-80">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="text-center">
-                                        <h6 class="mb-15">// Our Team Member</h6>
-                                        <h3 class="fw-700">What People Says Our Best Of Digital Agency Team Member</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item md-mb30">
-                                    <div class="img">
-                                        <img src="assets/imgs/team/1.jpg" alt="">
-                                        <div class="social">
-                                            <a href="page-about.html#0"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="info text-center mt-15">
-                                        <h5 class="fw-700 mb-5">Benjamin Theodore</h5>
-                                        <span class="sub-font p-color text-u">Creative UX/UI Design</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item md-mb30">
-                                    <div class="img">
-                                        <img src="assets/imgs/team/2.jpg" alt="">
-                                        <div class="social">
-                                            <a href="page-about.html#0"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="info text-center mt-15">
-                                        <h5 class="fw-700 mb-5">Sebastian Daniel</h5>
-                                        <span class="sub-font p-color text-u">Brand Ambassador</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item sm-mb30">
-                                    <div class="img">
-                                        <img src="assets/imgs/team/3.jpg" alt="">
-                                        <div class="social">
-                                            <a href="page-about.html#0"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="info text-center mt-15">
-                                        <h5 class="fw-700 mb-5">Michael Alexander</h5>
-                                        <span class="sub-font p-color text-u">Creative Director</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item">
-                                    <div class="img">
-                                        <img src="assets/imgs/team/4.jpg" alt="">
-                                        <div class="social">
-                                            <a href="page-about.html#0"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-linkedin-in"></i></a>
-                                            <a href="page-about.html#0"><i class="fab fa-pinterest-p"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="info text-center mt-15">
-                                        <h5 class="fw-700 mb-5">Asher Samuel</h5>
-                                        <span class="sub-font p-color text-u">Front end developer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mt-60 d-flex justify-content-center">
-                            <a href="page-about.html#0"
-                                class="butn-circle d-flex align-items-center justify-content-center text-center">
-                                <div>
-                                    <span class="text fw-700 mb-15">Join Our Team</span>
-                                    <br>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="37" height="36" viewBox="0 0 37 36"
-                                        fill="none">
-                                        <path d="M1 35L34.2929 1.70711C34.9229 1.07714 36 1.52331 36 2.41421V21.5H29.5"
-                                            stroke="#141414" stroke-width="2"></path>
-                                    </svg>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- ==================== End Team ==================== -->
-
-
-
-                <!-- ==================== Start FAQS ==================== -->
-
-                <section class="faqs">
-                    <div class="main-marq sub-font mb-80">
-                        <div class="slide-har st1">
-                            <div class="box non-strok">
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                            </div>
-                            <div class="box non-strok">
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                                <div class="item">
-                                    <h4 class="d-flex align-items-center"><span>Frequency</span> <span class="icon"><img
-                                                src="assets/imgs/vector-img/Vector.svg" alt=""></span></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="position-re">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-6 col-md-10">
-                                    <div class="sec-head mb-40">
-                                        <h6 class="mb-15">// Our Frequency & Question's</h6>
-                                        <h3 class="fw-700 mb-15">We Provide brilliant ideas <br> Frequency & question's
-                                        </h3>
-                                        <h5 class="sub-font fw-500 mb-10">Donec ac augue a enim tempus cinia sed id
-                                            odio. Orci
-                                            arius natoque penatibu magnis parturient.</h5>
-                                    </div>
-                                    <div class="accordion" id="accordionExample">
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne"><span class="face-icon mr-30"><img
-                                                            src="assets/imgs/vector-img/face.svg" alt=""></span> What
-                                                    can we
-                                                    do for you with Figma? <span class="icon"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                            viewBox="0 0 19 8" fill="none">
-                                                            <path
-                                                                d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                                stroke="#141414" />
-                                                        </svg></span></button>
-                                            </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis cursus
-                                                        dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                        fringilla commodo nisl. Quisque eu tellus tincidunt, vehicula
-                                                        arcu
-                                                        in, feugiat velit.</p>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img src="assets/images/team/05.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingTwo">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                    aria-expanded="false" aria-controls="collapseTwo">
-                                                    <span class="face-icon mr-30"><img
-                                                            src="assets/imgs/vector-img/face.svg" alt=""></span> Do you
-                                                    create one single full home page?<span class="icon"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                            viewBox="0 0 19 8" fill="none">
-                                                            <path
-                                                                d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                                stroke="#141414" />
-                                                        </svg></span>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis cursus
-                                                        dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                        fringilla commodo nisl. Quisque eu tellus tincidunt, vehicula
-                                                        arcu
-                                                        in, feugiat velit.</p>
+                                        </a>
+                                    </div>
+                                    <div class="single-details">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Amelia Clover</h5>
+                                        </a>
+                                        <p>Co-Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img src="assets/images/team/06.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
-                                                    <span class="face-icon mr-30"><img
-                                                            src="assets/imgs/vector-img/face.svg" alt=""></span>What is
-                                                    the standard size of business cards?<span class="icon"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                            viewBox="0 0 19 8" fill="none">
-                                                            <path
-                                                                d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                                stroke="#141414" />
-                                                        </svg></span>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse"
-                                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis cursus
-                                                        dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                        fringilla commodo nisl. Quisque eu tellus tincidunt, vehicula
-                                                        arcu
-                                                        in, feugiat velit.</p>
+                                        </a>
+                                    </div>
+                                    <div class="single-details">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Beckett Hayden</h5>
+                                        </a>
+                                        <p>Deputy Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingFour">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                                    aria-expanded="false" aria-controls="collapseFour">
-                                                    <span class="face-icon mr-30"><img
-                                                            src="assets/imgs/vector-img/face.svg" alt=""></span>What
-                                                    should be on an agency website?<span class="icon"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="19" height="8"
-                                                            viewBox="0 0 19 8" fill="none">
-                                                            <path
-                                                                d="M0.100505 0.899495L17.4853 0.899495C18.3762 0.899495 18.8224 1.97664 18.1924 2.6066L13.8184 6.98061L11.9799 5.14214"
-                                                                stroke="#141414" />
-                                                        </svg></span>
-                                                </button>
-                                            </h2>
-                                            <div id="collapseFour" class="accordion-collapse collapse"
-                                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                                <div class="accordion-body">
-                                                    <p>Morbi tempor pharetra dui vitae condimentum. Morbi mattis cursus
-                                                        dignissim. Curabitur mauris massa, efficitur vitae nisl nec,
-                                                        fringilla commodo nisl. Quisque eu tellus tincidunt, vehicula
-                                                        arcu
-                                                        in, feugiat velit.</p>
+                                        </a>
+                                    </div>
+                                    <div class="single-details">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Julian Wyat</h5>
+                                        </a>
+                                        <p>Finance Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="team-single-one-start">
+                                    <div class="team-image-area">
+                                        <a href="team-details.html">
+                                            <img src="assets/images/team/07.webp" alt="Business_Team_single">
+                                            <div class="team-social">
+                                                <div class="main">
+                                                    <i class="fal fa-plus"></i>
+                                                </div>
+                                                <div class="team-social-one">
+                                                    <i class="fab fa-youtube"></i>
+                                                    <i class="fab fa-twitter"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </a>
+                                    </div>
+                                    <div class="single-details">
+                                        <a href="team-details.html">
+                                            <h5 class="title">Julian Wyat</h5>
+                                        </a>
+                                        <p>Finance Manager</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="imgs">
-                            <div class="img1 fit-img">
-                                <img src="assets/imgs/hero/f1.jpg" alt="">
-                            </div>
-                            <div class="img2 fit-img">
-                                <img src="assets/imgs/hero/f2.jpg" alt="">
-                            </div>
-                            <div class="img3 fit-img">
-                                <img src="assets/imgs/hero/f3.jpg" alt="">
-                            </div>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
-                </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts team area end -->
 
-                <!-- ==================== End FAQS ==================== -->
 
-
-
-                <!-- ==================== Start Numbers ==================== -->
-
-                <section class="numbers section-padding">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item md-mb30">
-                                    <div>
-                                        <h3>5K</h3>
-                                        <div>
-                                            <span class="icon">
-                                                <i class="ti-plus"></i>
-                                            </span>
-                                            <span class="sm-title">Project Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
+    <!-- rts business goal area start -->
+    <div class="business-goal-area-2 rts-section-gapBottom">
+        <div class="container pt--30">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="consultancy-style-one">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Business Goal</span>
+                            <span class="pre">JUST A CONSULTANCY</span>
+                            <h2 class="title rts-text-anime-style-1">We know how to manage <br>
+                                business globally
+                            </h2>
+                        </div>
+                        <div class="signle-consultancy mb--30">
+                            <div class="icon">
+                                <img src="assets/images/about/icons/01.svg" alt="">
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item md-mb30">
-                                    <div>
-                                        <h3>98%</h3>
-                                        <div>
-                                            <span class="icon">
-                                                <i class="ti-plus"></i>
-                                            </span>
-                                            <span class="sm-title">Success Rate</span>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="information">
+                                <h4 class="title">Best Business Consulting</h4>
+                                <p class="disc">
+                                    Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris
+                                    gravida
+                                    rutrum
+                                </p>
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item sm-mb30">
-                                    <div>
-                                        <h3>30</h3>
-                                        <div>
-                                            <span class="icon">
-                                                <i class="ti-plus"></i>
-                                            </span>
-                                            <span class="sm-title">Awards Winning</span>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="signle-consultancy">
+                            <div class="icon">
+                                <img src="assets/images/about/icons/02.svg" alt="">
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="item">
-                                    <div>
-                                        <h3>12</h3>
-                                        <div>
-                                            <span class="icon">
-                                                <i class="ti-plus"></i>
-                                            </span>
-                                            <span class="sm-title">Years Of Experience</span>
-                                        </div>
-                                    </div>
+                            <div class="information">
+                                <h4 class="title">24/7 Customer Support</h4>
+                                <p class="disc">
+                                    Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris
+                                    gravida
+                                    rutrum
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button-wrapper mt--40" data-animation="fadeInUp" data-delay="0.4" data-duration="1.2">
+                            <a href="about.html#" class="rts-btn btn-primary">Contact Us</a>
+                            <div class="vedio-icone">
+                                <a class="video-play-button play-video popup-video" href="https://www.youtube.com/watch?v=vZE0j_WCRvI">
+                                    <span></span>
+                                </a>
+                                <div class="video-overlay">
+                                    <a href="about.html#section1" class="video-overlay-close">×</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
+                <div class="col-lg-6">
+                    <div class="thumbnail-business-area-right-two">
+                        <div class="large-thumbnail">
+                            <img src="assets/images/business-goal/02.webp" alt="">
+                        </div>
+                        <div class="small-thumbnail images-r">
+                            <img src="assets/images/business-goal/01.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                <!-- ==================== End Numbers ==================== -->
+    <!-- rts clients review area start -->
+    <div class="rts-client-review-area rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-between-wrapper">
+                        <div class="title-style-two mb--40 left">
+                            <span class="bg-content">Review</span>
+                            <span class="pre">Our Testimonial</span>
+                            <h2 class="title rts-text-anime-style-1">Our Client Reviews
+                            </h2>
+                        </div>
+                        <div class="pagination-wrapper">
+                            <div class="swiper-pagination-fraction"></div>
+                            <div class="swiper-button-next"><i class="fa-sharp fa-regular fa-arrow-right"></i></div>
+                            <div class="swiper-button-prev"><i class="fa-sharp fa-regular fa-arrow-left"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="testimonials-wrapper-swiper-demo-2">
+                        <div class="swiper mySwiper-testimonials-dmeo-2">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonials-main-wrapper-two">
+                                        <div class="left-thumbnail">
+                                            <img src="assets/images/testimonials/01.webp" alt="testimonials">
+                                        </div>
+                                        <div class="right-content-testimonials">
+                                            <p class="disc">
+                                                I can't recommend The Gourmet Haven enough. It's a place for special
+                                                occasions, date
+                                                nights, or whenever you're in the mood for a culinary adventure. The
+                                                combination of
+                                                exceptional.
+                                            </p>
+                                            <div class="name-desig">
+                                                <h6 class="title">William Henry</h6>
+                                                <p>Designer at <b>Vertex Agency</b></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts clients review area end -->
+
+    <div class="rts-brand-area rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand-list-area-wrapper">
+                        <div class="left-paragraph">
+                            <p>Our Trusted Clients</p>
+                        </div>
+                        <div class="right-brand-area-wrapper">
+                            <div class="single-image">
+                                <img src="assets/images/brand/01.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/02.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/03.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/04.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/05.webp" alt="brand">
+                            </div>
+                            <div class="single-image">
+                                <img src="assets/images/brand/06.webp" alt="brand">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts brand area end -->
 </x-app-layout>

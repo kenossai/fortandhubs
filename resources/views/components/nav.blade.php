@@ -17,7 +17,7 @@
                                         <a href="/">Home</a>
                                     </li>
                                     <li class="main-nav">
-                                        <a href="index.html#">About</a>
+                                        <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li class="main-nav">
                                         <a href="{{ route('service') }}">Service</a>

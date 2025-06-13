@@ -1,7 +1,7 @@
 <x-app-layout>
     <!-- ==================== Start Intro ==================== -->
 @section('title', 'Home Page')
-<x-banner />
+<x-banner :slides="$slides" />
 
     <!-- rts about area start -->
     <x-about-us />
