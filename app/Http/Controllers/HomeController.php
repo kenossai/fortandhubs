@@ -10,6 +10,7 @@ class HomeController extends Controller
     public function index()
     {
         $slides = Slide::all();
-        return view('index', compact('slides'));
+        $clients = \App\Models\Client::all();
+        return view('index', compact('slides', 'clients'));
     }
 }
