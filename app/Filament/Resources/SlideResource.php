@@ -4,6 +4,9 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\SlideResource\Pages;
 use App\Filament\Resources\SlideResource\RelationManagers;
+use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\TextInput;
+use Filament\Forms\Components\Textarea;
 use App\Models\Slide;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -12,41 +15,58 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Actions\DeleteAction;
 
 class SlideResource extends Resource
 {
     protected static ?string $model = Slide::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+    protected static ?string $navigationLabel = 'Hero Slides';
+    protected static ?string $navigationGroup = 'Pages > Homepage';
+    protected static ?string $navigationIcon = 'heroicon-o-photo';
+    protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form
     {
         return $form->schema([
-            Forms\Components\TextInput::make('title')->required(),
-            Forms\Components\Textarea::make('description'),
-            Forms\Components\FileUpload::make('image_path')->image()->directory('slides'),
+            TextInput::make('title')
+                ->required()
+                ->maxLength(255),
+
+            Textarea::make('description')
+                ->rows(3),
+
+            FileUpload::make('image_path')
+                ->label('Slide Image')
+                ->image()
+                ->directory('slides')
+                ->required(),
         ]);
     }
 
     public static function table(Table $table): Table
     {
-        return $table
-            ->columns([
-                Tables\Columns\TextColumn::make('title'),
-                Tables\Columns\TextColumn::make('description'),
-                Tables\Columns\ImageColumn::make('image_path'),
-            ])
-            ->filters([
-                //
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ]);
+        return $table->columns([
+            ImageColumn::make('image_path')
+                ->label('Image')
+                ->disk('slides'),
+
+            TextColumn::make('title')
+                ->searchable()
+                ->sortable(),
+
+            TextColumn::make('created_at')
+                ->dateTime()
+                ->sortable(),
+        ])
+        ->actions([
+            EditAction::make(),
+            DeleteAction::make(),
+        ])
+        ->defaultSort('created_at', 'desc');
     }
 
     public static function getRelations(): array
