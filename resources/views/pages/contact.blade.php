@@ -63,11 +63,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="contact-form-p">
-                        <form class="form__content" method="post" action="https://html.themewant.com/invena/mailer.php" id="contact-form">
+                        <form class="form__content" method="POST" action="{{ route('messages.store') }}" >
+                            @csrf
                             <h4 class="title">Get In Touch</h4>
-                            <input name="name" id="name" type="text" placeholder="Your Name">
-                            <input type="email" name="email" id="email" placeholder="Johndoe@gmail.com">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <input name="name" type="text" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Johndoe@gmail.com" required>
+                            <input name="subject" type="text" placeholder="Subject">
+                            <textarea name="message"  placeholder="Message"></textarea>
 
                             <div id="form-messages"></div>
                             <button class="rts-btn btn-primary" type="submit">Get In Touch</button>
