@@ -7,11 +7,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-left">
-                        <span class="pre">About Invena</span>
+                        <span class="pre">About Us</span>
                         <span class="bg-title">About Us</span>
                         <h1 class="title rts-text-anime-style-1">
-                            Smart and effective <br>
-                            business agency.
+                            {!! $about->title !!}
                         </h1>
                     </div>
                 </div>
@@ -30,7 +29,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="large-image-bottm-breadcrumb">
-                        <img src="assets/images/about/16.webp" alt="about">
+                        @if ($about?->banne_image)
+                            <img src="{{ asset('storage/' . $about->banner_image) }}" alt="about">
+                        @else
+                            <img src="{{ asset('assets/images/about/16.webp') }}" alt="about">
+                        @endif
                     </div>
                 </div>
             </div>
@@ -43,12 +46,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="left-thumbnail-about-area-two">
-                        <img src="assets/images/about/04.webp" alt="about">
+                        <img src="{{ asset('assets/images/about/04.png') }}" alt="about">
                         <div class="small-image">
-                            <img src="assets/images/about/05.webp" alt="small">
+                            <img src="{{ asset('assets/images/about/05.webp') }}" alt="small">
                         </div>
                         <div class="counter-about-area">
-                            <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
+                            <h2 class="counter title"><span class="odometer" data-count="10">00</span>+
                             </h2>
                             <span>Year of experience</span>
                         </div>
@@ -59,45 +62,26 @@
                         <div class="title-style-two left">
                             <span class="bg-content">About Us</span>
                             <span class="pre">More About Us</span>
-                            <h2 class="title rts-text-anime-style-1">Empowering You to Feel <br> Your Best Every Day
+                            <h2 class="title rts-text-anime-style-1">{!! $about->sub_title !!}
                             </h2>
                         </div>
                         <div class="about-between-wrapper">
                             <p class="disc">
-                                Porttitor ornare fermentum aliquam pharetra
-                                ut facilisis gravida risus suscipit. dui feugiat
-                                fusce conubia ridiculus tristique parturient
-                                natoque vulputate risu.
+                                {!! $about->description !!}
                             </p>
                             <div class="check-wrapper-area">
-                                <div class="single-check">
+                                 <div class="single-check">
                                     <i class="fa-solid fa-circle-check"></i>
                                     <p>24/7 Call Services Avilable</p>
                                 </div>
                                 <div class="single-check">
                                     <i class="fa-solid fa-circle-check"></i>
-                                    <p>Great Skilled Consultant</p>
+                                    <p>Skilled Project Experts</p>
                                 </div>
                                 <div class="single-check">
                                     <i class="fa-solid fa-circle-check"></i>
-                                    <p>Expert Team Members</p>
+                                    <p>Excellent Team Members</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="call-and-sign-area two">
-                            <div class="call-area">
-                                <div class="icon">
-                                    <i class="fa-sharp fa-regular fa-phone-volume"></i>
-                                </div>
-                                <div class="information">
-                                    <span>Call us anytime</span>
-                                    <a href="about.html#">
-                                        <h6 class="title">+256 56778.5678</h6>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="sign-area">
-                                <img src="assets/images/about/sign.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -317,10 +301,10 @@
                 <div class="col-lg-6">
                     <div class="thumbnail-business-area-right-two">
                         <div class="large-thumbnail">
-                            <img src="assets/images/business-goal/02.webp" alt="">
+                            <img src="{{ asset('assets/images/about/17.webp') }}" alt="">
                         </div>
                         <div class="small-thumbnail images-r">
-                            <img src="assets/images/business-goal/01.webp" alt="">
+                            <img src="{{ asset('assets/images/about/04.svg') }}" alt="">
                         </div>
                     </div>
                 </div>
