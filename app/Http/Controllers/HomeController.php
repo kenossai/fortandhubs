@@ -11,6 +11,8 @@ class HomeController extends Controller
     {
         $slides = Slide::all();
         $clients = \App\Models\Client::all();
-        return view('index', compact('slides', 'clients'));
+        $teamMembers = \App\Models\TeamMember::all();
+        $reviews = \App\Models\Review::all();
+        return view('index', compact('slides', 'clients', 'teamMembers', 'reviews'));
     }
 }
