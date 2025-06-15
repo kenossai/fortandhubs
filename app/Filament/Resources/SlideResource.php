@@ -52,7 +52,9 @@ class SlideResource extends Resource
         return $table->columns([
             ImageColumn::make('image_path')
                 ->label('Image')
-                ->disk('slides'),
+                ->disk('public')
+                ->circular()
+                ->getStateUsing(fn ($record) => asset('storage/' . $record->image_path)),
 
             TextColumn::make('title')
                 ->searchable()
