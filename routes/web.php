@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SubscriptionController;
 
@@ -31,5 +32,7 @@ Route::get('/service', [ServiceController::class, 'index'])->name('service');
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe');
 
 Route::get('/unsubscribe/{token}', [SubscriptionController::class, 'unsubscribe'])->name('unsubscribe');
+
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 
 
