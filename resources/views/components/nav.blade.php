@@ -23,7 +23,7 @@
                                         <a href="{{ route('service') }}">Service</a>
                                     </li>
                                     <li class="main-nav">
-                                        <a href="index.html#">Project</a>
+                                        <a href="{{ route('projects') }}">Project</a>
                                     </li>
                                     <li class="main-nav project-a-after">
                                         <a href="{{ route('contact') }}">Contact Us</a>
