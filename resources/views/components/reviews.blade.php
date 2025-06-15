@@ -24,9 +24,27 @@
                             <div class="swiper-wrapper">
                                 @foreach ($reviews as $review)
                                     <div class="swiper-slide">
+                                        <div class="testimonials-main-wrapper-two">
+                                            <div class="left-thumbnail">
+                                                <img loading="lazy" src="{{ asset('storage/' . $review->image_path) }}" alt="testimonials">
+                                            </div>
+                                            <div class="right-content-testimonials">
+                                                <p class="disc">
+                                                    {{ $review->review }}
+                                                </p>
+                                                <div class="name-desig">
+                                                    <h6 class="title">{{ $review->name }}</h6>
+                                                    <p>{{ $review->role }} at <b>{{ $review->company }}</b></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
+                                {{-- @foreach ($reviews as $review)
+                                    <div class="swiper-slide">
                                         <div class="client-review-single">
                                             <div class="client-review-image">
-                                                <img src="{{ asset('storage/' . $review->photo) }}" alt="client image">
+                                                <img src="{{ asset('storage/' . $review->image_path) }}" alt="client image">
                                             </div>
                                             <div class="client-review-content">
                                                 <p>{{ $review->content }}</p>
@@ -35,7 +53,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                @endforeach
+                                @endforeach --}}
                             </div>
                         </div>
                     </div>
