@@ -1,52 +1,123 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank you for subscribing</title>
-  <!--[if mso]><style type="text/css">body, table, td, a { font-family: Arial, Helvetica, sans-serif !important; }</style><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <title>Logiqids</title>
 </head>
 
-<body style="font-family: Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; background-color: #ffffff;">
-  <table role="presentation"
-    style="width: 100%; border-collapse: collapse; border: 0px; border-spacing: 0px; font-family: Arial, Helvetica, sans-serif; background-color: rgb(239, 239, 239);">
-    <tbody>
-      <tr>
-        <td align="center" style="padding: 1rem 2rem; vertical-align: top; width: 100%;">
-          <table role="presentation" style="max-width: 600px; border-collapse: collapse; border: 0px; border-spacing: 0px; text-align: left;">
-            <tbody>
-              <tr>
-                <td style="padding: 40px 0px 0px;">
-                  <div style="text-align: left;">
-                    <div style="padding-bottom: 20px;"><img
-                        src="{{ asset('assets/images/logo/logo.png') }}" alt="Company"
-                        style="width: 100px;"></div>
-                  </div>
-                  <div style="padding: 20px; background-color: rgb(255, 255, 255);">
-                    <div style="color: rgb(0, 0, 0); text-align: left;">
-                      <h1 style="margin: 1rem 0">Thanks for subscribing!</h1>
-                      <p style="padding-bottom: 16px">The FortanHubs Newsletter is the best way to find out about the universe <em>...and
-                          beyond</em>.</p>
-                      <p style="padding-bottom: 16px">Once or twice a month, you will now receive our newsletter with information about new
-                        world, planets, solar systems, as well as science, new discoveries and much more. </p>
-                      <p style="padding-bottom: 16px">Of course, you can <a href="{{ route('unsubscribe', $subscriber->unsubscribe_token) }}" target="_blank" style="text-decoration: none;">Unsubscribe</a>.</p>
-                      <p style="padding-bottom: 16px">We're really happy to have you on board!</p>
-                      <p style="padding-bottom: 16px">Best regards,<br><em>The Mailmeteor team</em></p>
-                    </div>
-                  </div>
-                  <div style="padding-top: 20px; color: rgb(153, 153, 153); text-align: center;">
-                    <p style="padding-bottom: 16px">Made with ♥ in Paris</p>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+<body style="padding:0; margin:0; text-align: center; background-color: #FDFDFD;">
+
+<table width="640px" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff" align="center">
+  <tr>
+    <td align="center" valign="top">
+
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+				<!-- // Header Start -->
+        <tr>
+          <td width="100%" align="center" valign="middle" style="padding: 20px; background-color: #FDFDFD;">
+            <a href="#">
+            	<img src="https://res.cloudinary.com/logiqids/image/upload/logo/LogIQids_logo.png" height="65" alt="SendGrid" style="outline: none; border: none;">
+            </a>
+          </td>
+        </tr>
+        <!-- // Header End -->
+
+        <!-- // Banner Start -->
+<!--         <tr>
+        	<td width="100%" align="center" valign="middle" style="padding: 15px 15px; background-color: #0C0C0C; color: #ffffff; font-family:'Open sans', Arial, Helvetica, sans-serif; border-left: solid 1px #dadada; border-right: solid 1px #dadada; border-top: solid 1px #dadada;">
+<img src="https://s3.ap-south-1.amazonaws.com/logiqidsstaticcontent/quote-children-must-be-taught-how-to-think-not-what-to-think-margaret-mead-37-48-14.png" >
+        	</td>
+        </tr> -->
+        <!-- // Banner End -->
+
+        <!-- // Middle Content Start -->
+        <tr>
+          <td width="620" align="center" valign="middle" colspan="2" style="border: 1px solid #f0f0f0;padding: 15px 0px;">
+
+            <!-- // Row Top Start -->
+						<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+							<tr>
+								<td style="padding-top:10px;padding-left: 40px; padding-right: 40px;color:#294661;font-family:'Open Sans',sans-serif;font-size:15px;font-weight:300;text-align:left;line-height: 1.4em;">
+									<h2 style="margin:0;margin-bottom:20px;font-family:'Open Sans',sans-serif;font-weight:300;line-height:1.5;font-size:24px;color:#294661!important;">Hi {{name}},</h2>
+
+<p>Congratulations on qualifying for <strong>LogIQids Logical Reasoning Second Stage Test</strong>
+and thanks for enrolling in the Second Stage Test. The test will tentatively be held in <strong>April
+2018</strong>.</p>
+<p>Exact test dates will be announced soon and notified via email.</p>
+<p>
+  Do watch out your <a href="https://www.logiqids.com/dashboard">dashboard</a>  periodically for important updates on test schedule, selection of
+test center and printing admit card.</p>
+ <p> You can start preparing for this stage by subscribing to our Worksheet Subscription. Our worksheets are customized specifically based on the ability of each child and help identify strengths and areas for improvement. You can enroll for a worksheet subscription <a href="https://www.logiqids.com/pricing">here</a></p>
+
+
+								</td>
+							</tr>
+						</table>
+						<!-- // Row Top End -->
+
+
+            <!-- // Row Bottom content Start -->
+						<table cellpadding="0" cellspacing="0" border="0" width="620" align="center">
+							<tr>
+								<td style="padding-left: 40px; padding-right: 40px; color: #294661; font-family:'Open Sans',sans-serif;">
+									<p style="font-family:'Open Sans',sans-serif; color: #294661; font-size: 14px; text-align: center; line-height: 25px;">
+										<i>In case of any queries, please feel free to reach out to us on</i>
+										<a href="mailto:support@logiqids.com">support@logiqids.com</a>
+										<i>or</i>
+										<a  href="tel:+918080809604">+91-8080809604/5</a> or WhatsApp us on .<a  href="tel:+917045345345">+91-7045345345</a>
+									</p>
+								</td>
+							</tr>
+						</table>
+						<!-- // Row Bottom content End -->
+
+            <!-- // Row Signature Start -->
+						<table cellpadding="0" cellspacing="0" border="0" width="620" align="center">
+							<tr>
+								<td style="padding-left: 40px; padding-right: 40px; color: #294661; font-family:'Open Sans',sans-serif;">
+									<p style="color:#294661;font-family:'Open Sans', sans-serif;font-size:16px;text-align:  left;font-weight:300;line-height:1.4em;">Happy Solving!<br>The <span>LoqIQids</span> Team</p>
+								</td>
+							</tr>
+						</table>
+						<!-- // Row Signature End -->
+
+          </td>
+        </tr>
+        <!-- // Middle Content End -->
+
+        <!-- // Footer Start -->
+        <tr>
+        	<td colspan="2" style="padding-top: 15px; padding-bottom: 15px; paddin-left: 10px; padding-right: 10px; background-color: #FDFDFD;" align="center" valign="middle">
+        	<img src="https://res.cloudinary.com/logiqids/image/upload/logo/LogIQids_logo_small.png" height="25" alt="LogIQids" style="max-width:100%;border-style:none;font-size:12px">
+
+						 <p style="color:#294661;font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif;font-size:12px;font-weight:400;margin-bottom:5px;margin:10px 0 20px">Every time a little smarter</p>
+						<p style="margin:0;color:#294661;font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif;font-weight:300;font-size:10px;margin-bottom:5px">Copyright 2018, All Rights Reserved by LogIQids</p>
+						<p style="margin:0;color:#294661;font-family:'Open Sans','Helvetica Neue','Helvetica',Helvetica,Arial,sans-serif;font-weight:300;font-size:12px;margin-bottom:5px">
+
+								<a href="
+						https://www.facebook.com/logiqids" style="box-sizing:border-box;color:#348eda;font-weight:400;text-decoration:none;font-size:12px;padding:0 5px" target="_blank" data-saferedirecturl="
+						https://www.facebook.com/logiqids">Facebook</a>
+
+<a href="https://twitter.com/LogIQids" style="box-sizing:border-box;color:#348eda;font-weight:400;text-decoration:none;font-size:12px;padding:0 5px" target="_blank" data-saferedirecturl="
+https://twitter.com/LogIQids">Twitter</a>
+
+						<a href="https://www.instagram.com/logiqids/?hl=en" style="box-sizing:border-box;color:#348eda;font-weight:400;text-decoration:none;font-size:12px;padding:0 5px" target="_blank" data-saferedirecturl="https://www.instagram.com/logiqids/?hl=en">Instagram</a>
+						 </p>
+        	</td>
+        </tr>
+        <!-- // Footer End -->
+      </table>
+
+    </td>
+  </tr>
+</table>
+
+
 </body>
-
 </html>
-
