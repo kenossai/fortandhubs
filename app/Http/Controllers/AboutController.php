@@ -9,6 +9,8 @@ class AboutController extends Controller
     public function index()
     {
         $about = \App\Models\About::first();
-        return view('pages.about', compact('about'));
+        $teamMembers = \App\Models\TeamMember::all();
+        $clients = \App\Models\Client::take(6)->get();
+        return view('pages.about', compact('about', 'teamMembers', 'clients'));
     }
 }
