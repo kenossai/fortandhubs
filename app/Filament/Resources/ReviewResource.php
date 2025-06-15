@@ -47,9 +47,12 @@ class ReviewResource extends Resource
                     ->rows(3)
                     ->label('Review Text'),
                 FileUpload::make('image_path')
-                    ->label('Reviewer Image')
-                    ->image()
+                    ->label('Reviewer Photo, Image size should be 530x668 pixels')
                     ->directory('reviews')
+                    ->visibility('public')
+                    ->previewable(true)
+                    ->image()
+                    ->getUploadedFileNameForStorageUsing(fn ($file) => $file->getClientOriginalName())
                     ->required(),
             ]);
     }
