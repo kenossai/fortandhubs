@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('reviews', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
-            $table->text('review_desc')->nullable();
-            $table->text('job')->nullable();
+            $table->text('review')->nullable();
+            $table->text('role')->nullable();
             $table->text('company')->nullable();
             $table->string('image_path');
             $table->timestamps();

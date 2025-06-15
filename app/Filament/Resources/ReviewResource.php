@@ -4,25 +4,26 @@ namespace App\Filament\Resources;
 
 use Filament\Forms;
 use Filament\Tables;
-use App\Models\Client;
+use App\Models\Review;
 use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
+use Filament\Forms\Components\Textarea;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Forms\Components\TextInput;
 use Filament\Tables\Columns\ImageColumn;
 use Filament\Forms\Components\FileUpload;
 use Illuminate\Database\Eloquent\Builder;
-use App\Filament\Resources\ClientResource\Pages;
+use App\Filament\Resources\ReviewResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
-use App\Filament\Resources\ClientResource\RelationManagers;
+use App\Filament\Resources\ReviewResource\RelationManagers;
 
-class ClientResource extends Resource
+class ReviewResource extends Resource
 {
-    protected static ?string $model = Client::class;
+    protected static ?string $model = Review::class;
 
-    protected static ?string $navigationLabel = 'Clients';
     protected static ?string $navigationGroup = 'Pages > Homepage';
+    protected static ?int $navigationSort = 4;
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
@@ -31,11 +32,24 @@ class ClientResource extends Resource
             ->schema([
                 TextInput::make('name')
                     ->required()
-                    ->maxLength(255),
+                    ->maxLength(255)
+                    ->label('Reviewer Name'),
+                TextInput::make('role')
+                    ->required()
+                    ->maxLength(255)
+                    ->label('Role'),
+                TextInput::make('company')
+                    ->required()
+                    ->maxLength(255)
+                    ->label('Company'),
+                Textarea::make('review')
+                    ->required()
+                    ->rows(3)
+                    ->label('Review Text'),
                 FileUpload::make('image_path')
-                    ->label('Client Image')
+                    ->label('Reviewer Image')
                     ->image()
-                    ->directory('clients')
+                    ->directory('reviews')
                     ->required(),
             ]);
     }
@@ -44,16 +58,24 @@ class ClientResource extends Resource
     {
         return $table
             ->columns([
-
                 TextColumn::make('name')
                     ->searchable()
                     ->sortable(),
-
-                    ImageColumn::make('image_path')
-                    ->label('Image')
+                TextColumn::make('role')
+                    ->sortable()
+                    ->label('Role'),
+                TextColumn::make('company')
+                    ->searchable()
+                    ->sortable()
+                    ->label('Company'),
+                TextColumn::make('review')
+                    ->searchable()
+                    ->limit(50),
+                ImageColumn::make('image_path')
                     ->disk('public')
                     ->circular()
-                    ->getStateUsing(fn ($record) => asset('storage/' . $record->image_path)),
+                    ->getStateUsing(fn ($record) => asset('storage/' . $record->image_path))
+                    ->label('Image'),
             ])
             ->filters([
                 //
@@ -62,7 +84,6 @@ class ClientResource extends Resource
                 Tables\Actions\EditAction::make(),
                 Tables\Actions\DeleteAction::make(),
             ])
-            ->defaultSort('created_at', 'desc')
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
@@ -80,9 +101,9 @@ class ClientResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListClients::route('/'),
-            'create' => Pages\CreateClient::route('/create'),
-            'edit' => Pages\EditClient::route('/{record}/edit'),
+            'index' => Pages\ListReviews::route('/'),
+            'create' => Pages\CreateReview::route('/create'),
+            'edit' => Pages\EditReview::route('/{record}/edit'),
         ];
     }
 }
