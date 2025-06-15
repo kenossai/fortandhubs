@@ -41,7 +41,9 @@ class TeamMemberResource extends Resource
     public static function table(Table $table): Table
     {
         return $table->columns([
-            ImageColumn::make('photo')->disk('public')->width(50),
+            ImageColumn::make('photo')->disk('public')->width(50)->height(50)
+                ->square()
+                ->getStateUsing(fn ($record) => asset('storage/' . $record->photo)),
             TextColumn::make('name')->searchable(),
             TextColumn::make('role'),
         ]);
