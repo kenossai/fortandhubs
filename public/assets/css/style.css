@@ -13951,9 +13951,9 @@ section.main-wrapper-sticky .sticky-statement.narrow .left-side img {
         font-size: 42px;
     }
 }
-.partner-breadcrumb .title-area-left * {
+/* .partner-breadcrumb .title-area-left * {
     color: #fff;
-}
+} */
 @media only screen and (max-width: 575px) {
     .partner-breadcrumb .title-area-left * {
         font-size: 44px;
