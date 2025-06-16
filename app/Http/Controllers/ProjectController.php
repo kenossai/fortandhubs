@@ -11,4 +11,10 @@ class ProjectController extends Controller
         $clients = \App\Models\Client::take(6)->get();
         return view('pages.projects', compact('clients'));
     }
+
+    public function show($slug)
+    {
+        $project = \App\Models\Project::where('slug', $slug)->firstOrFail();
+        return view('pages.project-details', compact('project'));
+    }
 }
