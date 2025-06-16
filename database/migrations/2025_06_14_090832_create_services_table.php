@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('icon')->nullable(); // optional
-            $table->text('content');
+            $table->text('sub_content'); // short description
+            $table->longText('content');
             $table->string('photo')->nullable(); // optional
             $table->timestamps();
         });
