@@ -37,7 +37,7 @@
                                 <a href="{{ route('contact') }}" class="rts-btn btn-primary ml--20 ml_sm--5 header-one-btn quote-btn">Get
                                     Quote</a>
                                 <button id="menu-btn" aria-label="Menu" class="menu-btn menu ml--20 ml_sm--5">
-                                    <img class="menu-light" src="assets/images/icons/01.svg" alt="Menu-icon">
+                                    <img class="menu-light" src="{{ asset('assets/images/icons/01.svg') }}" alt="Menu-icon">
                                 </button>
                             </div>
                         </div>
