@@ -8,7 +8,7 @@
                             <span class="pre">Make An Appointment</span>
                             <h2 class="title">Make Request</h2>
                         </div>
-                        <form method="POST" action="{{ route('appointments.store') }}">
+                        <form id="appointment-form">
                             @csrf
                             <div class="single-input-wrapper">
                                 <div class="single-input">

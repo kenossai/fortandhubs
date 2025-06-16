@@ -217,5 +217,45 @@
 </x-app-layout>
 
 
+<script>
+    document.getElementById('appointment-form').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const form = e.target;
+        const formData = new FormData(form);
+
+        try {
+            const response = await fetch("{{ route('appointments.store') }}", {
+                method: 'POST',
+                headers: {
+                    'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                },
+                body: formData,
+            });
+
+            if (!response.ok) throw new Error('Network response was not ok');
+
+            const result = await response.json();
+
+            Toastify({
+                text: result.message,
+                duration: 3000,
+                gravity: "top",
+                position: "right",
+                backgroundColor: "#28a745",
+            }).showToast();
+
+            form.reset();
+        } catch (error) {
+            Toastify({
+                text: "Oops! Something went wrong.",
+                duration: 3000,
+                gravity: "top",
+                position: "right",
+                backgroundColor: "#dc3545",
+            }).showToast();
+        }
+    });
+</script>
 
 

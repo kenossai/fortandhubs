@@ -28,18 +28,18 @@ class AppointmentController extends Controller
      */
     public function store(Request $request)
     {
-        $validated = $request->validate([
-            'name' => 'required',
+         $data = $request->validate([
+            'name' => 'required|string|max:255',
             'email' => 'required|email',
-            'phone' => 'nullable',
-            'subject' => 'nullable',
-            'message' => 'nullable',
+            'phone' => 'nullable|string',
+            'subject' => 'nullable|string',
+            'message' => 'nullable|string',
             'appointment_date' => 'required|date',
         ]);
 
-        Appointment::create($validated);
+        Appointment::create($data);
 
-        return back()->with('success', 'Appointment submitted successfully!');
+        return response()->json(['message' => 'Appointment submitted successfully!']);
     }
 
     /**

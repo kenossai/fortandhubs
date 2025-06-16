@@ -27,17 +27,21 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet preload" as="style">
     <link rel="preload" as="image" href="{{ asset('assets/images/banner/21.webp') }}" />
     <link rel="stylesheet preload" href="{{ asset('assets/css/style.css') }}" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
 </head>
 
 <body>
 
 {{ $slot }}
+
+
+
     <script defer src="{{ asset('assets/js/plugins/jquery.js') }}"></script>
 
     <script defer src="{{ asset('assets/js/plugins/odometer.js') }}"></script>
     <script defer src="{{ asset('assets/js/plugins/jquery-appear.js') }}"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     <script defer src="{{ asset('assets/js/plugins/gsap.js') }}"></script>
     <script defer src="{{ asset('assets/js/plugins/split-text.js') }}"></script>
