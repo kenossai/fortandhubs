@@ -28,11 +28,13 @@ Route::post('/contact/send', [MessageController::class, 'store'])->name('message
 Route::get('/about-us', [AboutController::class, 'index'])->name('about');
 
 Route::get('/service', [ServiceController::class, 'index'])->name('service');
+Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.show');
 
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe');
 
 Route::get('/unsubscribe/{token}', [SubscriptionController::class, 'unsubscribe'])->name('unsubscribe');
 
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
+Route::get('/project/{id}', [ProjectController::class, 'show'])->name('projects.show');
 
 
