@@ -8,7 +8,14 @@ class ServiceController extends Controller
 {
     public function index()
     {
-        return view('pages.services');
+        $services = \App\Models\Service::all();
+        return view('pages.services', compact('services'));
+    }
+
+    public function show($id)
+    {
+        $service = \App\Models\Service::findOrFail($id);
+        return view('pages.service-details', compact('service'));
     }
 
 
