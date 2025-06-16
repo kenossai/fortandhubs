@@ -8,7 +8,7 @@
                         <img loading="lazy" src="assets/images/about/05.webp" alt="small">
                     </div>
                     <div class="counter-about-area">
-                        <h2 class="counter title"><span class="odometer" data-count="25">00</span>+
+                        <h2 class="counter title"><span class="odometer" data-count="10">00</span>+
                         </h2>
                         <span>Year of experience</span>
                     </div>
@@ -43,22 +43,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="call-and-sign-area two">
-                        <div class="call-area">
-                            <div class="icon">
-                                <i class="fa-sharp fa-regular fa-phone-volume"></i>
-                            </div>
-                            <div class="information">
-                                <span>Call us anytime</span>
-                                <a href="index.html#">
-                                    <h6 class="title">+256 56778.5678</h6>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="sign-area">
-                            <img loading="lazy" src="assets/images/about/sign.svg" alt="">
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
