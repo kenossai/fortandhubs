@@ -17,6 +17,7 @@ use Illuminate\Database\Eloquent\Builder;
 use App\Filament\Resources\ServiceResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use App\Filament\Resources\ServiceResource\RelationManagers;
+use Filament\Forms\Components\RichEditor;
 
 class ServiceResource extends Resource
 {
@@ -31,7 +32,8 @@ class ServiceResource extends Resource
         return $form->schema([
             TextInput::make('title')->required(),
             TextInput::make('icon')->label('Icon Class (optional)'),
-            Textarea::make('content')->rows(4)->required(),
+            Textarea::make('sub_content')->required(),
+            RichEditor::make('content')->required(),
             FileUpload::make('photo')
                 ->label('Service Image')
                 ->image()
@@ -44,6 +46,8 @@ class ServiceResource extends Resource
     {
         return $table->columns([
             TextColumn::make('title')->searchable(),
+            TextColumn::make('content')->limit(50)->searchable(),
+            TextColumn::make('sub_content')->limit(10)->searchable(),
             ImageColumn::make('photo')->disk('public')->width(50),
             TextColumn::make('icon'),
         ]);
