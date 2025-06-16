@@ -7,6 +7,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\SubscriptionController;
 
 /*
@@ -21,6 +22,8 @@ use App\Http\Controllers\SubscriptionController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::post('/appointments', [AppointmentController::class, 'store'])->name('appointments.store');
+
 
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/send', [MessageController::class, 'store'])->name('messages.store');
