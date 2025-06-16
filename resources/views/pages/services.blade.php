@@ -31,71 +31,25 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="rts-service-main-wrapper-10">
-                        <div class="signle-service-style-10">
-                            <div class="content-area-wrapper">
-                                <div class="icon">
-                                    <img src="assets/images/service/icons/11.svg" alt="service">
+                        @foreach ($services as $service)
+                            <div class="signle-service-style-10">
+                                <div class="content-area-wrapper">
+                                    <div class="icon">
+                                        <img src="assets/images/service/icons/12.svg" alt="service">
+                                    </div>
+                                    <h5 class="title">{{ $service->title }}</h5>
+                                    <p class="disc">
+                                        {{ str($service->sub_content)->limit(50) }}
+                                    </p>
+                                    <a href="{{ route('service.show', $service->id) }}" class="arrow-right-btn">Learn More <i
+                                            class="fa-solid fa-arrow-right"></i></a>
                                 </div>
-                                <h5 class="title">Business Solution</h5>
-                                <p class="disc">
-                                    Fusce dignissim erat dis proin ornare class sem nibh
-                                </p>
-                                <a href="service.html#" class="arrow-right-btn">Learn More <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                            <div class="thumbnail">
-                                <img src="assets/images/service/07.webp" alt="service">
-                            </div>
-                        </div>
-                        <div class="signle-service-style-10">
-                            <div class="content-area-wrapper">
-                                <div class="icon">
-                                    <img src="assets/images/service/icons/12.svg" alt="service">
+                                <div class="thumbnail">
+                                    <img src="{{ asset('storage/' . $service->photo) }}" alt="service">
                                 </div>
-                                <h5 class="title">Marketing Solution</h5>
-                                <p class="disc">
-                                    Fusce dignissim erat dis proin ornare class sem nibh
-                                </p>
-                                <a href="service.html#" class="arrow-right-btn">Learn More <i
-                                        class="fa-solid fa-arrow-right"></i></a>
                             </div>
-                            <div class="thumbnail">
-                                <img src="assets/images/service/08.webp" alt="service">
-                            </div>
-                        </div>
-                        <div class="signle-service-style-10 order-control-sm-device">
-                            <div class="thumbnail">
-                                <img src="assets/images/service/09.webp" alt="service">
-                            </div>
-                            <div class="content-area-wrapper">
-                                <div class="icon">
-                                    <img src="assets/images/service/icons/13.svg" alt="service">
-                                </div>
-                                <h5 class="title">Agency Marketing</h5>
-                                <p class="disc">
-                                    Fusce dignissim erat dis proin ornare class sem nibh
-                                </p>
-                                <a href="service.html#" class="arrow-right-btn">Learn More <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                        <div class="signle-service-style-10 order-control-sm-device">
+                        @endforeach
 
-                            <div class="thumbnail">
-                                <img src="assets/images/service/10.webp" alt="service">
-                            </div>
-                            <div class="content-area-wrapper">
-                                <div class="icon">
-                                    <img src="assets/images/service/icons/14.svg" alt="service">
-                                </div>
-                                <h5 class="title">Business Marketing</h5>
-                                <p class="disc">
-                                    Fusce dignissim erat dis proin ornare class sem nibh
-                                </p>
-                                <a href="service.html#" class="arrow-right-btn">Learn More <i
-                                        class="fa-solid fa-arrow-right"></i></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
