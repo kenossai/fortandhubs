@@ -14,7 +14,7 @@
                                         <p class="disc">
                                             {{ $banner->description }}
                                         </p>
-                                        <a href="index.html#" class="rts-btn btn-primary btn-white">Get Consultant</a>
+                                        <a href="{{ route('home') }}" class="rts-btn btn-primary btn-white">Get Consultant</a>
                                     </div>
                                 </div>
                             </div>
