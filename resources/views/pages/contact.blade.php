@@ -33,7 +33,7 @@
                             </div>
                             <div class="info-wrapper">
                                 <span>Call Us 24/7</span>
-                                <a href="contact.html#">(+256) 2145.2156</a>
+                                <a href="javascript:void()">(+256) 2145.2156</a>
                             </div>
                         </div>
                         <div class="single-contact-info">
@@ -42,7 +42,7 @@
                             </div>
                             <div class="info-wrapper">
                                 <span>Work with us</span>
-                                <a href="contact.html#">info@Invena.com</a>
+                                <a href="javascript:void()">info@fortandhubs.com</a>
                             </div>
                         </div>
                         <div class="single-contact-info">
@@ -51,7 +51,7 @@
                             </div>
                             <div class="info-wrapper">
                                 <span>Our Location</span>
-                                <a href="contact.html#">125 Town, United State</a>
+                                <a href="javascript:void()">125 Town, United State</a>
                             </div>
                         </div>
                     </div>
