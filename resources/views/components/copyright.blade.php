@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="text-center">
-                    <p>Invena - Copyright
+                    <p>Fort&Hubs - Copyright
                         <script>
                             document.write(
                                 new Date().getFullYear()
