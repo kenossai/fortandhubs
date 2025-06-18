@@ -1,5 +1,5 @@
 <header class="header-one header--sticky">
-    <x-top-nav />
+    {{-- <x-top-nav /> --}}
     <div class="header-main">
         <div class="container">
             <div class="row">
