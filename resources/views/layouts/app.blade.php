@@ -8,12 +8,12 @@
 
 
 
-    <x-sidebar-about />
+    {{-- <x-sidebar-about /> --}}
     <!-- inner menu area desktop End -->
 
 
     <!-- offcanvase search -->
-    <x-search-form />
+    {{-- <x-search-form /> --}}
     <div id="anywhere-home" class="">
     </div>
 
