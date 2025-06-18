@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComingSoon;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutController;
@@ -24,6 +25,7 @@ use App\Http\Controllers\SubscriptionController;
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::post('/appointments', [AppointmentController::class, 'store'])->name('appointments.store');
 
+Route::get('coming-soon', [ComingSoon::class, 'index'])->name('coming-soon');
 
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/send', [MessageController::class, 'store'])->name('messages.store');
