@@ -10,14 +10,14 @@
         <div class="header__nav pos-center">
           <nav class="main-menu">
             <ul>
-              <li class="menu-item-has-children">
+              <li >
                 <a href="/">Home</a>
             </li>
             <li><a href="about-us">about</a></li>
-            <li class="menu-item-has-children">
+            <li >
                 <a href="service">Service</a>
             </li>
-            <li class="menu-item-has-children">
+            <li >
                 <a href="projects">Projects</a>
             </li>
               <li><a href="contact-us">Contact</a></li>
