@@ -1,29 +1,22 @@
 <x-base-layout :title>
     <x-nav />
-    {{ $slot }}
+<div class="has-smooth" id="has_smooth"></div>
+<div id="smooth-wrapper">
+    <div id="smooth-content">
+      <div class="body-wrapper body-web-agency">
 
-    <!-- rts footer two area wrapper -->
-    <x-footer />
-    <!-- rts footer two area wrapper end -->
-
-
-
-    {{-- <x-sidebar-about /> --}}
-    <!-- inner menu area desktop End -->
-
-
-    <!-- offcanvase search -->
-    {{-- <x-search-form /> --}}
-    <div id="anywhere-home" class="">
+        <!-- overlay switcher close  -->
+        <div class="overlay-switcher-close"></div>
+            <main>
+                {{ $slot }}
+            </main>
+        <!-- rts footer two area wrapper -->
+            <x-footer />
+        <!-- rts footer two area wrapper end -->
+        </div>
     </div>
+</div>
 
-    <!-- progress area start -->
-    <div class="progress-wrap">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
-            </path>
-        </svg>
-    </div>
-    <!-- progress area end -->
+
 </x-base-layout>
 

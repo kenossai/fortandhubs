@@ -2,7 +2,6 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,46 +14,86 @@
     <!-- Title  -->
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/fontawesome.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/swiper.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/metismenu.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/magnifying-popup.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('assets/css/plugins/odometer.css') }}" as="style">
-    <link rel="stylesheet preload" href="{{ asset('assets/css/vendor/bootstrap.min.css') }}" as="style">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/progressbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/master-web-agency.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('assets/css/master-contact.css') }}"> --}}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet preload" as="style">
-    <link rel="preload" as="image" href="{{ asset('assets/images/banner/21.webp') }}" />
-    <link rel="stylesheet preload" href="{{ asset('assets/css/style.css') }}" as="style">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
 </head>
 
-<body>
+<body class="font-heading-teko-bold">
 
 {{ $slot }}
 
 
 
-    <script defer src="{{ asset('assets/js/plugins/jquery.js') }}"></script>
+<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
+<script src="{{ asset('assets/js/counter.js') }}"></script>
+<script src="{{ asset('assets/js/progressbar.js') }}"></script>
+<script src="{{ asset('assets/js/gsap.min.js') }}"></script>
+<script src="{{ asset('assets/js/ScrollSmoother.min.js') }}"></script>
+<script src="{{ asset('assets/js/ScrollToPlugin.min.js') }}"></script>
+<script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
+<script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.meanmenu.min.js') }}"></script>
+<script src="{{ asset('assets/js/backToTop.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/error-handling.js') }}"></script>
+<script src="{{ asset('assets/js/offcanvas.js') }}"></script>
+<script>
 
-    <script defer src="{{ asset('assets/js/plugins/odometer.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/jquery-appear.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    // client slider
+    if ('.client-slider-active') {
+      var client_slider_active = new Swiper(".client-slider-active", {
+        slidesPerView: 'auto',
+        loop: true,
+        autoplay: true,
+        spaceBetween: 130,
+        speed: 3000,
+        autoplay: {
+          delay: 1,
+        },
+      });
+    }
 
-    <script defer src="{{ asset('assets/js/plugins/gsap.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/split-text.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/scroll-trigger.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/smooth-scroll.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/metismenu.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/popup.js') }}"></script>
+    // work slider
+    if ('.work-slider-active') {
+      var work_slider_active = new Swiper(".work-slider-active", {
+        slidesPerView: 'auto',
+        loop: true,
+        autoplay: true,
+        spaceBetween: 10,
+        speed: 3000,
+        autoplay: {
+          delay: 0,
+        },
+      });
+    }
 
-    <script defer src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/swiper.js') }}"></script>
-    <script defer src="{{ asset('assets/js/plugins/contact.form.js') }}"></script>
+    // testimonial slider
+    if ('.testimonial-slider-active') {
+      var testimonial_slider_active = new Swiper(".testimonial-slider-active", {
+        effect: "cards",
+        grabCursor: true,
+        perSlideOffset: 50,
+        rotate: false,
+        perSlideRotate: 10,
+        navigation: {
+          prevEl: ".testimonial-button-prev",
+          nextEl: ".testimonial-button-next",
+        },
+      });
+    }
 
-    <script defer src="{{ asset('assets/js/main.js') }}"></script>
+  </script>
 </body>
 
 </html>

@@ -1,55 +1,73 @@
-<div class="rts-about-area-two rts-section-gap">
+<section class="about-area">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="left-thumbnail-about-area-two">
-                    <img loading="lazy" src="assets/images/about/04.webp" alt="about">
-                    <div class="small-image">
-                        <img loading="lazy" src="assets/images/about/05.webp" alt="small">
-                    </div>
-                    <div class="counter-about-area">
-                        <h2 class="counter title"><span class="odometer" data-count="10">00</span>+
-                        </h2>
-                        <span>Year of experience</span>
-                    </div>
+        <div class="about-area-inner section-spacing">
+        <div class="shape-1 has_fade_anim" data-fade-offset="0">
+            <img class="show-light" src="assets/imgs/shape/img-s-66.webp" alt="image">
+            <img class="show-dark" src="assets/imgs/shape/img-s-66-light.webp" alt="image">
+        </div>
+        <div class="section-content">
+            <div class="section-title-wrapper">
+            <div class="subtitle-wrapper">
+                <span class="section-subtitle has_fade_anim">01. Who we are</span>
+            </div>
+            <div class="title-wrapper has_fade_anim">
+                <h2 class="section-title"> Have a brilliant idea boost the <span>growth development</span> agency
+                your
+                branding!</h2>
+            </div>
+            </div>
+            <div class="content-bottom">
+            <div class="clients-wrapper has_fade_anim" data-fade-from="left">
+                <div class="thumb">
+                <img class="show-light" src="assets/imgs/client/img-s-4.webp" alt="image">
+                <img class="show-dark" src="assets/imgs/client/img-s-4-dark.webp" alt="image">
+                </div>
+                <div class="info">
+                <h3 class="number">32k+</h3>
+                <p class="text">happy
+                    clients of our
+                    Services </p>
                 </div>
             </div>
-            <div class="col-lg-6 mt_sm--80 mt_md--80">
-                <div class="about-inner-content-two">
-                    <div class="title-style-two left">
-                        <span class="bg-content">About Us</span>
-                        <span class="pre">More About Us</span>
-                        <h2 class="title rts-text-anime-style-1">Secure Your Future, <br> Transform with Confidence
-                        </h2>
-                    </div>
-                    <div class="about-between-wrapper">
-                        <p class="disc">
-                            At Fort and Hub Global, we empower organizations to thrive in a rapidly evolving digital landscape by delivering
-                            world-class cybersecurity and digital transformation solutions. Our mission is to protect your critical assets, enhance
-                            resilience, and drive innovations securely and sustainably.
-                        </p>
-                        <div class="check-wrapper-area">
-                            <div class="single-check">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>24/7 Call Services Avilable</p>
-                            </div>
-                            <div class="single-check">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>Skilled Project Experts</p>
-                            </div>
-                            <div class="single-check">
-                                <i class="fa-solid fa-circle-check"></i>
-                                <p>Excellent Team Members</p>
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="info-wrapper">
+                <div class="text-wrapper">
+                <p class="text has_fade_anim">Consumers today rely heavily on digital means to research
+                    products. We research
+                    a
+                    brand of bldend engaging with it, according to the meanwhile, 51% of consumers</p>
                 </div>
+                <div class="btn-wrapper has_fade_anim" data-fade-from="top" data-fade-offset="100"
+                data-ease="bounce">
+                <div class="btn-wrapper btn-move">
+                    <a href="about-bold.html" class="wc-btn wc-btn-circle btn-hover-bgchange btn-item">Explore Us
+                    <br>
+                    More</a>
+                </div>
+                </div>
+            </div>
             </div>
         </div>
+        <div class="about-gallery-wrapper">
+            <div class="thumb-1 has_fade_anim">
+            <img src="assets/imgs/gallery/img-s-70.webp" alt="image">
+            </div>
+            <div class="thumb-2">
+            <img src="assets/imgs/gallery/img-s-71.webp" class="has_fade_anim" data-fade-from="right"
+                data-fade-offset="50" data-delay="0.45" alt="image">
+            <div class="about-service-box has_fade_anim" data-fade-from="top" data-fade-offset="0"
+                data-delay="0.90">
+                <div class="thumb">
+                <img class="show-light" src="assets/imgs/shape/img-s-67.webp" alt="image">
+                <img class="show-dark" src="assets/imgs/shape/img-s-67-light.webp" alt="image">
+                </div>
+                <p class="text">Make your business prosper with our great team of experts. We’ll make your.</p>
+                <div class="counts">
+                <span class="number">1.8</span><span class="x">x</span>
+                <span class="text">Faster Service</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
     </div>
-    <div class="shape-area">
-        <img loading="lazy" src="assets/images/about/shape/01.svg" alt="shape" class="one">
-        <img loading="lazy" src="assets/images/about/shape/02.svg" alt="shape" class="two">
-    </div>
-</div>
+    </section>
