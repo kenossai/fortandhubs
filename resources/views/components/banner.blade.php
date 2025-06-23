@@ -26,8 +26,8 @@
             </div>
             <div class="content-bottom">
                 <div class="scroll-down has_fade_anim" data-fade-offset="0" data-on-scroll="0" data-delay="0.75">
-                <img class="show-light" src="assets/imgs/shape/img-s-61.webp" alt="image">
-                <img class="show-dark" src="assets/imgs/shape/img-s-61-light.webp" alt="image">
+                <img class="show-light" src="{{ asset('assets/imgs/shape/img-s-61.webp') }}" alt="image">
+                <img class="show-dark" src="{{ asset('assets/imgs/shape/img-s-61-light.webp') }}" alt="image">
                 </div>
                 <div class="text-wrapper">
                 <p class="text has_fade_anim" data-on-scroll="0" data-delay="0.30">We are a full-service digital
@@ -47,24 +47,24 @@
             <div class="content-last">
             <div class="thumb-wrapper has_fade_anim" data-fade-from="right">
                 <div class="shape-1">
-                <img class="show-light" src="assets/imgs/shape/img-s-62.webp" alt="shape">
-                <img class="show-dark" src="assets/imgs/shape/img-s-62-light.webp" alt="shape">
+                <img class="show-light" src="{{ asset('assets/imgs/shape/img-s-62.webp') }}" alt="shape">
+                <img class="show-dark" src="{{ asset('assets/imgs/shape/img-s-62-light.webp') }}" alt="shape">
                 </div>
                 <div class="video-btn-box">
-                <div class="video-btn">
-                    <a href="../../assets/wp-content/uploads/2024/05/insurance-video.mp4"
-                    class="wc-btn wc-btn-circle video-popup"><i class="fa-solid fa-play"></i></a>
-                    <span class="text">Watch <br>
-                    Video</span>
-                </div>
+                    <div class="video-btn">
+                        <a href="../../assets/wp-content/uploads/2024/05/insurance-video.mp4"
+                        class="wc-btn wc-btn-circle video-popup"><i class="fa-solid fa-play"></i></a>
+                        <span class="text">Watch <br>
+                        Video</span>
+                    </div>
                 </div>
                 <div class="hero-thumb">
-                <div class="thumb-1">
-                    <img src="assets/imgs/gallery/img-s-68.webp" alt="image">
-                </div>
-                <div class="thumb-2">
-                    <img src="assets/imgs/gallery/img-s-69.webp" alt="image">
-                </div>
+                    <div class="thumb-1">
+                        <img src="{{ asset('assets/imgs/gallery/img-s-68.webp') }}" alt="image">
+                    </div>
+                    <div class="thumb-2">
+                        <img src="{{ asset('assets/imgs/gallery/img-s-69.webp') }}" alt="image">
+                    </div>
                 </div>
             </div>
             <div class="customer-wrapper-box">
@@ -74,8 +74,8 @@
                     <img class="show-dark" src="assets/imgs/shape/img-s-63-light.webp" alt="shape">
                 </div>
                 <div class="thumb">
-                    <img class="show-light" src="assets/imgs/client/img-s-3.webp" alt="image">
-                    <img class="show-dark" src="assets/imgs/client/img-s-3-light.webp" alt="image">
+                    <img class="show-light" src="{{ asset('assets/imgs/client/img-s-3.webp') }}" alt="image">
+                    <img class="show-dark" src="{{ asset('assets/imgs/client/img-s-3-light.webp') }}" alt="image">
                 </div>
                 <p class="text"><span class="text-underline">We have 18k+</span> customers <br>
                     word-wide</p>
