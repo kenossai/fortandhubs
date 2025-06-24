@@ -32,7 +32,7 @@
                     agency that builds fascinating user experiences.
                     our
                     team creates and exceptional UI design
-                    and functionality. </p>
+                    and functionality.</p>
                 </div>
                 <div class="btn-wrapper has_fade_anim">
                 <a href="contact-bold.html" class="wc-btn wc-btn-underline btn-text-flip"> <span
