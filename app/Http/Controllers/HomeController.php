@@ -14,6 +14,7 @@ class HomeController extends Controller
         $teamMembers = \App\Models\TeamMember::all();
         $reviews = \App\Models\Review::all();
         $projects = \App\Models\Project::take(2)->get();
-        return view('index', compact('slide', 'clients', 'teamMembers', 'reviews', 'projects'));
+        $about = \App\Models\About::first();
+        return view('index', compact('slide', 'clients', 'teamMembers', 'reviews', 'projects', 'about'));
     }
 }
