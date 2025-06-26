@@ -8,7 +8,7 @@
                 <!-- hero area end -->
 
                 <!-- about area start -->
-                <x-about-us />
+                <x-about-us :about="$about" />
                 <!-- about area end -->
 
                 <!-- step area start -->
@@ -484,7 +484,7 @@
                 <!-- team area end -->
 
                 <!-- brand area start -->
-                <x-clients />
+                <x-clients :clients="$clients" />
                 <!-- brand area end -->
 
                 <!-- testimonial area start -->
