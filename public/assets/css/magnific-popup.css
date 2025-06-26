@@ -15,7 +15,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1043;
+  z-index: 99999;
   position: fixed;
   outline: none !important;
   -webkit-backface-visibility: hidden; }
@@ -349,17 +349,3 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
-
-
-.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-  color: #FFF;
-  right: -6px;
-  width: 50px;
-  background: #1C1D20;
-  text-align: center;
-  line-height: 50px;
-  padding: 0;
-  height: 50px;
-  margin-top: -18px;
-  opacity: 1;
-}

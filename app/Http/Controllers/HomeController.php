@@ -9,11 +9,11 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $slides = Slide::all();
+        $slide = Slide::first();
         $clients = \App\Models\Client::all();
         $teamMembers = \App\Models\TeamMember::all();
         $reviews = \App\Models\Review::all();
         $projects = \App\Models\Project::take(2)->get();
-        return view('index', compact('slides', 'clients', 'teamMembers', 'reviews', 'projects'));
+        return view('index', compact('slide', 'clients', 'teamMembers', 'reviews', 'projects'));
     }
 }

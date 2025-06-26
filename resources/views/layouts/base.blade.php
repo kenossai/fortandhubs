@@ -14,86 +14,59 @@
     <!-- Title  -->
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
 
-    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/progressbar.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/master-web-agency.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome-pro.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/spacing.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/atropos.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/master-contact.css') }}"> --}}
 
 
 </head>
 
-<body class="font-heading-teko-bold">
+<body class="tp-magic-cursor">
+<!-- Begin magic cursor -->
+<div id="magic-cursor">
+    <div id="ball"></div>
+</div>
+<!-- End magic cursor -->
 
+{{-- <x-loader /> --}}
 {{ $slot }}
 
 
-
-<script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('assets/js/swiper-bundle.min.js') }}"></script>
-<script src="{{ asset('assets/js/counter.js') }}"></script>
-<script src="{{ asset('assets/js/progressbar.js') }}"></script>
-<script src="{{ asset('assets/js/gsap.min.js') }}"></script>
-<script src="{{ asset('assets/js/ScrollSmoother.min.js') }}"></script>
-<script src="{{ asset('assets/js/ScrollToPlugin.min.js') }}"></script>
-<script src="{{ asset('assets/js/ScrollTrigger.min.js') }}"></script>
-<script src="{{ asset('assets/js/SplitText.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.meanmenu.min.js') }}"></script>
-<script src="{{ asset('assets/js/backToTop.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/jquery.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap-bundle.js') }}"></script>
+<script src="{{ asset('assets/js/swiper-bundle.js') }}"></script>
+<script src="{{ asset('assets/js/plugin.js') }}"></script>
+<script src="{{ asset('assets/js/three.js') }}"></script>
+<script src="{{ asset('assets/js/slick.js') }}"></script>
+<script src="{{ asset('assets/js/scroll-magic.js') }}"></script>
+<script src="{{ asset('assets/js/hover-effect.umd.js') }}"></script>
+<script src="{{ asset('assets/js/magnific-popup.js') }}"></script>
+<script src="{{ asset('assets/js/parallax-slider.js') }}"></script>
+<script src="{{ asset('assets/js/nice-select.js') }}"></script>
+<script src="{{ asset('assets/js/purecounter.js') }}"></script>
+<script src="{{ asset('assets/js/isotope-pkgd.js') }}"></script>
+<script src="{{ asset('assets/js/imagesloaded-pkgd.js') }}"></script>
+<script src="{{ asset('assets/js/ajax-form.js') }}"></script>
+<script src="{{ asset('assets/js/Observer.min.js') }}"></script>
+<script src="{{ asset('assets/js/splitting.min.js') }}"></script>
+<script src="{{ asset('assets/js/webgl.js') }}"></script>
+<script src="{{ asset('assets/js/parallax-scroll.js') }}"></script>
+<script src="{{ asset('assets/js/atropos.js') }}"></script>
+<script src="{{ asset('assets/js/slider-active.js') }}"></script>
 <script src="{{ asset('assets/js/main.js') }}"></script>
-<script src="{{ asset('assets/js/error-handling.js') }}"></script>
-<script src="{{ asset('assets/js/offcanvas.js') }}"></script>
-<script>
+<script src="{{ asset('assets/js/tp-cursor.js') }}"></script>
+<script src="{{ asset('assets/js/portfolio-slider-1.js') }}"></script>
+<script type="module" src="{{ asset('assets/js/distortion-img.js') }}"></script>
+<script type="module" src="{{ asset('assets/js/skew-slider/index.js') }}"></script>
+<script type="module" src="{{ asset('assets/js/img-revel/index.js') }}"></script>
 
-    // client slider
-    if ('.client-slider-active') {
-      var client_slider_active = new Swiper(".client-slider-active", {
-        slidesPerView: 'auto',
-        loop: true,
-        autoplay: true,
-        spaceBetween: 130,
-        speed: 3000,
-        autoplay: {
-          delay: 1,
-        },
-      });
-    }
-
-    // work slider
-    if ('.work-slider-active') {
-      var work_slider_active = new Swiper(".work-slider-active", {
-        slidesPerView: 'auto',
-        loop: true,
-        autoplay: true,
-        spaceBetween: 10,
-        speed: 3000,
-        autoplay: {
-          delay: 0,
-        },
-      });
-    }
-
-    // testimonial slider
-    if ('.testimonial-slider-active') {
-      var testimonial_slider_active = new Swiper(".testimonial-slider-active", {
-        effect: "cards",
-        grabCursor: true,
-        perSlideOffset: 50,
-        rotate: false,
-        perSlideRotate: 10,
-        navigation: {
-          prevEl: ".testimonial-button-prev",
-          nextEl: ".testimonial-button-next",
-        },
-      });
-    }
-
-  </script>
 </body>
 
 </html>

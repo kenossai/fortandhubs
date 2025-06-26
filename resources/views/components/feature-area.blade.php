@@ -1,60 +1,56 @@
-<section class="feature-area">
-            <div class="container">
-              <div class="feature-area-inner section-spacing-top">
-                <div class="section-header">
-                  <div class="section-title-wrapper">
-                    <div class="shape-1 has_fade_anim" data-fade-offset="0" data-delay="0.8">
-                      <img src="assets/imgs/shape/img-s-68.webp" alt="image">
+<div class="dgm-step-area pb-50">
+                    <div class="container container-1230">
+                        <div class="row align-items-end">
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="dgm-step-item p-relative dgm-step-space-1 mb-80">
+                                    <h4 class="dgm-step-title mb-25">Explore the <br> creative process</h4>
+                                    <a class="tp-btn-yellow-green green-solid" href="contact.html">
+                                        <i>
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.4221 8.95389C1.66368 7.63144 1.29748 6.55158 1.07667 5.45697C0.750098 3.83806 1.49745 2.25665 2.7355 1.24758C3.25876 0.821106 3.85858 0.966814 4.168 1.52192L4.86655 2.77513C5.42023 3.76845 5.69707 4.26511 5.64216 4.79167C5.58725 5.31823 5.21389 5.74709 4.46718 6.6048L2.4221 8.95389ZM2.4221 8.95389C3.9572 11.6306 6.36627 14.041 9.04611 15.5779M9.04611 15.5779C10.3686 16.3363 11.4484 16.7025 12.543 16.9233C14.1619 17.2499 15.7434 16.5026 16.7524 15.2645C17.1789 14.7412 17.0332 14.1414 16.4781 13.832L15.2249 13.1335C14.2315 12.5798 13.7349 12.3029 13.2083 12.3578C12.6818 12.4127 12.2529 12.7861 11.3952 13.5328L9.04611 15.5779Z" stroke="currentcolor" stroke-width="1.5" stroke-linejoin="round" />
+                                                <path d="M10.6001 4.86548C11.7387 5.34899 12.6511 6.26142 13.1346 7.4M11.1233 1C13.9531 1.81661 16.1834 4.04682 17.0001 6.8765" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" />
+                                            </svg>
+                                        </i>
+                                        <span>
+                                            <span class="text-1">Call for Joining</span>
+                                            <span class="text-2">Call for Joining</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="dgm-step-item p-relative dgm-step-space-2 mb-80">
+                                    <span class="dgm-step-number">01</span>
+                                    <h4 class="dgm-step-title-sm">Research</h4>
+                                    <p>
+                                        Focussed on understanding
+                                        your business requirements,
+                                        users and problems
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="dgm-step-item p-relative dgm-step-space-3 mb-80">
+                                    <span class="dgm-step-number">02</span>
+                                    <h4 class="dgm-step-title-sm">Ideation & design</h4>
+                                    <p>
+                                        In this stage we work closely to
+                                        come up with lots of solutions &
+                                        finalize design
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-6">
+                                <div class="dgm-step-item p-relative dgm-step-space-4 mb-80">
+                                    <span class="dgm-step-number">03</span>
+                                    <h4 class="dgm-step-title-sm">Development</h4>
+                                    <p>
+                                        I develop your product in
+                                        Webflow and help you with
+                                        maintaining it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="title-wrapper">
-                      <h2 class="section-title has_text_move_anim">take charge steering
-                        your product</h2>
-                    </div>
-                  </div>
-                  <div class="text-wrapper">
-                    <p class="text has_fade_anim">Our ability to combine expertise and systems thinking is what fuels us
-                      as a team.
-                    </p>
-                  </div>
                 </div>
-                <div class="features-wrapper-box">
-                  <div class="features-wrapper">
-                    <div class="feature-box has_fade_anim" data-fade-from="left" data-delay="0.15">
-                      <div class="thumb">
-                        <img src="assets/imgs/icon/icon-s-24.webp" alt="feature icon">
-                      </div>
-                      <div class="content">
-                        <h3 class="title">Dedicated <br>
-                          Team</h3>
-                        <p class="text">Find the best fit engineers led by senior, seasoned, and skilled our tech- lead.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="feature-box has_fade_anim" data-fade-from="right" data-delay="0.30">
-                      <div class="thumb">
-                        <img src="assets/imgs/icon/icon-s-25.webp" alt="feature icon">
-                      </div>
-                      <div class="content">
-                        <h3 class="title">Product <br>
-                          Team</h3>
-                        <p class="text">Get top-notch service from an experienced Product Designer Manager team.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="feature-box has_fade_anim" data-fade-from="left" data-delay="0.45">
-                      <div class="thumb">
-                        <img src="assets/imgs/icon/icon-s-26.webp" alt="feature icon">
-                      </div>
-                      <div class="content">
-                        <h3 class="title">End-to-End <br>
-                          Team</h3>
-                        <p class="text">Hire an elite squad of leading have professionals to turn idea into an
-                          ready-to-market product
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
