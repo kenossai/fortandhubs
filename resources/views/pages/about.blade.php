@@ -10,8 +10,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-xl-12">
                                     <div class="ar-hero-title-box tp_fade_anim" data-delay=".3">
-                                        <h3 class="ar-about-us-4-title">Fueling Minds <br>
-                                            Inspiring Designs..</h3>
+                                        <h3 class="ar-about-us-4-title">{{ $about->title }}</h3>
                                         <div class="ar-about-us-4-title-box d-flex justify-content-end">
                                             <span class="tp-section-subtitle pre">About Us</span>
                                             <div class="ar-about-us-4-icon">
@@ -20,8 +19,7 @@
                                                     <path d="M77 7.96366L80.5 4.48183L77 1" stroke="#111013" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
-                                            <p>An independent web design and branding agency <br>
-                                                in Manchester set up in 2012 who care, build relationships, <br> have industry experience, and win awards.</p>
+                                            <p>We are dedicated to helping businesses navigate this complex landscape by providing comprehensive solutions tailored to their specific needs..<p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,32 +39,7 @@
                                         <div class="swiper-wrapper slide-transtion">
                                             <div class="swiper-slide">
                                                 <h2 class="ar-about-us-4-text-title">
-                                                    About Us
-                                                </h2>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h2 class="ar-about-us-4-text-title">
-                                                    About Us
-                                                </h2>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h2 class="ar-about-us-4-text-title">
-                                                    About Us
-                                                </h2>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h2 class="ar-about-us-4-text-title">
-                                                    About Us
-                                                </h2>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h2 class="ar-about-us-4-text-title">
-                                                    About Us
-                                                </h2>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <h2 class="ar-about-us-4-text-title">
-                                                    About Us
+                                                    Fort & Hubs
                                                 </h2>
                                             </div>
                                         </div>
@@ -81,7 +54,7 @@
                 <!-- banner area start -->
                 <div class="ar-banner-area">
                     <div class="ar-banner-wrap ar-about-us-4">
-                        <img class="w-100" src="assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg" alt="" data-speed=".8">
+                        <img class="w-100" src="{{ asset('storage/' . $about->banner_image) }}" alt="" data-speed=".8">
                     </div>
                 </div>
                 <!-- banner area end -->
@@ -103,8 +76,7 @@
                                     <div class="tp-about-wrap">
                                         <div class="tp-about-text tp_fade_anim">
                                             <p>
-                                                An independent web design and branding agency in Manchester set up in 2010 who care,
-                                                build relationships, have industry experience, and win awards.
+                                                {{ $about->description }}
                                             </p>
                                         </div>
                                         <div class="row">
