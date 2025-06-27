@@ -57,11 +57,11 @@
                                         <h4 class="dgm-footer-widget-title">Service</h4>
                                         <div class="dgm-footer-widget-menu">
                                             <ul>
-                                                <li><a href="index-digital-marketing-light.html#">UI/UX Design</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Web Design</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Branding</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Webflow</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Development</a></li>
+                                                <li><a href="javascript:void()">Cyber Security</a></li>
+                                                <li><a href="javascript:void()">Web Development</a></li>
+                                                <li><a href="javascript:void()">Branding</a></li>
+                                                <li><a href="javascript:void()">Mobile App Development</a></li>
+                                                <li><a href="javascript:void()">AI Integration</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -71,11 +71,11 @@
                                         <h4 class="dgm-footer-widget-title">Company</h4>
                                         <div class="dgm-footer-widget-menu">
                                             <ul>
-                                                <li><a href="index-digital-marketing-light.html#">Home</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Agency</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Achievement</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Webflow</a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Contact Us</a></li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="about-us">About Us</a></li>
+                                                <li><a href="case-studies">Case Studies</a></li>
+                                                <li><a href="careers">Careers</a></li>
+                                                <li><a href="contact-us">Contact Us</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -117,19 +117,23 @@
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="tp-copyright-2-left text-center text-md-start z-index-1">
-                                        <p>© 2025 <a href="index-digital-marketing-light.html#">Agntix</a>. All Rights Reserved.</p>
+                                        <p>© <script>
+                                    document.write(
+                                        new Date().getFullYear()
+                                    )
+                                </script> <a href="/">FortAndHubs</a>. All Rights Reserved.</p>
                                     </div>
                                 </div>
                                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                     <div class="tp-copyright-2-middle">
-                                        <a href="mailto:agntix@gmail.com">
+                                        <a href="mailto:hello@fortandhubs.com">
                                             <span>
                                                 <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M13 14.6H5C2.6 14.6 1 13.4 1 10.6V5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6Z" stroke="currentcolor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                                     <path d="M13 5.40039L10.496 7.40039C9.672 8.05639 8.32 8.05639 7.496 7.40039L5 5.40039" stroke="currentcolor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </span>
-                                            agntix@gmail.com
+                                            hello@fortandhubs.com
                                         </a>
                                     </div>
                                 </div>
@@ -137,8 +141,8 @@
                                     <div class="tp-copyright-2-right">
                                         <div class="tp-copyright-2-menu text-md-end text-center">
                                             <ul>
-                                                <li><a href="index-digital-marketing-light.html#">Privacy policy </a></li>
-                                                <li><a href="index-digital-marketing-light.html#">Terms and conditions</a></li>
+                                                <li><a href="javascript:void()">Privacy policy </a></li>
+                                                <li><a href="javascript:void()">Terms and conditions</a></li>
                                             </ul>
                                         </div>
                                     </div>

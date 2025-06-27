@@ -5,7 +5,7 @@
                                 <div class="dgm-service-title-box z-index-1 mb-60">
                                     <span class="tp-section-subtitle subtitle-grey mb-15 text-white tp_fade_anim" data-delay=".3">Services</span>
                                     <h4 class="tp-section-title-grotesk text-white tp_fade_anim" data-delay=".5">
-                                        Growing sales through exceptional
+                                        Growing through exceptional
                                         <span class="p-relative">
                                             services
                                             <span class="tp-section-title-shape">
@@ -27,123 +27,37 @@
                         <div class="dgm-service-wrap">
                             <div class="row">
                                 <div class="col-xl-12">
-                                    <div class="dgm-service-item p-relative tp_fade_anim">
-                                        <div class="dgm-service-bg">
-                                            <img src="assets/img/home-03/service/service-bg.jpg" alt="">
-                                        </div>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-5">
-                                                <div class="dgm-service-content-left d-inline-flex align-items-center">
-                                                    <span>01</span>
-                                                    <h4 class="dgm-service-title-sm"><a href="service-details-light.html">SEO <br> Marketing</a>
-                                                    </h4>
-                                                </div>
+
+                                    @foreach ($services as $service)
+                                        <div class="dgm-service-item p-relative tp_fade_anim">
+                                            <div class="dgm-service-bg">
+                                                <img src="{{ asset('assets/img/home-03/service/service-bg.jpg') }}" alt="">
                                             </div>
-                                            <div class="col-lg-7">
-                                                <div class="dgm-service-content-right d-flex align-items-center justify-content-between">
-                                                    <p>We immerse ourselves in your issues and we put our <br> knowledge
-                                                        and expertise at your service</p>
-                                                    <a class="dgm-service-link" href="service-details-light.html">
-                                                        <span>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </span>
-                                                    </a>
+                                            <div class="row align-items-center">
+                                                <div class="col-lg-5">
+                                                    <div class="dgm-service-content-left d-inline-flex align-items-center">
+                                                        <span>0{{ $service->id }}</span>
+                                                        <h4 class="dgm-service-title-sm"><a href="service-details-light.html">{{ $service->title }}</h4>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dgm-service-item p-relative tp_fade_anim">
-                                        <div class="dgm-service-bg">
-                                            <img src="assets/img/home-03/service/service-bg.jpg" alt="">
-                                        </div>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-5">
-                                                <div class="dgm-service-content-left d-inline-flex align-items-center">
-                                                    <span>02</span>
-                                                    <h4 class="dgm-service-title-sm"><a href="service-details-light.html">Social <br> Marketing</a></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <div class="dgm-service-content-right d-flex align-items-center justify-content-between">
-                                                    <p>We immerse ourselves in your issues and we put our <br> knowledge
-                                                        and expertise at your service</p>
-                                                    <a class="dgm-service-link" href="service-details-light.html">
-                                                        <span>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </span>
-                                                    </a>
+                                                <div class="col-lg-12">
+                                                    <div class="dgm-service-content-right d-flex align-items-center justify-content-between">
+                                                        <p>{{ $service->sub_content }}</p>
+                                                        <a class="dgm-service-link" href="service-details-light.html">
+                                                            <span>
+                                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                                </svg>
+                                                            </span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="dgm-service-item p-relative tp_fade_anim">
-                                        <div class="dgm-service-bg">
-                                            <img src="assets/img/home-03/service/service-bg.jpg" alt="">
-                                        </div>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-5">
-                                                <div class="dgm-service-content-left d-inline-flex align-items-center">
-                                                    <span>03</span>
-                                                    <h4 class="dgm-service-title-sm"><a href="service-details-light.html">Content <br> Marketing</a></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <div class="dgm-service-content-right d-flex align-items-center justify-content-between">
-                                                    <p>We immerse ourselves in your issues and we put our <br> knowledge
-                                                        and expertise at your service</p>
-                                                    <a class="dgm-service-link" href="service-details-light.html">
-                                                        <span>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dgm-service-item p-relative tp_fade_anim">
-                                        <div class="dgm-service-bg">
-                                            <img src="assets/img/home-03/service/service-bg.jpg" alt="">
-                                        </div>
-                                        <div class="row align-items-center">
-                                            <div class="col-lg-5">
-                                                <div class="dgm-service-content-left d-inline-flex align-items-center">
-                                                    <span>04</span>
-                                                    <h4 class="dgm-service-title-sm"><a href="service-details-light.html">Email <br> Marketing</a></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-7">
-                                                <div class="dgm-service-content-right d-flex align-items-center justify-content-between">
-                                                    <p>We immerse ourselves in your issues and we put our <br> knowledge
-                                                        and expertise at your service</p>
-                                                    <a class="dgm-service-link" href="service-details-light.html">
-                                                        <span>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M0.880859 13L12.8809 1M12.8809 1H0.880859M12.8809 1V13" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>

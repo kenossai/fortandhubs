@@ -18632,7 +18632,7 @@ body.tp-magic-cursor #magic-cursor {
     font-size: 17px;
     line-height: 1.53;
     margin-bottom: 0;
-    max-width: 420px;
+    max-width: 800px;
     letter-spacing: -0.01em;
     color: rgba(255, 255, 255, 0.7);
 }

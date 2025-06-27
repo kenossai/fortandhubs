@@ -17,6 +17,7 @@ class HomeController extends Controller
         $about = \App\Models\About::first();
         $approaches = \App\Models\OurApproach::all();
         $caseStudies = \App\Models\CaseStudy::take(3)->get();
+        $services = \App\Models\Service::all();
         return view('index', compact(
         'slide',
         'clients',
@@ -24,6 +25,7 @@ class HomeController extends Controller
         'reviews',
         'projects',
         'about',
-        'approaches', 'caseStudies'));
+        'approaches', 'caseStudies', 'services'
+        ));
     }
 }

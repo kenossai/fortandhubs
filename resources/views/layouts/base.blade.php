@@ -6,10 +6,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="HTML5 Template Goncy Multi-Purpose themeforest">
+    <meta name="keywords" content="Digital Transformation, Cybersecurity, IT Solutions, Cloud Services, Data Protection, Network Security, Digital Innovation, Business Resilience, IT Consulting, Managed Services">
+    <meta name="description" content="At Fort and Hub Global, we empower organizations to thrive in a rapidly evolving digital landscape by delivering world-class cybersecurity and digital transformation solutions. Our mission is to protect your critical assets, enhance resilience, and drive innovations securely and sustainably.">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="description" content="Goncy - Multi-Purpose HTML5 Template">
     <meta name="author" content="">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/favicon.png') }}">
 
     <!-- Title  -->
     <title>@yield('title') | {{ config('app.name', 'Laravel') }}</title>
@@ -22,6 +26,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/spacing.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/atropos.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+
 
     {{-- <link rel="stylesheet" href="{{ asset('assets/css/master-contact.css') }}"> --}}
 
@@ -66,6 +72,7 @@
 <script type="module" src="{{ asset('assets/js/distortion-img.js') }}"></script>
 <script type="module" src="{{ asset('assets/js/skew-slider/index.js') }}"></script>
 <script type="module" src="{{ asset('assets/js/img-revel/index.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
 
 </body>
 

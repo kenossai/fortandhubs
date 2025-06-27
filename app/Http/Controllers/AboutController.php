@@ -13,4 +13,11 @@ class AboutController extends Controller
         $clients = \App\Models\Client::take(6)->get();
         return view('pages.about', compact('about', 'teamMembers', 'clients'));
     }
+
+    public function team()
+    {
+        $about = \App\Models\About::first();
+        $teamMembers = \App\Models\TeamMember::all();
+        return view('pages.teams.index', compact('teamMembers', 'about'));
+    }
 }
