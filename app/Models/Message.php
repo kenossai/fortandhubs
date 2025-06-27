@@ -9,7 +9,7 @@ class Message extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'email', 'subject', 'message', 'favorite', 'reply', 'replied_at'];
+    protected $fillable = ['name', 'email', 'phone', 'subject', 'message', 'favorite', 'reply', 'replied_at'];
 
     protected $casts = [
         'favorite' => 'boolean',
