@@ -2,7 +2,7 @@
                     <div class="dgm-hero-ptb grey-bg-2 fix z-index-1 p-relative">
                         <div class="dgm-hero-bg" data-background="assets/img/home-03/hero/hero-bg-shape.png"></div>
                         <div class="dgm-hero-rotate-text">
-                            <span>Award winning agency</span>
+                            <span>Strategize | Secure | Transform</span>
                         </div>
                         <div class="dgm-hero-social-box">
                             <div class="dgm-hero-social-text">
@@ -76,12 +76,6 @@
                                                 <div class="dgm-hero-funfact tp_fade_anim mb-40" data-delay=".7" data-fade-from="top" data-ease="bounce">
                                                     <span><i data-purecounter-duration="1" data-purecounter-end="98" class="purecounter">0</i>%</span>
                                                     <p>Clients Satisfied and <br> Repeating</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
-                                                <div class="dgm-hero-funfact tp_fade_anim mb-40" data-delay=".9" data-fade-from="top" data-ease="bounce">
-                                                    <span><i data-purecounter-duration="1" data-purecounter-end="125" class="purecounter">0</i>+</span>
-                                                    <p>Projects Completed <br> in 24 Countries</p>
                                                 </div>
                                             </div>
                                         </div>
