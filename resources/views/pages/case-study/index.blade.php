@@ -8,7 +8,7 @@
                             <div class="col-xl-12">
                                 <div class="tp-portfolio-inner-box pb-100">
                                     <div class="tp-portfolio-heading pb-30 d-flex p-relative tp_fade_anim">
-                                        <span class="tp-section-subtitle pre orange-color tp_fade_anim mr-95">Portfolio <svg xmlns="http://www.w3.org/2000/svg" width="82" height="9" viewBox="0 0 82 9" fill="none">
+                                        <span class="tp-section-subtitle pre orange-color tp_fade_anim mr-95">Case Studies <svg xmlns="http://www.w3.org/2000/svg" width="82" height="9" viewBox="0 0 82 9" fill="none">
                                                 <path d="M78 7.95425L81.5 4.47169L78 0.989136M1 3.98977H81V4.98977H1V3.98977Z" stroke="#FF5722" stroke-linecap="round" stroke-linejoin="round" />
                                             </svg>
                                         </span>
@@ -29,96 +29,24 @@
                     <div class="container container-1430">
                         <div class="tp-portfolio-tab-content-wrap">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-1.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Olivia Rivers</a></h4>
-                                            <span>Branding - 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-2.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Corporate Branding</a></h4>
-                                            <span>Branding - 2025</span>
+                                @foreach ($caseStudies as $case)
+                                    <div class="col-md-6">
+                                        <div class="tp-portfolio-inner-item mb-65">
+                                            <div class="tp-portfolio-inner-thumb tp--hover-item">
+                                                <a href="{{ route('case-study.show', $case->slug) }}">
+                                                    <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
+                                                        <img src="{{ asset('storage/' . $case->banner_image) }}" alt="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="tp-portfolio-inner-content">
+                                                <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="{{ route('case-study.show', $case->slug) }}"> {{ $case->title }}</a></h4>
+                                                <span>{{ $case->role }} - {{ $case->date->year }}</span>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-3.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Pastel Ladies</a></h4>
-                                            <span>Branding - 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-4.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Taller Alvarado</a></h4>
-                                            <span>Branding - 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-5.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Simple Logistics</a></h4>
-                                            <span>Branding - 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="tp-portfolio-inner-item mb-65">
-                                        <div class="tp-portfolio-inner-thumb tp--hover-item">
-                                            <a href="portfolio-details-gallery.html">
-                                                <div class=" tp--hover-img" data-displacement="assets/img/webgl/1.jpg" data-intensity="0.6" data-speedin="1" data-speedout="1">
-                                                    <img src="assets/img/portfolio/portfolio-col-2/portfolio-thumb-6.jpg" alt="">
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="tp-portfolio-inner-content">
-                                            <h4 class="tp-portfolio-inner-title"><a class="tp-line-white" href="portfolio-details-gallery.html">Electro Hub</a></h4>
-                                            <span>Branding - 2025</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
+
                             </div>
                             <div class="row justify-content-center">
                                 <div class="col-md-8">

@@ -15,7 +15,7 @@
                                 <nav class="tp-mobile-menu-active">
                                     <ul>
                                         <li class="active">
-                                            <a href="index.html">Home</a>
+                                            <a href="/">Home</a>
                                         </li>
                                         <li class="active">
                                             <a href="services">Services</a>

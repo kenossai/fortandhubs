@@ -14,7 +14,8 @@ class CaseStudiesController extends Controller
 
     public function show($slug)
     {
+        $caseStudies = \App\Models\CaseStudy::all();
         $caseStudy = \App\Models\CaseStudy::where('slug', $slug)->firstOrFail();
-        return view('pages.case-study.show', compact('caseStudy'));
+        return view('pages.case-study.show', compact('caseStudy', 'caseStudies'));
     }
 }
