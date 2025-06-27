@@ -17,8 +17,8 @@
                                         <h6 class="text-dark">{{ $caseStudy->subtitle }}</h6>
                                     </div>
                                     <div class="tp-pd-2-bottom-item mb-30">
-                                        <span class="text-dark">Duration</span>
-                                        <h6 class="text-dark">{{ $caseStudy->date }}</h6>
+                                        <span class="text-dark">Year</span>
+                                        <h6 class="text-dark">{{ $caseStudy->date->year }}</h6>
                                     </div>
                                     <div class="tp-pd-2-bottom-item mb-30">
                                         <span class="text-dark">Designer</span>
@@ -155,13 +155,13 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="tp-pd-1-work-item mb-30">
-                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="120" class="purecounter">0</i>%</span></h3>
+                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="{{ $caseStudy->conversion_increase }}" class="purecounter">0</i>%</span></h3>
                                     <div class="tp-pd-1-work-item-text">
                                         <span>Increase in conversions</span>
                                     </div>
                                 </div>
                                 <div class="tp-pd-1-work-item mb-30">
-                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="140" class="purecounter">0</i>%</span></h3>
+                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="{{ $caseStudy->traffic_increase }}" class="purecounter">0</i>%</span></h3>
                                     <div class="tp-pd-1-work-item-text">
                                         <span>Increase in website traffic</span>
                                     </div>
@@ -169,13 +169,13 @@
                             </div>
                             <div class="col-lg-6">
                                 <div class="tp-pd-1-work-item mb-30">
-                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="80" class="purecounter">0</i>%</span></h3>
+                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="{{ $caseStudy->daily_signups }}" class="purecounter">0</i>%</span></h3>
                                     <div class="tp-pd-1-work-item-text">
                                         <span>Average daily signups</span>
                                     </div>
                                 </div>
                                 <div class="tp-pd-1-work-item mb-30">
-                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="130" class="purecounter">0</i>%</span></h3>
+                                    <h3 class="tp-pd-1-work-item-title"><span><i data-purecounter-duration="2" data-purecounter-end="{{ $caseStudy->conversion_increase }}" class="purecounter">0</i>%</span></h3>
                                     <div class="tp-pd-1-work-item-text">
                                         <span>Increase in conversions</span>
                                     </div>

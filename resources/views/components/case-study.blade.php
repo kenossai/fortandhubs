@@ -61,7 +61,7 @@
                     <div class="swiper-slide">
                         <div class="dgm-project-item">
                             <div class="dgm-project-thumb">
-                                <img src="{{ asset('storage/' . $case->banner_image) }}" alt="">
+                                <img src="{{ asset('storage/' . $case->banner_image) }}" alt="" width="100%" height="500">
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                         <div class="dgm-project-item">
                             <div class="dgm-project-content text-center">
                                 <h4 class="dgm-project-title-sm">
-                                    <a class="tp-line-white" href="#">
+                                    <a class="tp-line-white" href="{{ route('case-study.show', $case->slug) }}">
                                         {{ $case->title }}
                                     </a>
                                 </h4>

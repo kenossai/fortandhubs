@@ -6,7 +6,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-1 col-lg-5 col-5">
                         <div class="tp-header-logo">
-                            <a href="index.html"><img data-width="120" src="assets/img/logo/logo-black.png" alt=""></a>
+                            <a href="index.html"><img data-width="120" src="{{ asset('assets/img/logo/logo-black.png') }}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-11 col-lg-7 col-7">
