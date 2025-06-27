@@ -1,9 +1,10 @@
 <div class="dgm-step-area pb-50">
-                    <div class="container container-1230">
+                    <div class="container container-1920">
                         <div class="row align-items-end">
                             <div class="col-xl-3 col-lg-4 col-md-6">
                                 <div class="dgm-step-item p-relative dgm-step-space-1 mb-80">
-                                    <h4 class="dgm-step-title mb-25">Explore the <br> creative process</h4>
+                                    <h4 class="dgm-step-title mb-25">Our Creative <br> Approach</h4>
+                                    <p>we take a structured, three-step approach to deliver measurable results:</p>
                                     <a class="tp-btn-yellow-green green-solid" href="contact.html">
                                         <i>
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,45 +13,23 @@
                                             </svg>
                                         </i>
                                         <span>
-                                            <span class="text-1">Call for Joining</span>
-                                            <span class="text-2">Call for Joining</span>
+                                            <span class="text-1">Free Consultation</span>
+                                            <span class="text-2">Free Consultation</span>
                                         </span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6">
-                                <div class="dgm-step-item p-relative dgm-step-space-2 mb-80">
-                                    <span class="dgm-step-number">01</span>
-                                    <h4 class="dgm-step-title-sm">Research</h4>
-                                    <p>
-                                        Focussed on understanding
-                                        your business requirements,
-                                        users and problems
-                                    </p>
+                            @foreach ($approaches as $approach)
+                                <div class="col-md-3">
+                                    <div class="dgm-step-item p-relative dgm-step-space-2 mb-80">
+                                        <span class="dgm-step-number">0{{ $approach->id }}</span>
+                                        <h4 class="dgm-step-title-sm">{{ $approach->title }}</h4>
+                                        <p>
+                                            {{ $approach->description ?? 'In this stage we work closely to understand your business, users and competitors' }}
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6">
-                                <div class="dgm-step-item p-relative dgm-step-space-3 mb-80">
-                                    <span class="dgm-step-number">02</span>
-                                    <h4 class="dgm-step-title-sm">Ideation & design</h4>
-                                    <p>
-                                        In this stage we work closely to
-                                        come up with lots of solutions &
-                                        finalize design
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6">
-                                <div class="dgm-step-item p-relative dgm-step-space-4 mb-80">
-                                    <span class="dgm-step-number">03</span>
-                                    <h4 class="dgm-step-title-sm">Development</h4>
-                                    <p>
-                                        I develop your product in
-                                        Webflow and help you with
-                                        maintaining it.
-                                    </p>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
