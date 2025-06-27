@@ -12,7 +12,7 @@
                 <!-- about area end -->
 
                 <!-- step area start -->
-                <x-feature-area />
+                <x-feature-area :approaches="$approaches" />
                 <!-- step area end -->
 
                 <!-- service area end -->
