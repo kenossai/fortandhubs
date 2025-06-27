@@ -42,4 +42,7 @@ Route::get('/unsubscribe/{token}', [SubscriptionController::class, 'unsubscribe'
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 Route::get('/project/{id}', [ProjectController::class, 'show'])->name('projects.show');
 
+Route::get('/case-studies', [\App\Http\Controllers\CaseStudiesController::class, 'index'])->name('case-studies');
+Route::get('/case-study/{slug}', [\App\Http\Controllers\CaseStudiesController::class, 'show'])->name('case-study.show');
+
 

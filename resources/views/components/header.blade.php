@@ -18,19 +18,19 @@
                                             <a href="index.html">Home</a>
                                         </li>
                                         <li class="active">
-                                            <a href="index-digital-marketing-light.html#">Services</a>
+                                            <a href="services">Services</a>
                                         </li>
                                         <li class="active">
-                                            <a href="portfolio-metro-light.html">About Us</a>
+                                            <a href="about-us">About Us</a>
                                         </li>
                                         <li class="active">
-                                            <a href="blog-list-light.html">Case Studies</a>
+                                            <a href="case-studies">Case Studies</a>
                                         </li>
                                         <li class="active">
-                                            <a href="index-shop-modern-light.html">Resources</a>
+                                            <a href="">Resources</a>
                                         </li>
                                         <li class="active">
-                                            <a href="contact.html">Contact</a>
+                                            <a href="contact-us">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
