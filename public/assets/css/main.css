@@ -22375,9 +22375,9 @@ body.tp-magic-cursor #magic-cursor {
     background-image: linear-gradient(to right, #111013 50%, #e4e4e4 50%);
     background-size: 200% 100%;
     background-position: 100%;
-    color: transparent;
+    color: black;
     background-clip: text;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text
 }
 
 .tp_text_invert_2 > div {

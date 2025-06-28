@@ -32,7 +32,7 @@ Route::post('/contact/send', [MessageController::class, 'store'])->name('message
 
 Route::get('/about-us', [AboutController::class, 'index'])->name('about');
 
-Route::get('/service', [ServiceController::class, 'index'])->name('service');
+Route::get('/services', [ServiceController::class, 'index'])->name('service');
 Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.show');
 
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe');

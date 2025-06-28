@@ -9,7 +9,8 @@ class ServiceController extends Controller
     public function index()
     {
         $services = \App\Models\Service::all();
-        return view('coming-soon', compact('services'));
+        $clients = \App\Models\Client::all();
+        return view('pages.services', compact('services', 'clients'));
     }
 
     public function show($id)
