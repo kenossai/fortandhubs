@@ -1,4 +1,4 @@
-<div class="dgm-step-area pb-50">
+<div class="dgm-step-area pt-50">
                     <div class="container container-1920">
                         <div class="row align-items-end">
                             <div class="col-xl-3 col-lg-4 col-md-6">

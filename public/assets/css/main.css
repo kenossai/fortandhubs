@@ -28202,8 +28202,9 @@ body.tp-magic-cursor #magic-cursor {
 
 .tp-team-bg {
     padding-top: 160px;
+    padding-bottom: 60px;
     padding-bottom: 200px;
-    border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 30px 30px;
 }
 .tp-team-item-thumb {
     transition: 0.6s;

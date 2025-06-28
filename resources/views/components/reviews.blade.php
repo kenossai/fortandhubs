@@ -2,15 +2,8 @@
     <div class="dgm-testimonial-bg" data-background="assets/img/home-03/testimonial/test-bg-shape.jpg"></div>
     <div class="dgm-testimonial-thumb">
         <div class="anim-zoomin-wrap">
-            <img class="anim-zoomin" src="assets/img/home-03/testimonial/test-bg.jpg" alt="">
+            <img class="anim-zoomin" src="{{ asset('assets/img/about-us/about-us-4/services.jpg') }}" alt="">
         </div>
-        <a class="popup-video dgm-testimonial-playbtn" href="https://www.youtube.com/watch?v=VCPGMjCW0is">
-            <span>
-                <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 12L0.5 23.2583V0.74167L20 12Z" fill="currentcolor" />
-                </svg>
-            </span>
-        </a>
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">

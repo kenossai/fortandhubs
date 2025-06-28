@@ -36,7 +36,6 @@ Route::get('/services', [ServiceController::class, 'index'])->name('service');
 Route::get('/service/{slug}', [ServiceController::class, 'show'])->name('service.show');
 
 Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe');
-
 Route::get('/unsubscribe/{token}', [SubscriptionController::class, 'unsubscribe'])->name('unsubscribe');
 
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects');

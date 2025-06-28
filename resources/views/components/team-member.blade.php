@@ -59,7 +59,7 @@
                             <div class="dgm-team-content">
                                 <h4 class="dgm-team-title-sm"><a class="tp-line-black" href="team-details-light.html">{{ $member->name }}</a></h4>
                                 <span>{{ $member->role }}</span>
-                                <div class="dgm-team-social">
+                                {{-- <div class="dgm-team-social">
                                     <a href="index-digital-marketing-light.html#">
                                         <span>
                                             <svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@
                                             </svg>
                                         </span>
                                     </a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@
                 <!-- hero area end -->
 
                 <!-- about area start -->
-                <x-about-us :about="$about" />
+                {{-- <x-about-us :about="$about" /> --}}
                 <!-- about area end -->
 
                 <!-- step area start -->
@@ -132,7 +132,7 @@
 </x-app-layout>
 
 
-<script>
+{{-- <script>
     document.getElementById('appointment-form').addEventListener('submit', async function (e) {
         e.preventDefault();
 
@@ -171,6 +171,6 @@
             }).showToast();
         }
     });
-</script>
+</script> --}}
 
 

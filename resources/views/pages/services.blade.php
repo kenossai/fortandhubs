@@ -29,7 +29,7 @@
                         <img src="assets/img/service/service-4-bg.png" alt="">
                     </div>
                     <div class="ar-banner-wrap ar-about-us-4">
-                        <img class="w-100 h-60" src="{{ asset('assets/img/about-us/about-us-4/services.jpg') }}" alt="" data-speed=".8">
+                        <img class="w-100 h-60" src="{{ asset('assets/img/about-us/about-us-4/service.jpg') }}" alt="" data-speed=".8">
                     </div>
                 </div>
                 <!-- banner area end -->
