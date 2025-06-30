@@ -36,7 +36,7 @@
                                 </nav>
                             </div>
                             <div class="tp-header-btn d-none d-md-flex">
-                                <a class="tp-btn-yellow-green green-solid" href="contact.html">
+                                <a class="tp-btn-yellow-green green-solid" href="contact-us">
                                     <span>
                                         <span class="text-1">Book Consultation</span>
                                         <span class="text-2">Book Consultation</span>

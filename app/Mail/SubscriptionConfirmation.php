@@ -41,6 +41,9 @@ class SubscriptionConfirmation extends Mailable
     {
         return new Content(
             view: 'emails.subscription_confirmation',
+            with: [
+                'subscriber' => $this->subscriber, // ✅ this pass subscriber to the view
+            ],
         );
     }
 

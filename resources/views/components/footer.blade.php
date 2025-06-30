@@ -87,8 +87,7 @@
                                 <p>Subscribe our newsletter to get the <br> latest news and updates!</p>
                             </div>
                             <div class="dgm-footer-widget-input p-relative">
-                                <form action="{{ route('subscribe') }}" method="POST">
-                                    @csrf
+                                <form id="subscribeForm">
                                     <input type="email" name="email" placeholder="Enter your email" required>
                                     <span class="input-icon">
                                         <svg width="17" height="14" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">

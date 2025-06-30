@@ -7,23 +7,36 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SubscriptionConfirmation;
+use Illuminate\Support\Facades\Validator;
 
 class SubscriptionController extends Controller
 {
     public function store(Request $request)
     {
-        $validated = $request->validate([
+        $validator = Validator::make($request->all(), [
             'email' => 'required|email|unique:subscribers,email',
+        ], [
+            'email.unique' => 'Sorry, you already subscribed.', // 👈 Custom message
         ]);
 
+        if ($validator->fails()) {
+            return response()->json([
+                'success' => false,
+                'message' => $validator->errors()->first('email'), // 👈 Get only the first error
+                'errors' => $validator->errors(),
+            ], 422);
+        }
+
         $subscriber = Subscriber::create([
-            'email' => $validated['email'],
-            'unsubscribe_token' => Str::uuid(),
+            'email' => $request->email,
         ]);
 
         Mail::to($subscriber->email)->send(new SubscriptionConfirmation($subscriber));
 
-        return redirect()->back()->with('success', 'Subscribed successfully! Please check your email.');
+        return response()->json([
+            'success' => true,
+            'message' => 'Thank you for subscribing!',
+        ]);
     }
 
     public function unsubscribe($token)

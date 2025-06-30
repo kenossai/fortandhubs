@@ -52,7 +52,7 @@
                                         </h3>
                                         <p>{{ $slide->description }}</p>
                                         <div class="tp_fade_anim" data-delay=".7">
-                                            <a class="tp-btn-black-square" href="contact.html">
+                                            <a class="tp-btn-black-square" href="contact-us">
                                                 <span>
                                                     <span class="text-1">Get in Touch</span>
                                                     <span class="text-2">Get in Touch</span>
@@ -111,7 +111,7 @@
                                             marketing agency
                                         </h4>
                                         <div class="tp_fade_anim" data-delay=".7">
-                                            <a class="tp-btn-black-square" href="contact.html">
+                                            <a class="tp-btn-black-square" href="contact-us">
                                                 <span>
                                                     <span class="text-1">Get in Touch</span>
                                                     <span class="text-2">Get in Touch</span>

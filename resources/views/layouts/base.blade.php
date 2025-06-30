@@ -59,7 +59,7 @@
 <script src="{{ asset('assets/js/purecounter.js') }}"></script>
 <script src="{{ asset('assets/js/isotope-pkgd.js') }}"></script>
 <script src="{{ asset('assets/js/imagesloaded-pkgd.js') }}"></script>
-<script src="{{ asset('assets/js/ajax-form.js') }}"></script>
+{{-- <script src="{{ asset('assets/js/ajax-form.js') }}"></script> --}}
 <script src="{{ asset('assets/js/Observer.min.js') }}"></script>
 <script src="{{ asset('assets/js/splitting.min.js') }}"></script>
 <script src="{{ asset('assets/js/webgl.js') }}"></script>
@@ -73,7 +73,43 @@
 <script type="module" src="{{ asset('assets/js/skew-slider/index.js') }}"></script>
 <script type="module" src="{{ asset('assets/js/img-revel/index.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+<script>
+    const form = document.getElementById('subscribeForm');
+    const notyf = new Notyf();
 
+    form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try {
+        const res = await fetch('/subscribe', {
+        method: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+        },
+        body: formData
+        });
+
+        const data = await res.json();
+
+        if (!res.ok) {
+        if (res.status === 422 && data.errors) {
+            const messages = Object.values(data.errors).flat();
+            notyf.error(messages[0] || 'Validation error.');
+        } else {
+            notyf.error(data.message || 'You are already subscribed!');
+        }
+        } else {
+        notyf.success(data.message || 'Subscribed!');
+        form.reset();
+        }
+    } catch (error) {
+        notyf.error('Server error. Please try again later.');
+    }
+    });
+
+</script>
 </body>
 
 </html>
