@@ -1,4 +1,4 @@
-name: Deploy Full Laravel App to Namecheap via FTP
+name: Deploy App via FTP
 
 on:
   push:
