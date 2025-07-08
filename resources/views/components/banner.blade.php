@@ -1,9 +1,6 @@
 <div class="dgm-hero-top pt-20">
                     <div class="dgm-hero-ptb grey-bg-2 fix z-index-1 p-relative">
                         <div class="dgm-hero-bg" data-background="assets/img/home-03/hero/hero-bg-shape.png"></div>
-                        <div class="dgm-hero-rotate-text">
-                            <span>Strategize | Secure | Transform</span>
-                        </div>
                         <div class="dgm-hero-social-box">
                             <div class="dgm-hero-social-text">
                                 <span>Follow</span>
