@@ -19,7 +19,7 @@ class MessageController extends Controller
 
         Message::create($validated);
 
-
         return response()->json(['success' => true]);
+
     }
 }
