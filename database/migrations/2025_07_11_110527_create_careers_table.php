@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('careers', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->string('slug')->unique();
+            $table->text('description');
+            $table->string('location');
+            $table->enum('type', ['Full-time', 'Part-time', 'Contract', 'Internship']);
+            $table->enum('status', ['Open', 'Closed'])->default('Open');
+            $table->date('deadline')->nullable();
             $table->timestamps();
         });
     }
