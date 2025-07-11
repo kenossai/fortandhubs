@@ -18,25 +18,25 @@
                                             <a href="/">Home</a>
                                         </li>
                                         <li class="active">
-                                            <a href="services">Services</a>
+                                            <a href="{{ route('service') }}">Services</a>
                                         </li>
                                         <li class="active">
-                                            <a href="about-us">About Us</a>
+                                            <a href="{{ route('about') }}">About Us</a>
                                         </li>
                                         <li class="active">
-                                            <a href="case-studies">Case Studies</a>
+                                            <a href="{{ route('case-studies') }}">Case Studies</a>
                                         </li>
                                         <li class="active">
-                                            <a href="">Resources</a>
+                                            <a href="{{ route('coming-soon') }}">Resources</a>
                                         </li>
                                         <li class="active">
-                                            <a href="contact-us">Contact</a>
+                                            <a href="{{ route('contact') }}">Contact</a>
                                         </li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="tp-header-btn d-none d-md-flex">
-                                <a class="tp-btn-yellow-green green-solid" href="contact-us">
+                                <a class="tp-btn-yellow-green green-solid" href="{{ route('contact') }}">
                                     <span>
                                         <span class="text-1">Book Consultation</span>
                                         <span class="text-2">Book Consultation</span>

@@ -67,7 +67,7 @@
                                                     {{ $service->sub_content }}
                                                 </p>
                                                 <div class="tp-service-btn">
-                                                    <a href="service-details-light.html" class="tp-btn-black btn-red-bg">
+                                                    <a href="{{ route('service.show', $service->slug) }}" class="tp-btn-black btn-red-bg">
                                                         <span class="tp-btn-black-filter-blur">
                                                             <svg width="0" height="0">
                                                                 <defs>

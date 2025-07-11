@@ -13,9 +13,9 @@ class ServiceController extends Controller
         return view('pages.services', compact('services', 'clients'));
     }
 
-    public function show($id)
+    public function show($slug)
     {
-        $service = \App\Models\Service::findOrFail($id);
+        $service = \App\Models\Service::where('slug', $slug)->firstOrFail();
         return view('pages.service-details', compact('service'));
     }
 
