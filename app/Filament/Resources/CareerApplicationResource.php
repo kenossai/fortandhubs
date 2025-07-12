@@ -2,21 +2,24 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\CareerApplicationResource\Pages;
-use App\Filament\Resources\CareerApplicationResource\RelationManagers;
-use App\Models\CareerApplication;
 use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Forms\Form;
 use Filament\Tables\Table;
+use Filament\Resources\Resource;
+use App\Models\CareerApplication;
+use Filament\Tables\Filters\SelectFilter;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use App\Filament\Resources\CareerApplicationResource\Pages;
+use App\Filament\Resources\CareerApplicationResource\RelationManagers;
 
 class CareerApplicationResource extends Resource
 {
     protected static ?string $model = CareerApplication::class;
 
+    protected static ?string $navigationGroup = 'Core Features';
+    protected static ?string $navigationLabel = 'Recieved Applications';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form
@@ -38,13 +41,22 @@ class CareerApplicationResource extends Resource
     {
         return $table
             ->columns([
-                //
+                Tables\Columns\TextColumn::make('name')->searchable(),
+                Tables\Columns\TextColumn::make('email')->searchable(),
+                Tables\Columns\TextColumn::make('career.title')->label('Job Title')->sortable()->searchable(),
+                Tables\Columns\TextColumn::make('created_at')->dateTime()->sortable(),
+                Tables\Columns\TextColumn::make('cv')->label('CV')->formatStateUsing(function ($state, $record) {
+                    // Link to download CV
+                    return "<a href='" . asset('storage/' . $record->cv) . "' target='_blank' class='text-blue-600 underline'>Download</a>";
+                })->html(),
             ])
             ->filters([
-                //
+                SelectFilter::make('career_id')
+                    ->label('Job')
+                    ->relationship('career', 'title'),
             ])
             ->actions([
-                Tables\Actions\EditAction::make(),
+                // Tables\Actions\EditAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
@@ -64,8 +76,7 @@ class CareerApplicationResource extends Resource
     {
         return [
             'index' => Pages\ListCareerApplications::route('/'),
-            'create' => Pages\CreateCareerApplication::route('/create'),
-            'edit' => Pages\EditCareerApplication::route('/{record}/edit'),
+            'view' => Pages\ViewCareerApplication::route('/{record}'),
         ];
     }
 }

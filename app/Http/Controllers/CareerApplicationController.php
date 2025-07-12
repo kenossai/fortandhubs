@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Career;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Models\CareerApplication;
 use Illuminate\Support\Facades\Mail;
@@ -32,8 +33,17 @@ class CareerApplicationController extends Controller
             'cv' => 'required|mimes:pdf,doc,docx|max:3048',
         ]);
 
-        // Store the CV file
-        $cvPath = $request->file('cv')->store('cvs', 'public');
+        // Sanitize applicant name to create filename (slugify it)
+        $applicantNameSlug = Str::slug($validated['name']); // e.g. "john-doe"
+
+        // Get file extension
+        $extension = $request->file('cv')->getClientOriginalExtension();
+
+        // Build file name: e.g. john-doe.pdf
+        $filename = $applicantNameSlug . '.' . $extension;
+
+        // Store file with custom name inside "cvs" directory on public disk
+        $cvPath = $request->file('cv')->storeAs('cvs', $filename, 'public');
 
         // Create the application record
         $application = CareerApplication::create([

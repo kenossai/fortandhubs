@@ -19,4 +19,14 @@ class CareerApplication extends Model
         'cv',
         'career_id',
     ];
+
+    public function career()
+    {
+        return $this->belongsTo(Career::class);
+    }
+
+    public function getCvUrlAttribute()
+    {
+        return asset('storage/' . $this->cv);
+    }
 }
