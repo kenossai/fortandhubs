@@ -18,6 +18,7 @@ class CareerResource extends Resource
 {
     protected static ?string $model = Career::class;
 
+    protected static ?string $navigationGroup = 'Core Features';
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
     public static function form(Form $form): Form

@@ -21,8 +21,7 @@
                             </div>
                         </div>
                         <h3 class="tp-career-title">Join us &amp; make <span class="shape-1"><img src="assets/img/about-us/about-us-4/about-us-4-shape-1.png" alt=""></span> <br>
-                            an impact through <br>
-                            <span class="shape-2"><img src="assets/img/about-us/about-us-4/career-user.png" alt=""></span> design.
+                            an impact
                         </h3>
                     </div>
                 </div>

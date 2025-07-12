@@ -1,8 +1,14 @@
 <x-app-layout>
     @section('title', 'Career Details')
-    <div class="ar-banner-area pt-100">
-        <div class="ar-banner-wrap ar-about-us-4">
-            <img class="w-100" src="assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg" alt="" data-speed=".8" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, -41.9002px); will-change: transform;">
+    <div class="tp-service-5-features-ptb p-relative pt-120">
+        <div class="container container-1550">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tp-service-5-feature-wrap p-relative">
+                        <img data-speed=".8" src="{{ asset('assets/img/about-us/about-us-4/about-us-4-thumb-1.jpg') }}" alt="" data-lag="0" style="translate: none; rotate: none; scale: none; transform: translate(0px, -101.7px); will-change: transform;">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <section class="tp-career-details-ptb pt-120 pb-100">
@@ -89,7 +95,7 @@
                                 </div>
                                 <div class="tp-career-details-sidebar-item-content">
                                     <span>Deadline</span>
-                                    <h5>{{ $career->deadline }}</h5>
+                                    <h5>{{ $career->deadline->format(' d F, Y') }}</h5>
                                 </div>
                             </div>
                             <div class="tp-career-details-sidebar-btn">

@@ -37,4 +37,12 @@ class Career extends Model
             }
         });
     }
+
+    protected $casts = [
+        'deadline' => 'datetime',
+    ];
+    public function applications()
+    {
+        return $this->hasMany(CareerApplication::class);
+    }
 }
