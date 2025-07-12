@@ -10,6 +10,7 @@ use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\CareerApplicationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,4 +50,6 @@ Route::get('/about-us/team', [AboutController::class, 'team'])->name('team');
 Route::get('/careers', [\App\Http\Controllers\CareerController::class, 'index'])->name('careers');
 Route::get('/career/{slug}', [\App\Http\Controllers\CareerController::class, 'show'])->name('career.show');
 
+Route::get('/careers/{slug}/apply', [CareerApplicationController::class, 'form'])->name('careers.apply');
+Route::post('/careers/{slug}/apply', [CareerApplicationController::class, 'store'])->name('careers.apply.store');
 

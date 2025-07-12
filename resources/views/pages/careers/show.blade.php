@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                             <div class="tp-career-details-sidebar-btn">
-                                <a href="job-application-form.html">Apply for the Job</a>
+                                <a href="{{ route('careers.apply', $career->slug) }}">Apply for the Job</a>
                             </div>
                         </div>
                     </div></div>

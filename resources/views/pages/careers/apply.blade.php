@@ -1,4 +1,5 @@
 <x-app-layout>
+    @section('title', 'Apply for ' . $career->title)
     <div class="ar-hero-area p-relative" data-background="assets/img/team/team-bg.png" style="background-image: url(&quot;assets/img/team/team-bg.png&quot;);">
         <div class="tp-career-shape-1">
             <span><svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
@@ -10,8 +11,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-12">
                         <div class="ar-hero-title-box tp_fade_anim" data-delay=".3" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                            <span class="tp-application-subtitle mb-25">Full time</span>
-                            <h3 class="tp-career-title pb-30">UI/UX Designer</h3>
+                            <span class="tp-application-subtitle mb-25">{{ $career->type }}</span>
+                            <h3 class="tp-career-title pb-30">{{ $career->title }}</h3>
                         </div>
                     </div>
                 </div>
@@ -23,53 +24,69 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="tp-contact-form-wrap tp-application-form-wrap">
-                        <form id="contact-form">
+                        <form method="POST" action="{{ route('careers.apply.store', $career->slug) }}" enctype="multipart/form-data">
+                            @csrf
+                            <h4 class="tp-application-form-title">Application Form</h4>
+                            <p class="tp-application-form-subtitle">Please fill out the form below to apply for the position of {{ $career->title }}.</p>
+                            @if (session('success'))
+                                <div class="alert alert-success">
+                                    {{ session('success') }}
+                                </div>
+                            @endif
+                            @if ($errors->any())
+                                <div class="alert alert-danger"></div>
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="tp-contact-form-input mb-20">
-                                        <label>Your Name*</label>
-                                        <input name="name" type="text">
+                                        <label>Your Name <span class="text-danger">*</span></label>
+                                        <input name="name" type="text" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="tp-contact-form-input mb-20">
-                                        <label>Your Email address*</label>
-                                        <input name="email" type="email">
+                                        <label>Your Email address<span class="text-danger">*</span></label>
+                                        <input name="email" type="email" required>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="tp-contact-form-input mb-20">
-                                        <label>why you decided to apply hare and why should we select you?*
-                                        </label>
-                                        <textarea name="message"></textarea>
+                                        <label>why you decided to apply hare and why should we select you?<span class="text-danger">*</span></label>
+                                        <textarea name="why_apply"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="tp-contact-form-input mb-20">
                                         <label>Tell us About a project that you worked on and felt proud of IT.
                                         </label>
-                                        <textarea name="message"></textarea>
+                                        <textarea name="project_pride"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="tp-contact-form-input mb-20">
                                         <label>share your portfolio. ( behance, dribble, etc)*
                                         </label>
-                                        <textarea name="message"></textarea>
+                                        <textarea name="portfolio"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="tp-contact-form-input mb-20">
                                         <label>your current salary &amp; what are your salary expectations?*
                                         </label>
-                                        <textarea name="message"></textarea>
+                                        <textarea name="salary_expectation"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="tp-application-form-btn d-flex justify-content-between">
                                         <div class="tp-application-upload mb-15">
-                                            <span>Upload your CV *</span>
-                                            <input type="file">
+                                            <span>Upload your CV <span class="text-danger">*</span></span>
+                                            <input type="file" name="cv" accept=".pdf,.doc,.docx" required>
                                         </div>
                                         <div class="tp-application-btn mb-15 mt-10">
                                             <button type="submit" class="tp-btn-yellow-green green-solid btn-60">

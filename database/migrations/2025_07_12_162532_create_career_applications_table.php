@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('career_applications', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('career_id')->constrained()->onDelete('cascade');
             $table->string('name');
             $table->string('email');
             $table->text('why_apply');
