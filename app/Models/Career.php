@@ -11,7 +11,18 @@ class Career extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title', 'slug', 'description', 'location', 'type', 'status', 'deadline',
+        'title',
+        'slug',
+        'description',
+        'location',
+        'type',
+        'status',
+        'deadline',
+        'experience',
+        'job_avg_salary',
+        'working_hours',
+        'working_days',
+        'positions',
     ];
 
     protected static function booted()

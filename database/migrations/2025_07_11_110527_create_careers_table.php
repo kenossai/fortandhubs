@@ -17,8 +17,13 @@ return new class extends Migration
             $table->string('slug')->unique();
             $table->text('description');
             $table->string('location');
+            $table->string('experience')->nullable();        // e.g. "3+ years"
+            $table->string('job_avg_salary')->nullable();    // e.g. "$50,000 - $70,000"
+            $table->string('working_hours')->nullable();     // e.g. "9 AM - 5 PM"
+            $table->string('working_days')->nullable();      // e.g. "Monday - Friday"
             $table->enum('type', ['Full-time', 'Part-time', 'Contract', 'Internship']);
             $table->enum('status', ['Open', 'Closed'])->default('Open');
+            $table->integer('positions')->default(1);
             $table->date('deadline')->nullable();
             $table->timestamps();
         });

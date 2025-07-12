@@ -166,7 +166,7 @@
             <div class="col-lg-12">
                 <div class="tp-benefit-heading mb-100">
                     <div class="ar-about-us-4-title-box tp_fade_anim d-flex align-items-center mb-15" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;">
-                        <span class="tp-section-subtitle pre">Benefit</span>
+                        <span class="tp-section-subtitle pre">Vacancies</span>
                         <div class="ar-about-us-4-icon">
                             <svg xmlns="http://www.w3.org/2000/svg" width="81" height="9" viewBox="0 0 81 9" fill="none">
                                 <rect y="4" width="80" height="1" fill="#111013"></rect>
@@ -197,7 +197,51 @@
                 </div>
             </div>
         </div>
-        
+        @foreach ($careers as $career)
+            <div class="tp-career-opening-item ptb">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div class="tp-career-opening-title">
+                            <h4 class="tp-career-opening-title-name">{{ $career->title }}</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tp-career-opening-role">
+                            <span>({{ $career->positions }} Open Roles)</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tp-career-opening-Type d-flex justify-content-between align-items-center">
+                            <span>{{ $career->type }}</span>
+                            <div class="tp-career-opening-btn">
+                                <a href="{{ route('career.show', $career->slug) }}" class="tp-btn-black btn-red-bg">
+                                    <span class="tp-btn-black-filter-blur">
+                                        <svg width="0" height="0">
+                                            <defs>
+                                                <filter id="buttonFilter">
+                                                    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"></feGaussianBlur>
+                                                    <feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"></feColorMatrix>
+                                                    <feComposite in="SourceGraphic" in2="buttonFilter" operator="atop"></feComposite>
+                                                    <feBlend in="SourceGraphic" in2="buttonFilter"></feBlend>
+                                                </filter>
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                    <span class="tp-btn-black-filter d-inline-flex align-items-center" style="filter: url(#buttonFilter)">
+                                        <span class="tp-btn-black-text">Apply Now</span>
+                                        <span class="tp-btn-black-circle">
+                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 9L9 1M9 1H1M9 1V9" stroke="currentcolor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
     </div>
 </section>
 </x-app-layout>

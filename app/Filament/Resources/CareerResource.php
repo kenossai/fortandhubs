@@ -2,16 +2,17 @@
 
 namespace App\Filament\Resources;
 
-use App\Filament\Resources\CareerResource\Pages;
-use App\Filament\Resources\CareerResource\RelationManagers;
-use App\Models\Career;
 use Filament\Forms;
-use Filament\Forms\Form;
-use Filament\Resources\Resource;
 use Filament\Tables;
+use App\Models\Career;
+use Filament\Forms\Form;
 use Filament\Tables\Table;
+use Filament\Resources\Resource;
+use Filament\Forms\Components\TextInput;
 use Illuminate\Database\Eloquent\Builder;
+use App\Filament\Resources\CareerResource\Pages;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use App\Filament\Resources\CareerResource\RelationManagers;
 
 class CareerResource extends Resource
 {
@@ -24,7 +25,10 @@ class CareerResource extends Resource
         return $form
             ->schema([
                 Forms\Components\TextInput::make('title')->required(),
-                Forms\Components\RichEditor::make('description')->required(),
+                Forms\Components\RichEditor::make('description')->required()
+                ->extraAttributes([
+                    'style' => 'height: 200px; overflow-y: auto;',
+                ]),
                 Forms\Components\TextInput::make('location')->required(),
                 Forms\Components\Select::make('type')
                     ->options([
@@ -34,6 +38,25 @@ class CareerResource extends Resource
                         'Internship' => 'Internship',
                     ])
                     ->required(),
+                TextInput::make('positions')
+                    ->numeric()
+                    ->minValue(1)
+                    ->required(),
+                TextInput::make('experience')
+                ->label('Experience')
+                ->placeholder('e.g. 3+ years'),
+
+            TextInput::make('job_avg_salary')
+                ->label('Job Avg Salary')
+                ->placeholder('e.g. $50,000 - $70,000'),
+
+            TextInput::make('working_hours')
+                ->label('Working Hours')
+                ->placeholder('e.g. 9 AM - 5 PM'),
+
+            TextInput::make('working_days')
+                ->label('Working Days')
+                ->placeholder('e.g. Monday - Friday'),
                 Forms\Components\Select::make('status')
                     ->options([
                         'Open' => 'Open',

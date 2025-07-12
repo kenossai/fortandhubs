@@ -46,4 +46,7 @@ Route::get('/case-study/{slug}', [\App\Http\Controllers\CaseStudiesController::c
 
 Route::get('/about-us/team', [AboutController::class, 'team'])->name('team');
 
+Route::get('/careers', [\App\Http\Controllers\CareerController::class, 'index'])->name('careers');
+Route::get('/career/{slug}', [\App\Http\Controllers\CareerController::class, 'show'])->name('career.show');
+
 
