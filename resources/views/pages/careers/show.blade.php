@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="tp-career-details-sidebar-item-content">
                                     <span>Deadline</span>
-                                    <h5>03 Feb 2025</h5>
+                                    <h5>{{ $career->deadline }}</h5>
                                 </div>
                             </div>
                             <div class="tp-career-details-sidebar-btn">
